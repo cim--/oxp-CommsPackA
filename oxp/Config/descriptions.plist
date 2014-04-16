@@ -1,0 +1,44 @@
+{
+	/* For each personality, define values for the communications keys
+	 * set up in comms-pack-a.js. To add variety to the comms
+	 * messages, most of the definitions are arrays. To allow shared
+	 * definitions, as well as the personality-based keys there are
+	 * also role-based keys e.g. prefix commsPackA_hunter_ and generic
+	 * keys prefixed commsPackA_generic_
+	 *
+	 * These might be used exclusively - e.g. 
+	 * "commsPackA_personality_key" = "[commsPackA_generic_key]"
+	 * or as one option of many - e.g.
+	 * "commsPackA_personality_key" = (
+	 *   "[commsPackA_generic_key]",
+	 *   "[commsPackA_role_key]",
+	 *   "Some specific message",
+	 *   "Another specific message"
+	 * );
+	 *
+	 * That example gives a 50% chance of one of the two specific
+	 * messages, a 25% chance of one of the role messages (that key
+	 * might well be an array itself), and a 25% chance of a generic
+	 * message. Often the personality key might reference the same
+	 * generic message twice, to boost the chances - e.g.
+	 * commsPackA_personality_key = (
+	 *   "[commsPackA_generic_key]",
+	 *   "[commsPackA_generic_key]",
+	 *   "[commsPackA_generic_key]",
+	 *   "[commsPackA_generic_key]",
+	 *   "[commsPackA_generic_key]",
+	 *   "A specific message",
+	 * );
+	 * for a 5/6 chance of one of the generic messages, and a 1/6
+	 * chance of something more unusual.
+	 */
+
+	/* Generic messages. As these may be called by a wide range of
+	 * ships, it's best if there's a big range of options in each of
+	 * these. */
+	"commsPackA_generic_attackLowEnergy" = ("Shields are gone! Someone please help...","I can't take much more of this...","I need some support here!","The [oolite_entityName] is too strong","I'm taking heavy fire from the [oolite_entityClass]. Help!","%N! I can't shake them!","%N! %N!");
+
+	/* Vigilante - a bounty hunter motivated by removing criminals for
+	 * a perceived social good. */
+	"commsPackA_vigilante_attackLowEnergy" = ("You may kill me, but you won't escape justice forever!","This criminal in a [oolite_entityClass] is getting the better of me","[oolite_commsPackA_generic_attackLowEnergy]","[oolite_commsPackA_generic_attackLowEnergy]","[oolite_commsPackA_generic_attackLowEnergy]");
+}

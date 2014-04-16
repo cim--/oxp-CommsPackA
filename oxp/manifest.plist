@@ -1,0 +1,10 @@
+{
+	"identifier" = "oolite.oxp.cim.comms-pack-a";
+	"required_oolite_version" = "1.79";
+	"title" = "Communications Pack A";
+	"version" = "0.1";
+	"category" = "Ambience";
+	"description" = "Adds lots of extra NPC communications to the game, increasing the variety of existing messages and also adding several new ones.";
+	"author" = "cim";
+	"license" = "MIT";
+}
