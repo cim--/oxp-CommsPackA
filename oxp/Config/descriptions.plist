@@ -38,7 +38,22 @@
 	 * these. */
 	"commsPackA_generic_attackLowEnergy" = ("Shields are gone! Someone please help...","I can't take much more of this...","I need some support here!","The [oolite_entityName] is too strong","I'm taking heavy fire from the [oolite_entityClass]. Help!","%N! I can't shake them!","%N! %N!");
 
+	"commsPackA_generic_beginningAttack" = ("Die, [oolite_entityClass]!","I've got the [oolite_entityName]","Die, [oolite_entityName]!","Run while you can, [oolite_entityClass]","Target locked!");
+
+	"commsPackA_generic_beginningAttackThargoid" = ("Thargoids? Why here?","%N! Thargoids!");
+
+	/**
+	 * And now the various specific messages. There don't *need* to be
+	 * as many of each, as they're called less often, but the more
+	 * there are the more the ships will get their own personalities
+	 **/
+
 	/* Vigilante - a bounty hunter motivated by removing criminals for
 	 * a perceived social good. */
-	"commsPackA_vigilante_attackLowEnergy" = ("You may kill me, but you won't escape justice forever!","This criminal in a [oolite_entityClass] is getting the better of me","[oolite_commsPackA_generic_attackLowEnergy]","[oolite_commsPackA_generic_attackLowEnergy]","[oolite_commsPackA_generic_attackLowEnergy]");
+	"commsPackA_vigilante_attackLowEnergy" = ("You may kill me, but you won't escape justice forever!","This criminal in a [oolite_entityClass] is getting the better of me","[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]");
+
+	"commsPackA_vigilante_beginningAttack" = ("Die, criminal!","Your [oolite_entityClass] won't save you now","This is for the [nom1]","For %H!","[commsPackA_generic_beginningAttack]","[commsPackA_generic_beginningAttack]");
+
+	"commsPackA_vigilante_beginningAttackThargoid" = ("For the Cooperative!","Die, Thargoid!","You'll never take %H, Thargoid!","We'll blast you back into witchspace!","[commsPackA_generic_beginningAttackThargoid]");
+
 }
