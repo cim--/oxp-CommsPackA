@@ -33,6 +33,9 @@
 	 * chance of something more unusual.
 	 */
 
+	"commsPackA_number" = ("two","three","three","four","four","five","six","several");
+	"commsPackA_bigger_number" = ("ten","fifteen","twenty","many");
+
 	/* Generic messages. As these may be called by a wide range of
 	 * ships, it's best if there's a big range of options in each of
 	 * these. */
@@ -41,6 +44,8 @@
 	"commsPackA_generic_beginningAttack" = ("Die, [oolite_entityClass]!","I've got the [oolite_entityName]","Die, [oolite_entityName]!","Run while you can, [oolite_entityClass]","Target locked!");
 
 	"commsPackA_generic_beginningAttackThargoid" = ("Thargoids? Why here?","%N! Thargoids!");
+
+	"commsPackA_generic_continuingAttack" = ("Your fancy flying won't save you forever, [oolite_entityClass]","Give up, [oolite_entityName]. We have you outclassed.","I've got the [oolite_entityClass]","Die, [oolite_entityName]!");
 
 	/**
 	 * And now the various specific messages. There don't *need* to be
@@ -55,5 +60,14 @@
 	"commsPackA_vigilante_beginningAttack" = ("Die, criminal!","Your [oolite_entityClass] won't save you now","This is for the [nom1]","For %H!","[commsPackA_generic_beginningAttack]","[commsPackA_generic_beginningAttack]");
 
 	"commsPackA_vigilante_beginningAttackThargoid" = ("For the Cooperative!","Die, Thargoid!","You'll never take %H, Thargoid!","We'll blast you back into witchspace!","[commsPackA_generic_beginningAttackThargoid]");
+
+	"commsPackA_vigilante_beginningFight" = ("Your crimes end here!","Death to pirates!","It's the [oolite_entityName]. Open fire!","You'll pay for your crimes, [oolite_entityCrew]!","It's time to clean up %H","Confirmed on the [oolite_entityClass]; wanted dead or alive in [commsPackA_number] systems");
+
+	"commsPackA_vigilante_continuingFight" = ("No quarter for pirates!","%H will be safer when you're dead!","[commsPackA_generic_continuingAttack]","[commsPackA_generic_continuingAttack]","[commsPackA_generic_continuingAttack]");
+
+	"commsPackA_vigilante_distressResponseAggressor" = ("Pick on someone your own size, [oolite_entityName]!","Cease your attacks or be destroyed!","We've got a live one! Locking on the [oolite_entityClass] now!","Hit those raiders before they do any more damage!","Back off, [oolite_entityClass]. You've just become outnumbered.");
+
+	"commsPackA_vigilante_distressResponseSender" = ("Hang on, [oolite_entityName]. Help is on the way.","We'll have your attackers on scanners in just a few seconds, [oolite_entityName]","Distress call acknowledged, [oolite_entityClass]. We're moving to assist.","Protect the [oolite_entityName] while it gets clear","I can't see the pirates yet, but they'll be close. Arm all weapons");
+
 
 }
