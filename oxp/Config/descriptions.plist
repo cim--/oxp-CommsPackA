@@ -36,6 +36,12 @@
 	"commsPackA_number" = ("two","three","three","four","four","five","six","several");
 	"commsPackA_bigger_number" = ("ten","fifteen","twenty","many");
 
+	"commsPackA_codename" = ("[commsPackA_codename_greek]","[commsPackA_codename_nato]","[commsPackA_codename_constellation]","[commsPackA_codename_colour]");
+	"commsPackA_codename_greek" = ("Alpha","Beta","Gamma","Delta","Epsilon","Zeta","Eta","Theta","Iota","Kappa","Lambda","Mu","Nu","Xi","Omicron","Pi","Rho","Sigma","Tau","Upsilon","Phi","Chi","Psi","Omega");
+	"commsPackA_codename_nato" = ("Alpha","Bravo","Charlie","Delta","Echo","Foxtrot","Golf","Hotel","India","Juliet","Kilo","Lima","Mike","November","Oscar","Papa","Quebec","Romeo","Sierra","Tango","Uniform","Victor","Whiskey","Xray","Yankee","Zulu");
+	"commsPackA_codename_constellation" = ("Andromeda","Antlia","Apus","Aquarius","Aquila","Ara","Aries","Auriga","Boötes","Caelum","Camelopardalis","Cancer","Capricornus","Carina","Cassiopeia","Centaurus","Cepheus","Cetus","Chamaeleon","Circinus","Columba","Corvus","Crater","Crux","Cygnus","Delphinus","Dorado","Draco","Equuleus","Eridanus","Fornax","Gemini","Grus","Hercules","Horologium","Hydra","Hydrus","Indus","Lacerta","Leo","Lepus","Libra","Lupus","Lynx","Lyra","Mensa","Microscopium","Monoceros","Musca","Norma","Octans","Ophiuchus","Orion","Pavo","Pegasus","Perseus","Phoenix","Pictor","Pisces","Puppis","Pyxis","Reticulum","Sagitta","Sagittarius","Scorpius","Sculptor","Scutum","Serpens","Sextans","Taurus","Telescopium","Triangulum","Tucana","Ursa","Vela","Virgo","Volans","Vulpecula");
+	"commsPackA_codename_colour" = ("White","Black","Red","Green","Blue","Yellow","Cyan","Magenta","Orange","Pink","Indigo","Violet","Grey","Silver","Gold","Bronze","Copper");
+
 	/* Generic messages. As these may be called by a wide range of
 	 * ships, it's best if there's a big range of options in each of
 	 * these. */
@@ -46,6 +52,12 @@
 	"commsPackA_generic_beginningAttackThargoid" = ("Thargoids? Why here?","%N! Thargoids!");
 
 	"commsPackA_generic_continuingAttack" = ("Your fancy flying won't save you forever, [oolite_entityClass]","Give up, [oolite_entityName]. We have you outclassed.","I've got the [oolite_entityClass]","Die, [oolite_entityName]!");
+
+	"commsPackA_generic_friendlyFire" = ("I'm on your side here! Watch your aim!","That was me you just hit!","Watch it!","The enemy is over there!","Hold your fire!","Ow! Watch where you're shooting!","Stop firing and let me get clear!","[oolite_entityName], watch your aim!");
+
+	"commsPackA_generic_incomingMissile" = ("Missile inbound!","%N! Missiles!","%N! %N!","I need an ECM!");
+
+	"commsPackA_generic_quiriumCascade" = ("%N! Hard about!","Q-mine! Clear the area!","Cascade imminent. Run!","Run!","%N!","No! Get clear!");
 
 	/**
 	 * And now the various specific messages. There don't *need* to be
@@ -61,7 +73,7 @@
 
 	"commsPackA_vigilante_beginningAttackThargoid" = ("For the Cooperative!","Die, Thargoid!","You'll never take %H, Thargoid!","We'll blast you back into witchspace!","[commsPackA_generic_beginningAttackThargoid]");
 
-	"commsPackA_vigilante_beginningFight" = ("Your crimes end here!","Death to pirates!","It's the [oolite_entityName]. Open fire!","You'll pay for your crimes, [oolite_entityCrew]!","It's time to clean up %H","Confirmed on the [oolite_entityClass]; wanted dead or alive in [commsPackA_number] systems");
+	"commsPackA_vigilante_beginningFight" = ("Your crimes end here!","Death to pirates!","It's the [oolite_entityName]. Open fire!","You'll pay for your crimes, [oolite_entityCrew]!","It's time to clean up %H","Confirmed on the [oolite_entityClass]; wanted dead or alive in [commsPackA_number] systems","Pick your targets and break to attack!","Offender targets acquired.");
 
 	"commsPackA_vigilante_continuingFight" = ("No quarter for pirates!","%H will be safer when you're dead!","[commsPackA_generic_continuingAttack]","[commsPackA_generic_continuingAttack]","[commsPackA_generic_continuingAttack]");
 
@@ -69,5 +81,28 @@
 
 	"commsPackA_vigilante_distressResponseSender" = ("Hang on, [oolite_entityName]. Help is on the way.","We'll have your attackers on scanners in just a few seconds, [oolite_entityName]","Distress call acknowledged, [oolite_entityClass]. We're moving to assist.","Protect the [oolite_entityName] while it gets clear","I can't see the pirates yet, but they'll be close. Arm all weapons");
 
+	"commsPackA_vigilante_engageWitchspaceDriveFlee" = ("There's too many of them! Retreat and regroup!","We'll be back for you, pirate!","I'm taking too much fire to carry on. See you back at the station.","We can't fight this many. Follow me out of here!","Charging drive now! Keep dodging just a little longer");
+
+	"commsPackA_vigilante_engageWitchspaceDriveGroup" = ("All fighters, form up for witchspace jump","Preparing for witchspace entry. Be ready for a hostile reception","Drive powering up now. Follow in pattern [commsPackA_codename]","Let's get those criminals for %H!","Spotters say the pirates have just made their jump. Prepare to follow now");
+	
+	"commsPackA_vigilante_friendlyFire" = ("[commsPackA_generic_friendlyFire]","[commsPackA_generic_friendlyFire]","[commsPackA_generic_friendlyFire]","[commsPackA_generic_friendlyFire]","Check your IFF, [oolite_entityCrew]!","Do I look like an Offender to you?");
+
+	"commsPackA_vigilante_groupIsOutnumbered" = ("They've got us outnumbered. Retreat and regroup!","Fall back to the station! We can't take on this many","Break off the attack!","It's a trap! They're too well armed for simple pirates","Regroup at rendezvous [commsPackA_codename]","Fall back!");
+	
+	"commsPackA_vigilante_incomingMissile" = ("[commsPackA_generic_incomingMissile]");
+
+	"commsPackA_vigilante_killedTarget" = ("One fewer pirate in %H!","That was for the [nom1]","Target [commsPackA_codename] [commsPackA_number] is down","I got the [oolite_entityClass]","Pirate down! Who's next?","[oolite_entityName] destroyed","Another one down!");
+
+	"commsPackA_vigilante_quiriumCascade" = ("[commsPackA_generic_quiriumCascade]","[commsPackA_generic_quiriumCascade]","[commsPackA_generic_quiriumCascade]","A Q-mine? What are you thinking?!");
+
+	"commsPackA_vigilante_selectedStation" = ("Setting course for the [oolite_entityName].","Time to head home.","That's enough for one patrol. Return to base.","We've done what we can for now. Head for the [oolite_entityName] to re-arm.","Time to head home. All ships, form up.","Last leg now. We'll clear up anything between here and the [oolite_entityName] and then call it a day.");
+
+	"commsPackA_vigilante_startFleeing" = ("");	
+
+	"commsPackA_vigilante_thanksForHelp" = ("");
+
+	"commsPackA_vigilante_thargoidAttack" = ("");
+
+	"commsPackA_vigilante_waypointReached" = ("");
 
 }
