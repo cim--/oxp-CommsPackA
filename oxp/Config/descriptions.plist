@@ -35,12 +35,17 @@
 
 	"commsPackA_number" = ("two","three","three","four","four","five","six","several");
 	"commsPackA_bigger_number" = ("ten","fifteen","twenty","many");
+	"commsPackA_round_number" = ("ten","twenty","fifty","one hundred","seventy-five","twenty-five","two hundred");
 
 	"commsPackA_codename" = ("[commsPackA_codename_greek]","[commsPackA_codename_nato]","[commsPackA_codename_constellation]","[commsPackA_codename_colour]");
 	"commsPackA_codename_greek" = ("Alpha","Beta","Gamma","Delta","Epsilon","Zeta","Eta","Theta","Iota","Kappa","Lambda","Mu","Nu","Xi","Omicron","Pi","Rho","Sigma","Tau","Upsilon","Phi","Chi","Psi","Omega");
 	"commsPackA_codename_nato" = ("Alpha","Bravo","Charlie","Delta","Echo","Foxtrot","Golf","Hotel","India","Juliet","Kilo","Lima","Mike","November","Oscar","Papa","Quebec","Romeo","Sierra","Tango","Uniform","Victor","Whiskey","Xray","Yankee","Zulu");
 	"commsPackA_codename_constellation" = ("Andromeda","Antlia","Apus","Aquarius","Aquila","Ara","Aries","Auriga","Boötes","Caelum","Camelopardalis","Cancer","Capricornus","Carina","Cassiopeia","Centaurus","Cepheus","Cetus","Chamaeleon","Circinus","Columba","Corvus","Crater","Crux","Cygnus","Delphinus","Dorado","Draco","Equuleus","Eridanus","Fornax","Gemini","Grus","Hercules","Horologium","Hydra","Hydrus","Indus","Lacerta","Leo","Lepus","Libra","Lupus","Lynx","Lyra","Mensa","Microscopium","Monoceros","Musca","Norma","Octans","Ophiuchus","Orion","Pavo","Pegasus","Perseus","Phoenix","Pictor","Pisces","Puppis","Pyxis","Reticulum","Sagitta","Sagittarius","Scorpius","Sculptor","Scutum","Serpens","Sextans","Taurus","Telescopium","Triangulum","Tucana","Ursa","Vela","Virgo","Volans","Vulpecula");
 	"commsPackA_codename_colour" = ("White","Black","Red","Green","Blue","Yellow","Cyan","Magenta","Orange","Pink","Indigo","Violet","Grey","Silver","Gold","Bronze","Copper");
+
+	"commsPackA_a_misc_equipment" = ("an advanced compass","a multi-targeting system","another hardhead","the next maintenance overhaul","docking computers");
+
+	"commsPackA_pronoun1" = ("her","his","their");
 
 	/* Generic messages. As these may be called by a wide range of
 	 * ships, it's best if there's a big range of options in each of
@@ -59,6 +64,8 @@
 
 	"commsPackA_generic_quiriumCascade" = ("%N! Hard about!","Q-mine! Clear the area!","Cascade imminent. Run!","Run!","%N!","No! Get clear!");
 
+	"commsPackA_generic_surrender" = ("Please, don't shoot!","I surrender!","Help! Someone please help me!","%N! I can't shake them!","Let me go, please!");
+
 	/**
 	 * And now the various specific messages. There don't *need* to be
 	 * as many of each, as they're called less often, but the more
@@ -75,7 +82,9 @@
 
 	"commsPackA_vigilante_beginningFight" = ("Your crimes end here!","Death to pirates!","It's the [oolite_entityName]. Open fire!","You'll pay for your crimes, [oolite_entityCrew]!","It's time to clean up %H","Confirmed on the [oolite_entityClass]; wanted dead or alive in [commsPackA_number] systems","Pick your targets and break to attack!","Offender targets acquired.");
 
-	"commsPackA_vigilante_continuingFight" = ("No quarter for pirates!","%H will be safer when you're dead!","[commsPackA_generic_continuingAttack]","[commsPackA_generic_continuingAttack]","[commsPackA_generic_continuingAttack]");
+	"commsPackA_vigilante_continuingAttack" = ("No quarter for pirates!","%H will be safer when you're dead!","[commsPackA_generic_continuingAttack]","[commsPackA_generic_continuingAttack]","[commsPackA_generic_continuingAttack]");
+
+	"commsPackA_vigilante_continuingAttackThargoid" = ("Get back into witchspace!","You'll never take %H!","Die, Thargoid!","We'll make you feel fear again!");
 
 	"commsPackA_vigilante_distressResponseAggressor" = ("Pick on someone your own size, [oolite_entityName]!","Cease your attacks or be destroyed!","We've got a live one! Locking on the [oolite_entityClass] now!","Hit those raiders before they do any more damage!","Back off, [oolite_entityClass]. You've just become outnumbered.");
 
@@ -97,12 +106,56 @@
 
 	"commsPackA_vigilante_selectedStation" = ("Setting course for the [oolite_entityName].","Time to head home.","That's enough for one patrol. Return to base.","We've done what we can for now. Head for the [oolite_entityName] to re-arm.","Time to head home. All ships, form up.","Last leg now. We'll clear up anything between here and the [oolite_entityName] and then call it a day.");
 
-	"commsPackA_vigilante_startFleeing" = ("");	
+	"commsPackA_vigilante_startFleeing" = ("Shields are low! Cover me!","Heavy systems damage here. I'm pulling out","I can't take much more of this","%N! Systems are critical","Shields critical! Give me some cover","Shields are down. I'm breaking off the attack","I'm badly hit. You'll have to finish this fight without me","%N, these pirates are tough");	
 
-	"commsPackA_vigilante_thanksForHelp" = ("");
+	"commsPackA_vigilante_thanksForHelp" = ("Good shooting, [oolite_entityCrew]","You got their attention there. Let's finish them off","Nice work, [oolite_entityName]. Lets see how these pirates like being outnumbered","Thanks for the cover, [oolite_entityCrew]","I'm out of their sights now. Thanks for the help");
 
-	"commsPackA_vigilante_thargoidAttack" = ("");
+	"commsPackA_vigilante_thargoidAttack" = ("We've got Thargoids! All ships, respond","Thargoid warship in the system!","%N! Where did that warship come from?","Target the warship and watch its drones!","Take out the warship before the drones swarm us!","Thargoids? Don't let them reach %H!");
 
-	"commsPackA_vigilante_waypointReached" = ("");
+	"commsPackA_vigilante_waypointReached" = ("All quiet here. Setting course for waypoint [commsPackA_codename]","No pirates about here. Form up for the next lane","No sign of them yet. Spread out and watch your scanners","Looks like we missed them.","Another few waypoints and then back");
+
+	/* Mercenary - a bounty hunter motivated by the bounty payments */
+
+	"commsPackA_mercenary_attackLowEnergy" = ("[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]","I'm not getting paid enough for this","%N, that's going to be an expensive repair","I'll make you pay for these dents!");
+
+	"commsPackA_mercenary_beginningAttack" = ("There's a good bounty on this [oolite_entityClass]","Nothing personal, [oolite_entityName]. Eject now and make it easy on yourself","Another few of these and I can afford [commsPackA_a_misc_equipment]","[commsPackA_generic_beginningAttack]","[commsPackA_generic_beginningAttack]");
+
+	"commsPackA_mercenary_beginningAttackThargoid" = ("Thargoids? Now there's a real bounty!","Better money than two-bit pirates","Jackpot!","[commsPackA_generic_beginningAttackThargoid]");
+
+	"commsPackA_mercenary_beginningFight" = ("Here they are. Time to make some money","Abandon ships and you won't be harmed!","Confirmed bounty on the [oolite_entityName]. We'll get paid well for this lot","Targeting Offenders now.","Let' start with the [oolite_entityClass] then clean up the rest","No kills, no pay. Let's get them!","Pick your targets and save your missiles. We're not getting paid to waste ammo","That's [oolite_entityCrew]'s ship. There's a good price on [commsPackA_pronoun1] head!");
+
+	"commsPackA_mercenary_continuingAttack" = ("Eject now and we'll spare your life!","Don't make me waste a missile on you","[commsPackA_generic_continuingAttack]","[commsPackA_generic_continuingAttack]","[commsPackA_generic_continuingAttack]");
+	"commsPackA_mercenary_continuingAttackThargoid" = ("Focus on the warship!","Don't let it recover its shields","Try not to get distracted by the drones. We can pick them up later","Top bounty on Thargoids!");
+
+	"commsPackA_mercenary_distressResponseAggressor" = ("Are you trying to make your bounty larger? Much appreciated, pirate!","It's so much easier when the bounties come to us","[oolite_entityName], your target has paid us for protection. Prepare to die!","We've got live ones. Hit them while they're distracted and it'll be easy money");
+
+	"commsPackA_mercenary_distressResponseSender" = ("We're on our way, [oolite_entityName]. Only [commsPackA_round_number] credits for protection.","There'd better be a good bounty on your attackers");
+
+	"commsPackA_mercenary_engageWitchspaceDriveFlee" = ("Time to cut our losses!","This isn't going to be profitable. Retreat!","We can't win this one. Return to base!","Let's not waste supplies. Fall back and we'll find an easier target","Rule 1: survive to get paid!");
+
+	"commsPackA_mercenary_engageWitchspaceDriveGroup" = ("%H seems quiet. Time for a better system","It's time to earn our pay","The bounties are confirmed. Time to jump!","Powering witchdrive now. Form up!","All ships, prepare for jump");
+
+	"commsPackA_mercenary_firedMissile" = ("So much for making a profit on you","That's going to take ages to pay for","You'd better have a good bounty now, [oolite_entityClass]");
+
+	"commsPackA_mercenary_friendlyFire" = ("Do I look like an Offender to you?","Those scratches are coming out of your pay!","[commsPackA_generic_friendlyFire]","[commsPackA_generic_friendlyFire]","[commsPackA_generic_friendlyFire]");
+
+	"commsPackA_mercenary_groupIsOutnumbered" = ("Break off the attack!","We're not getting paid enough for this. Retreat!","They don't have enough bounty for this!","Okay, you win! Please let us go","Please, have mercy!","We surrender! Don't shoot!");
+
+	"commsPackA_mercenary_incomingMissile" = ("[commsPackA_generic_incomingMissile]","[commsPackA_generic_incomingMissile]","[commsPackA_generic_incomingMissile]","[commsPackA_generic_incomingMissile]","I should invest in my own ECM");
+
+	"commsPackA_mercenary_killedTarget" = ("That's enough for [commsPackA_a_misc_equipment] at last","Not a bad bounty on that one","That pirate was hardly worth the costs","The [oolite_entityClass] is dead","Got one!","There goes another one.","That's more than I earned in a year groundside!");
+
+	"commsPackA_mercenary_quiriumCascade" = ("[commsPackA_generic_quiriumCascade]","[commsPackA_generic_quiriumCascade]","[commsPackA_generic_quiriumCascade]","What sort of pilot has that much money?!");
+	
+	"commsPackA_mercenary_selectedStation" = ("Time to go home and spend our pay","Well, we made it. Let's head back to the [oolite_entityName]","We survived. Now to get paid","I'm going to have words with our employer when we get back to [oolite_entityName].");
+
+	"commsPackA_mercenary_surrender" = ("[commsPackA_generic_surrender]","[commsPackA_generic_surrender]","[commsPackA_generic_surrender]","[commsPackA_generic_surrender]","Let us go! There's no money in shooting us further");
+
+	"commsPackA_mercenary_thanksForHelp" = ("Good work. We can split the bounty","Now they're after you, [oolite_entityCrew].","Give me a moment to recharge shields and I'll help you out","Hey! Stop trying to steal my kills, [oolite_entityClass]!","Thanks for the help!","Great shot, [oolite_entityName]!");
+
+	"commsPackA_mercenary_thargoidAttack" = ("Thargoids! Take out the warships and scoop up the drones!","Don't let the drones distract you. The warship's the key target!","One hundred credits plus for the warship!","Don't hit it too hard too fast. We get better pay if we can get the drones too.","Our contract didn't say anything about Thargoids!","Thargoids? Take them out fast, and don't waste your missiles!");
+
+	"commsPackA_mercenary_waypointReached" = ("Nothing yet. We need more pirates if we're going to make a profit here","If we don't see anything worthwhile on this next leg, we might call it a day","Okay, let's clear this lane of pirates. Should be worth a few hundred at least.","Quiet's good, but we don't get paid for quiet. Keep looking.","Nothing on the scanner here. Set course for the next waypoint");
+
 
 }
