@@ -63,7 +63,7 @@
 
 	"commsPackA_generic_makeDistressCall" = ("We're being attacked by [describe-pirate]s! Please help!","Is anyone out there? We're under heavy attack!","Anyone hearing this? Please respond!","[describe-Pirate]s closing fast! Please help!","We can't fight them off! Someone please respond!","This is a peaceful ship! Don't shoot!","[distress-call]");
 
-	"[commsPackA_generic_eject]" = ("I'm taking too much damage!","I can't take any more of this!","Eject! Eject!","Systems critical! I'm bailing out","I'm out of here");
+	"commsPackA_generic_eject" = ("I'm taking too much damage!","I can't take any more of this!","Eject! Eject!","Systems critical! I'm bailing out","I'm out of here");
 
 	"commsPackA_generic_friendlyFire" = ("I'm on your side here! Watch your aim!","That was me you just hit!","Watch it!","The enemy is over there!","Hold your fire!","Ow! Watch where you're shooting!","Stop firing and let me get clear!","[oolite_entityName], watch your aim!");
 
@@ -191,6 +191,8 @@
 	"commsPackA_capitalist_engageWitchspaceDriveGroup" = ("Form up for witchspace.","We're running late already. Get in formation!","Witchdrive engaged","Next system! This cargo won't deliver itself","We're jumping out now. If [nom1] doesn't turn up we're leaving [commsPackA_pronoun2] behind","Remember, you're paid on delivery. Stick close and cover me.");
 
 	"commsPackA_capitalist_escortAccepted" = ("Terms accepted, [oolite_entityName]","You'll get [commsPackA_round_number] credits when we reach the station, [oolite_entityName]","Good. Join the formation and match speed","Full pay only if we reach the station undamaged, remember.");
+
+	"commsPackA_capitalist_friendlyFire" = ("[commsPackA_generic_friendlyFire]","[commsPackA_generic_friendlyFire]","[commsPackA_generic_friendlyFire]","[commsPackA_generic_friendlyFire]","[commsPackA_generic_friendlyFire]","I should charge you for those scratches, [oolite_entityCrew]!","You'll have to aim better than that if you want paying for it!");
 	
 	"commsPackA_capitalist_makeDistressCall" = ("[commsPackA_generic_makeDistressCall]","[commsPackA_generic_makeDistressCall]","[commsPackA_generic_makeDistressCall]","Where are the Vipers? We're under attack here!");
 
@@ -205,6 +207,38 @@
 	"commsPackA_capitalist_thargoidAttack" = ("Thargoids! No!","This is going to get expensive","%N! That's all we need!","%N!","Not now! I don't have time to fight Thargoids");
 
 	/* Optimist: a trader sure that this trip will be the big one */
-	
+
+	"commsPackA_optimist_agreeingToDumpCargo" = ("Okay, okay, [oolite_demandSize] is better than the alternatives","Here's your cargo. Please let me go now","Dropping cargo now!","I give in! You can have the cargo","Have it! Please stop shooting!");
+
+	"commsPackA_optimist_attackLowEnergy" = ("[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]","%N! I was going to sell that!");
+
+	"commsPackA_optimist_dockingWait" = ("Time for a look at %H while I wait, then.","Sure you don't want to give me an earlier slot? You'll like what I'm bringing.","Ah, made it at last","A bit of time to relax is good","Thanks, Control. No rush.");
+
+	"commsPackA_optimist_eject" = ("Maybe next time","I was so close","Not again!","Better my cargo than me, but still","[commsPackA_generic_eject]","[commsPackA_generic_eject]");
+
+	"commsPackA_optimist_engageWitchspaceDriveGroup" = ("Everyone ready? Let's make the jump","This should be an easy run","We should make a good profit this time","I've got a good feeling about this one","Witchspace jump in 15 seconds");
+
+	"commsPackA_optimist_escortAccepted" = ("Good to have you with us, [oolite_entityCrew]","Welcome in, [oolite_entityName]","[oolite_entityClass], eh? Good to see","Great! Form up and follow me in");
+
+	"commsPackA_optimist_friendlyFire" = ("[commsPackA_generic_friendlyFire]");
+
+	"commsPackA_optimist_incomingMissile" = ("Missile! Anyone got ECM?","Help!","I hope the shields will take this!");
+
+	"commsPackA_optimist_makeDistressCall" = ("[commsPackA_generic_makeDistressCall]","[commsPackA_generic_makeDistressCall]","[commsPackA_generic_makeDistressCall]","[commsPackA_generic_makeDistressCall]","Someone must be in range. Please help!");
+
+	"commsPackA_optimist_quiriumCascade" = ("[commsPackA_generic_quiriumCascade]");
+
+	"commsPackA_optimist_selectedStation" = ("I think the [oolite_entityName] will give the best prices. Let's try there first","Anyone heading for the [oolite_entityName]? I'd appreciate the company","[oolite_entityName] set on the compass. Let's go","Everyone ready? Time to sell this cargo","Drinks on me when the cargo's sold");
+
+	/* Some blank entries - don't always say this one */
+	"commsPackA_optimist_selectedWitchspaceDestination" = ("Anyone heading for [oolite_witchspaceDestination]? I'll give you a lift if you want some company","They say there's good prices at [oolite_witchspaceDestination]","","","");
+
+	"commsPackA_optimist_startFleeing" = ("There's too many. Maybe we can reach the station","I'm taking too much fire here","We need the Vipers to show up, and soon","Time to run");
+
+	"commsPackA_optimist_surrender" = ("[commsPackA_generic_surrender]");
+
+	"commsPackA_optimist_thanksForHelp" = ("Thanks!","Good shot, [oolite_entityName]! I owe you a drink when we reach the station","Thanks for the help, [oolite_entityCrew]","You've got them!","Thank you, [oolite_entityName]","Nice shot. I think they're after you now, though");
+
+	"commsPackA_optimist_thargoidAttack" = ("Thargoids? Why us?","Keep moving! We've got to hold them off until the police get here","Everybody attack the Thargoids!","Where did they come from?","I wasn't expecting this!");
 
 }

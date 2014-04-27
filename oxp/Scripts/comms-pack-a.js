@@ -104,11 +104,13 @@ this.startUp = function()
 					  "thargoidAttack",
 					  "waypointReached"
 				  ])
-		}
-		// traders of various sorts
-		// Oolite defines "agreeingToDumpCargo" and "makeDistressCall"
+		},
+		/* Traders of various sorts. No specific entries for
+		 * trader-courier, trader-smuggler, trader-opportunist yet.
+		 * Oolite defines "agreeingToDumpCargo" and "makeDistressCall",
+		 * so all trader entries should include them to avoid the
+		 * generic fallbacks. */
 		trader: {
-
 			/* personality: out to get the best profit from the trip */
 			commsPackA_capitalist: this._makeComms("capitalist",
 				  [
@@ -122,6 +124,7 @@ this.startUp = function()
 					  "eject",
 					  "engageWitchspaceDriveGroup",
 					  "escortAccepted",
+					  "friendlyFire",
 					  "makeDistressCall",
 					  "quiriumCascade",
 					  "startFleeing",
@@ -135,15 +138,12 @@ this.startUp = function()
 				 [
 					 "agreeingToDumpCargo",
 					 "attackLowEnergy",
-					 "beginningAttack",
-					 "beginningAttackThargoid",
-					 "continueFleeing",
-					 "continuingAttack",
-					 "continuingAttackThargoid",
 					 "dockingWait",
 					 "eject",
 					 "engageWitchspaceDriveGroup",
 					 "escortAccepted",
+					 "friendlyFire",
+					 "incomingMissile",
 					 "makeDistressCall",
 					 "quiriumCascade",
 					 "selectedStation",
