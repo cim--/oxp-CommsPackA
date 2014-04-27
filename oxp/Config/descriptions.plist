@@ -40,12 +40,13 @@
 	"commsPackA_codename" = ("[commsPackA_codename_greek]","[commsPackA_codename_nato]","[commsPackA_codename_constellation]","[commsPackA_codename_colour]");
 	"commsPackA_codename_greek" = ("Alpha","Beta","Gamma","Delta","Epsilon","Zeta","Eta","Theta","Iota","Kappa","Lambda","Mu","Nu","Xi","Omicron","Pi","Rho","Sigma","Tau","Upsilon","Phi","Chi","Psi","Omega");
 	"commsPackA_codename_nato" = ("Alpha","Bravo","Charlie","Delta","Echo","Foxtrot","Golf","Hotel","India","Juliet","Kilo","Lima","Mike","November","Oscar","Papa","Quebec","Romeo","Sierra","Tango","Uniform","Victor","Whiskey","Xray","Yankee","Zulu");
-	"commsPackA_codename_constellation" = ("Andromeda","Antlia","Apus","Aquarius","Aquila","Ara","Aries","Auriga","Boötes","Caelum","Camelopardalis","Cancer","Capricornus","Carina","Cassiopeia","Centaurus","Cepheus","Cetus","Chamaeleon","Circinus","Columba","Corvus","Crater","Crux","Cygnus","Delphinus","Dorado","Draco","Equuleus","Eridanus","Fornax","Gemini","Grus","Hercules","Horologium","Hydra","Hydrus","Indus","Lacerta","Leo","Lepus","Libra","Lupus","Lynx","Lyra","Mensa","Microscopium","Monoceros","Musca","Norma","Octans","Ophiuchus","Orion","Pavo","Pegasus","Perseus","Phoenix","Pictor","Pisces","Puppis","Pyxis","Reticulum","Sagitta","Sagittarius","Scorpius","Sculptor","Scutum","Serpens","Sextans","Taurus","Telescopium","Triangulum","Tucana","Ursa","Vela","Virgo","Volans","Vulpecula");
+	"commsPackA_codename_constellation" = ("Andromeda","Antlia","Apus","Aquarius","Aquila","Ara","Aries","Auriga","Boötes","Caelum","Camelopardalis","Cancer","Canis","Capricornus","Carina","Cassiopeia","Centaurus","Cepheus","Cetus","Chamaeleon","Circinus","Columba","Corvus","Crater","Crux","Cygnus","Delphinus","Dorado","Draco","Equuleus","Eridanus","Fornax","Gemini","Grus","Hercules","Horologium","Hydra","Hydrus","Indus","Lacerta","Leo","Lepus","Libra","Lupus","Lynx","Lyra","Mensa","Microscopium","Monoceros","Musca","Norma","Octans","Ophiuchus","Orion","Pavo","Pegasus","Perseus","Phoenix","Pictor","Pisces","Puppis","Pyxis","Reticulum","Sagitta","Sagittarius","Scorpius","Sculptor","Scutum","Serpens","Sextans","Taurus","Telescopium","Triangulum","Tucana","Ursa","Vela","Virgo","Volans","Vulpecula");
 	"commsPackA_codename_colour" = ("White","Black","Red","Green","Blue","Yellow","Cyan","Magenta","Orange","Pink","Indigo","Violet","Grey","Silver","Gold","Bronze","Copper");
 
 	"commsPackA_a_misc_equipment" = ("an advanced compass","a multi-targeting system","another hardhead","the next maintenance overhaul","docking computers");
 
-	"commsPackA_pronoun1" = ("her","his","their");
+	"commsPackA_pronoun1" = ("her","his","their");	
+	"commsPackA_pronoun2" = ("her","him","them");
 
 	/* Generic messages. As these may be called by a wide range of
 	 * ships, it's best if there's a big range of options in each of
@@ -54,9 +55,15 @@
 
 	"commsPackA_generic_beginningAttack" = ("Die, [oolite_entityClass]!","I've got the [oolite_entityName]","Die, [oolite_entityName]!","Run while you can, [oolite_entityClass]","Target locked!");
 
-	"commsPackA_generic_beginningAttackThargoid" = ("Thargoids? Why here?","%N! Thargoids!");
+	"commsPackA_generic_beginningAttackThargoid" = ("Thargoids? Why here?","%N! Thargoids!","No, no, not more of them","%N!");
+
+	"commsPackA_generic_continueFleeing" = ("I can't get clear. Someone help!","Leave me alone!","Is anyone out there? Help me, please.");
 
 	"commsPackA_generic_continuingAttack" = ("Your fancy flying won't save you forever, [oolite_entityClass]","Give up, [oolite_entityName]. We have you outclassed.","I've got the [oolite_entityClass]","Die, [oolite_entityName]!");
+
+	"commsPackA_generic_makeDistressCall" = ("We're being attacked by [describe-pirate]s! Please help!","Is anyone out there? We're under heavy attack!","Anyone hearing this? Please respond!","[describe-Pirate]s closing fast! Please help!","We can't fight them off! Someone please respond!","This is a peaceful ship! Don't shoot!","[distress-call]");
+
+	"[commsPackA_generic_eject]" = ("I'm taking too much damage!","I can't take any more of this!","Eject! Eject!","Systems critical! I'm bailing out","I'm out of here");
 
 	"commsPackA_generic_friendlyFire" = ("I'm on your side here! Watch your aim!","That was me you just hit!","Watch it!","The enemy is over there!","Hold your fire!","Ow! Watch where you're shooting!","Stop firing and let me get clear!","[oolite_entityName], watch your aim!");
 
@@ -163,5 +170,41 @@
 
 	"commsPackA_mercenary_waypointReached" = ("Nothing yet. We need more pirates if we're going to make a profit here","If we don't see anything worthwhile on this next leg, we might call it a day","Okay, let's clear this lane of pirates. Should be worth a few hundred at least.","Quiet's good, but we don't get paid for quiet. Keep looking.","Nothing on the scanner here. Set course for the next waypoint");
 
+
+	/* Capitalist: a trader out for the highest profit */
+	"commsPackA_capitalist_agreeingToDumpCargo" = ("Fine! It'll be cheaper than the repair bill","Here, [oolite_demandSize] TC. Now leave me alone.","%N! Enough! You can have it","Useless escorts. This loss is coming out of your pay!","Here! You're not worth wasting money on.");
+	
+	"commsPackA_capitalist_attackLowEnergy" = ("[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]","Help! Anyone? What am I paying you for?","%N! Another canister gone","This is going to be a nasty repair bill");
+
+	"commsPackA_capitalist_beginningAttack" = ("Out of my way, [oolite_entityClass]. I'm on a schedule here!","This attack can't be profitable for you. Go find someone less well armed.","Don't make me waste time destroying you","[oolite_entityName], I do not have time for this");
+
+	"commsPackA_capitalist_beginningAttackThargoid" = ("[commsPackA_generic_beginningAttackThargoid]","[commsPackA_generic_beginningAttackThargoid]","This is not my job. Where are the Vipers?","100 credits doesn't even begin to make this profitable");
+
+	"commsPackA_capitalist_continueFleeing" = ("[commsPackA_generic_continueFleeing]");
+
+	"commsPackA_capitalist_continuingAttack" = ("Give up!","This is going on too long","You're wasting my time here","I'll let you go if you just stop shooting");
+
+	"commsPackA_capitalist_dockingWait" = ("Hurry up and dock!","I'm on a schedule here","If my cargo spoils I shall file an official complaint","These delays are not acceptable, Control");
+
+	"commsPackA_capitalist_eject" = ("You've cost me thousands!","%N! You will bankrupt me!","For a few credits of debris? Study some economics","[commsPackA_generic_eject]");
+
+	"commsPackA_capitalist_engageWitchspaceDriveGroup" = ("Form up for witchspace.","We're running late already. Get in formation!","Witchdrive engaged","Next system! This cargo won't deliver itself","We're jumping out now. If [nom1] doesn't turn up we're leaving [commsPackA_pronoun2] behind","Remember, you're paid on delivery. Stick close and cover me.");
+
+	"commsPackA_capitalist_escortAccepted" = ("Terms accepted, [oolite_entityName]","You'll get [commsPackA_round_number] credits when we reach the station, [oolite_entityName]","Good. Join the formation and match speed","Full pay only if we reach the station undamaged, remember.");
+	
+	"commsPackA_capitalist_makeDistressCall" = ("[commsPackA_generic_makeDistressCall]","[commsPackA_generic_makeDistressCall]","[commsPackA_generic_makeDistressCall]","Where are the Vipers? We're under attack here!");
+
+	"commsPackA_capitalist_quiriumCascade" = ("[commsPackA_generic_quiriumCascade]","[commsPackA_generic_quiriumCascade]","[commsPackA_generic_quiriumCascade]","Who has that sort of money to spare?");
+
+	"commsPackA_capitalist_startFleeing" = ("That's enough! Leave me alone!","What do you want? Money? Cargo?","Someone please help me!");
+
+	"commsPackA_capitalist_surrender" = ("What more do you want?","[commsPackA_generic_surrender]","[commsPackA_generic_surrender]","[commsPackA_generic_surrender]","Where are the Vipers? This is murder!");
+
+	"commsPackA_capitalist_thanksForHelp" = ("Thanks for the help, [oolite_entityName]","At last! Saved!","%N! That was close!","Your help is appreciated, [oolite_entityCrew]");
+	
+	"commsPackA_capitalist_thargoidAttack" = ("Thargoids! No!","This is going to get expensive","%N! That's all we need!","%N!","Not now! I don't have time to fight Thargoids");
+
+	/* Optimist: a trader sure that this trip will be the big one */
+	
 
 }

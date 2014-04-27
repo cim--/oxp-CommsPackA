@@ -109,7 +109,7 @@ this.startUp = function()
 		// Oolite defines "agreeingToDumpCargo" and "makeDistressCall"
 		trader: {
 
-			/* personality: out to get the best profit from the deal */
+			/* personality: out to get the best profit from the trip */
 			commsPackA_capitalist: this._makeComms("capitalist",
 				  [
 					  "agreeingToDumpCargo",
@@ -118,14 +118,12 @@ this.startUp = function()
 					  "beginningAttackThargoid",
 					  "continueFleeing",
 					  "continuingAttack",
-					  "continuingAttackThargoid",
 					  "dockingWait",
 					  "eject",
 					  "engageWitchspaceDriveGroup",
 					  "escortAccepted",
 					  "makeDistressCall",
 					  "quiriumCascade",
-					  "selectedStation",
 					  "startFleeing",
 					  "surrender",
 					  "thanksForHelp",
