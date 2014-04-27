@@ -106,6 +106,12 @@
 
 	"commsPackA_vigilante_selectedStation" = ("Setting course for the [oolite_entityName].","Time to head home.","That's enough for one patrol. Return to base.","We've done what we can for now. Head for the [oolite_entityName] to re-arm.","Time to head home. All ships, form up.","Last leg now. We'll clear up anything between here and the [oolite_entityName] and then call it a day.");
 
+	/* Oolite sets a generic surrender message, so this needs to be
+	 * overridden. Vigilantes don't expect it to be accepted. An empty
+	 * string at the expansion stage will cause no comms to be
+	 * sent. */
+	"commsPackA_vigilante_surrender" = "";
+
 	"commsPackA_vigilante_startFleeing" = ("Shields are low! Cover me!","Heavy systems damage here. I'm pulling out","I can't take much more of this","%N! Systems are critical","Shields critical! Give me some cover","Shields are down. I'm breaking off the attack","I'm badly hit. You'll have to finish this fight without me","%N, these pirates are tough");	
 
 	"commsPackA_vigilante_thanksForHelp" = ("Good shooting, [oolite_entityCrew]","You got their attention there. Let's finish them off","Nice work, [oolite_entityName]. Lets see how these pirates like being outnumbered","Thanks for the cover, [oolite_entityCrew]","I'm out of their sights now. Thanks for the help");

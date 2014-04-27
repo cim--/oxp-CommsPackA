@@ -7,11 +7,12 @@ this.name = "Comms Pack A";
  * descriptions.plist */
 this.$commsPrefix = "commsPackA";
 
-/* This function runs at the end of the game startup sequence. By
- * using startUpComplete, it can guarantee that the Priority AI
- * Library is ready to receive communications definitions. */
-this.startUpComplete = function()
+/* This function runs at game startup to set up the comms */
+this.startUp = function()
 {
+	/* ensure the priority AI library is started */
+	worldScripts["oolite-libPriorityAI"].startUp();
+
 	/* This object defines the communications to be set up. It has
 	 * several layers: the first layer is the communications role for
 	 * the ships; the second layer is the personality of the pilot;
@@ -41,7 +42,6 @@ this.startUpComplete = function()
 	var comms = {
 		/* role: bounty hunters */
 		hunter: {
-			/* personality: motivated by stopping criminals for 'justice' */
 			/* The _makeComms function saves a bit of typing on
 			 * defining key/value entries like
 			 * "oolite_killedTarget": "[commsPackA_vigilante_killedTarget]",	
@@ -49,6 +49,8 @@ this.startUpComplete = function()
 			/* Comms keys/values - see
 			 * http://wiki.alioth.net/index.php/Oolite_PriorityAI_Documentation#Usage
 			 * for a list of available keys. */
+
+			/* personality: motivated by stopping criminals for 'justice' */
 			commsPackA_vigilante: this._makeComms("vigilante",
 				  [
 					  "attackLowEnergy",
@@ -68,11 +70,12 @@ this.startUpComplete = function()
 					  "quiriumCascade",
 					  "selectedStation",
 					  "startFleeing",
+					  "surrender",
 					  "thanksForHelp",
 					  "thargoidAttack",
 					  "waypointReached"
-				  ]);
-			},
+				  ]),
+
 			/* personality: motivated by being given money.
 			 *
 			 * Mostly defines the same keys as the vigilante above,
@@ -100,16 +103,60 @@ this.startUpComplete = function()
 					  "thanksForHelp",
 					  "thargoidAttack",
 					  "waypointReached"
-				  ]);
-			}
-		},
+				  ])
+		}
 		// traders of various sorts
+		// Oolite defines "agreeingToDumpCargo" and "makeDistressCall"
 		trader: {
 
+			/* personality: out to get the best profit from the deal */
+			commsPackA_capitalist: this._makeComms("capitalist",
+				  [
+					  "agreeingToDumpCargo",
+					  "attackLowEnergy",
+					  "beginningAttack",
+					  "beginningAttackThargoid",
+					  "continueFleeing",
+					  "continuingAttack",
+					  "continuingAttackThargoid",
+					  "dockingWait",
+					  "eject",
+					  "engageWitchspaceDriveGroup",
+					  "escortAccepted",
+					  "makeDistressCall",
+					  "quiriumCascade",
+					  "selectedStation",
+					  "startFleeing",
+					  "surrender",
+					  "thanksForHelp",
+					  "thargoidAttack"
+				  ]),
 
-
+			/* personality: hoping this time will be the big one */
+			commsPackA_optimist: this._makeComms("optimist",
+				 [
+					 "agreeingToDumpCargo",
+					 "attackLowEnergy",
+					 "beginningAttack",
+					 "beginningAttackThargoid",
+					 "continueFleeing",
+					 "continuingAttack",
+					 "continuingAttackThargoid",
+					 "dockingWait",
+					 "eject",
+					 "engageWitchspaceDriveGroup",
+					 "escortAccepted",
+					 "makeDistressCall",
+					 "quiriumCascade",
+					 "selectedStation",
+					 "selectedWitchspaceDestination",
+					 "startFleeing",
+					 "surrender",
+					 "thanksForHelp",
+					 "thargoidAttack"
+				 ])
 		},
-		// pirates and associates
+/*		// pirates and associates
 		pirate: {
 
 
@@ -156,7 +203,7 @@ this.startUpComplete = function()
 
 
 
-		}
+		} */
 	};
 
 	/* This loads the communications settings into the library */
