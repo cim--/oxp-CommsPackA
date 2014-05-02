@@ -154,13 +154,61 @@ this.startUp = function()
 					 "thargoidAttack"
 				 ])
 		},
-/*		// pirates and associates
+		// pirates and associates
+		/* Oolite defines 'oolite_makePirateDemand' for pirates */
 		pirate: {
-
-
-
+			/* Looter: out to make a profit from "free" cargo */
+			commsPackA_looter: this._makeComms("looter",
+			   [
+				   "attackLowEnergy",
+				   "beginningAttack",
+				   "beginningAttackThargoid",
+				   "continuingAttack",
+				   "continuingAttackThargoid",
+				   "eject",
+				   "engageWitchspaceDriveFlee",
+				   "firedMissile",
+				   "friendlyFire",
+				   "groupIsOutnumbered",
+				   "hitTarget",
+				   "killedTarget",
+				   "killedUncrewedTarget",
+				   "landingOnPlanet",
+				   "makePirateDemand",
+				   "quiriumCascade",
+				   "scoopedCargo",
+				   "selectedWitchspaceDestination",
+				   "startFleeing",
+				   "surrender"
+			   ]),
+			/* Rebel: fighting against an oppressive state */
+			commsPackA_rebel: this._makeComms("rebel",
+			   [
+				   "attackLowEnergy",
+				   "beginningAttack",
+				   "beginningAttackThargoid",
+				   "continuingAttack",
+				   "continuingAttackThargoid",
+				   "eject",
+				   "engageWitchspaceDriveFlee",
+				   "engageWitchspaceDriveGroup",
+				   "friendlyFire",
+				   "groupIsOutnumbered",
+				   "hitTarget",
+				   "incomingMissile",
+				   "killedTarget",
+				   "killedUncrewedTarget",
+				   "landingOnPlanet",
+				   "makePirateDemand",
+				   "quiriumCascade",
+				   "scoopedCargo",
+				   "startFleeing",
+				   "startHelping",
+				   "surrender",
+				   "thargoidAttack"
+			   ])
 		},
-		// assassins
+/*		// assassins
 		assassin: {
 
 
