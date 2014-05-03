@@ -164,7 +164,6 @@ this.startUp = function()
 				   "beginningAttack",
 				   "beginningAttackThargoid",
 				   "continuingAttack",
-				   "continuingAttackThargoid",
 				   "eject",
 				   "engageWitchspaceDriveFlee",
 				   "firedMissile",
@@ -178,7 +177,6 @@ this.startUp = function()
 				   "quiriumCascade",
 				   "scoopedCargo",
 				   "selectedWitchspaceDestination",
-				   "startFleeing",
 				   "surrender"
 			   ]),
 			/* Rebel: fighting against an oppressive state */

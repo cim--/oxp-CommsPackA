@@ -241,4 +241,88 @@
 
 	"commsPackA_optimist_thargoidAttack" = ("Thargoids? Why us?","Keep moving! We've got to hold them off until the police get here","Everybody attack the Thargoids!","Where did they come from?","I wasn't expecting this!");
 
+	/* Looter: a pirate out for a profit */
+
+	"commsPackA_looter_attackLowEnergy" = ("[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]","This was not the plan!","%N! I'm losing all the cargo I scooped");
+
+	"commsPackA_looter_beginningAttack" = ("Drop your cargo and get out of here!","Surrender or die!","Nothing personal, [oolite_entityName]. I just want your cargo","[commsPackA_generic_beginningAttack]","[commsPackA_generic_beginningAttack]","[commsPackA_generic_beginningAttack]");
+
+	"commsPackA_looter_beginningAttackThargoid" = ("[commsPackA_generic_beginningAttackThargoid]","[commsPackA_generic_beginningAttackThargoid]","[commsPackA_generic_beginningAttackThargoid]","Get out of here, Thargoid!","It's worse than the Vipers");
+
+	"commsPackA_looter_continuingAttack" = ("[commsPackA_generic_continuingAttack]","Drop your cargo and we'll let you go","You don't have to fight to your death, [oolite_entityClass]","Hoping someone will come to your rescue, [oolite_entityName]? You can't dodge forever!","If you're going to waste our time here, we'll make you regret it!");
+
+	"commsPackA_looter_eject" = ("[commsPackA_generic_eject]");
+
+	"commsPackA_looter_engageWitchspaceDriveFlee" = ("This system's getting too hot!","We're attracting too much attention. Break off!","They're on to us!","We're going to be up to our necks in Vipers soon!","We've got enough! Head home!");
+	
+	"commsPackA_looter_firedMissile" = ("Die, [oolite_entityName]!","Dodge this!","I see we're not going to settle this peacefully, [oolite_entityCrew]","You had your chance, [oolite_entityClass]");
+
+	"commsPackA_looter_friendlyFire" = ("[commsPackA_generic_friendlyFire]","[commsPackA_generic_friendlyFire]","[commsPackA_generic_friendlyFire]","What in %N's name are you doing?","If you're picking now to betray us, [oolite_entityCrew], you won't live to regret it");
+
+	"commsPackA_looter_groupIsOutnumbered" = ("This is taking too long! Break it off, before the cops show up!","They're tougher than they looked!","Retreat! Scatter and they can't chase us all!","%N! We're losing!","Get out of here!");
+
+	"commsPackA_looter_hitTarget" = ("Surrender, [oolite_entityName]!","You can start dropping that cargo any time!","Give us the cargo or we'll turn your [oolite_entityClass] into dust!","Dump your cargo or die!");
+
+	"commsPackA_looter_killedTarget" = ("What a waste of good cargo","You should have surrended!","Well, maybe there's some scrap value?","Got them! Check the debris for pods","There's more where that came from!","Got them!","Another kill for me!");
+
+	"commsPackA_looter_killedUncrewedTarget" = ("Let's see what's in this wreck","[oolite_entityClass]. Now in small easy to carry bits","Better than nothing for target practice");
+
+	"commsPackA_looter_landingOnPlanet" = ("And we're back","Made it!","Staying one step ahead of the cops!");
+
+	"commsPackA_looter_makePirateDemand" = ("[oolite_entityName]! We have you outnumbered. Drop your cargo and surrender!","[oolite_entityClass], hand over your cargo!","Today's toll is [oolite_demandSize] TC, [oolite_entityName].","Dump [oolite_demandSize] TC and we'll let you go!","We can get [oolite_demandSize] TC the easy way or the hard way, [oolite_entityName]. Your choice","Do you want to give us [oolite_demandSize] TC or whatever we can scoop from your wreck, [oolite_entityName]?","Look, it's the famous trader [oolite_entityCrew], flying without enough escorts.");
+
+	"commsPackA_looter_quiriumCascade" = ("[commsPackA_generic_quiriumCascade]","[commsPackA_generic_quiriumCascade]","[commsPackA_generic_quiriumCascade]","[commsPackA_generic_quiriumCascade]","Watch it! You'll destroy all the loot!");
+
+	"commsPackA_looter_scoopedCargo" = ("This might turn out quite profitable","[oolite_goodsDescription]. We can probably fence that","This one's [oolite_goodsDescription]. Not bad","More for the hold. Keep a watch out for Vipers!","Got it!","What's in this one?");
+
+	"commsPackA_looter_selectedWitchspaceDestination" = ("Everyone ready? They won't know what hit them!","[oolite_witchspaceDestination], here we come!","Time to give the traders of [oolite_witchspaceDestination] a surprise","Time to get our cargo","Think of [oolite_witchspaceDestination]. Lots of juicy freighters, ripe for the taking!");
+
+	"commsPackA_looter_surrender" = ("[commsPackA_generic_surrender]","[commsPackA_generic_surrender]","[commsPackA_generic_surrender]","[commsPackA_generic_surrender]","You wouldn't kill me just for a few credits, would you?","You win this time! Keep your cargo.");
+
+	/* Rebel: pirate fighting against an oppressive state */
+
+	"commsPackA_rebel_attackLowEnergy" = ("");
+
+	"commsPackA_rebel_beginningAttack" = ("");
+
+	"commsPackA_rebel_beginningAttackThargoid" = ("");
+
+	"commsPackA_rebel_continuingAttack" = ("");
+
+	"commsPackA_rebel_continuingAttackThargoid" = ("");
+
+	"commsPackA_rebel_eject" = ("");
+
+	"commsPackA_rebel_engageWitchspaceDriveFlee" = ("");
+
+	"commsPackA_rebel_engageWitchspaceDriveGroup" = ("");
+
+	"commsPackA_rebel_friendlyFire" = ("");
+
+	"commsPackA_rebel_groupIsOutnumbered" = ("");
+
+	"commsPackA_rebel_hitTarget" = ("");
+
+	"commsPackA_rebel_incomingMissile" = ("");
+
+	"commsPackA_rebel_killedTarget" = ("");
+
+	"commsPackA_rebel_killedUncrewedTarget" = ("");
+
+	"commsPackA_rebel_landingOnPlanet" = ("");
+
+	"commsPackA_rebel_makePirateDemand" = ("");
+
+	"commsPackA_rebel_quiriumCascade" = ("");
+
+	"commsPackA_rebel_scoopedCargo" = ("");
+
+	"commsPackA_rebel_startFleeing" = ("");
+
+	"commsPackA_rebel_startHelping" = ("");
+
+	"commsPackA_rebel_surrender" = ("");
+
+	"commsPackA_rebel_thargoidAttack" = ("");
+
 }
