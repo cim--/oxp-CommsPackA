@@ -205,13 +205,45 @@ this.startUp = function()
 				   "thargoidAttack"
 			   ])
 		},
-/*		// assassins
+		// assassins
 		assassin: {
-
-
-
+			/* Enforcer: working to protect a criminal organisation */
+			commsPackA_enforcer: this._makeComms("enforcer",
+			 [
+				 "attackLowEnergy",
+				 "beginningAssassination",
+				 "beginningAttack",
+				 "beginningAttackInanimate",
+				 "continuingAttack",
+				 "firedMissile",
+				 "hitTarget",
+				 "killedTarget",
+				 "killedUncrewedTarget",
+				 "quiriumCascade",
+				 "startFleeing",
+				 "thargoidAttack",
+				 "waypointReached"
+			 ]),
+			/* Freelancer: takes on contracts for the money, from
+			 * various sources */
+			commsPackA_freelancer: this._makeComms("freelancer",
+			 [
+				 "attackLowEnergy",
+				 "beginningAssassination",
+				 "beginningAttack",
+				 "beginningAttackInanimate",
+				 "continuingAttack",
+				 "firedMissile",
+				 "hitTarget",
+				 "killedTarget",
+				 "killedUncrewedTarget",
+				 "quiriumCascade",
+				 "startFleeing",
+				 "thargoidAttack",
+				 "waypointReached"
+			 ])
 		},
-		// police ships
+/*		// police ships
 		police: {
 
 
