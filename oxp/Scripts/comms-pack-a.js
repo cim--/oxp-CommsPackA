@@ -196,7 +196,6 @@ this.startUp = function()
 				   "incomingMissile",
 				   "killedTarget",
 				   "killedUncrewedTarget",
-				   "landingOnPlanet",
 				   "makePirateDemand",
 				   "quiriumCascade",
 				   "scoopedCargo",

@@ -43,6 +43,15 @@
 	"commsPackA_codename_constellation" = ("Andromeda","Antlia","Apus","Aquarius","Aquila","Ara","Aries","Auriga","Boötes","Caelum","Camelopardalis","Cancer","Canis","Capricornus","Carina","Cassiopeia","Centaurus","Cepheus","Cetus","Chamaeleon","Circinus","Columba","Corvus","Crater","Crux","Cygnus","Delphinus","Dorado","Draco","Equuleus","Eridanus","Fornax","Gemini","Grus","Hercules","Horologium","Hydra","Hydrus","Indus","Lacerta","Leo","Lepus","Libra","Lupus","Lynx","Lyra","Mensa","Microscopium","Monoceros","Musca","Norma","Octans","Ophiuchus","Orion","Pavo","Pegasus","Perseus","Phoenix","Pictor","Pisces","Puppis","Pyxis","Reticulum","Sagitta","Sagittarius","Scorpius","Sculptor","Scutum","Serpens","Sextans","Taurus","Telescopium","Triangulum","Tucana","Ursa","Vela","Virgo","Volans","Vulpecula");
 	"commsPackA_codename_colour" = ("White","Black","Red","Green","Blue","Yellow","Cyan","Magenta","Orange","Pink","Indigo","Violet","Grey","Silver","Gold","Bronze","Copper");
 
+	"commsPackA_militaryrank_senior" = ("General","Colonel","Major","Admiral","Commodore","Marshal");
+
+	"commsPackA_rebelgroup" = ("[commsPackA_rebelgroup2]","[commsPackA_rebelgroup2]","[commsPackA_rebelgroup2]","%N [commsPackA_rebelgroup2]","people's [commsPackA_rebelgroup2]","%H [commsPackA_rebelgroup2]");
+	"commsPackA_rebelgroup2" = ("revolution","resistance","rebellion","insurgency");
+	"commsPackA_rebelatrocity" = ("disappeared","murdered","%N [commsPackA_number]","prisoners","[nom1] massacre","mass graves","%R experiments","[nom1] trials","[commsPackA_codename] project","[commsPackA_codename] papers","[commsPackA_militaryrank_senior] [nom1]");
+	"commsPackA_rebelinsult" = ("lackey","bootlicker","doormat","flunkey","sycophant","stooge","vassal","mercenary","criminal","collaborator","agent");
+	"commsPackA_rebelstate" = ("state","government","Ministry","Party","Cooperative","regime","military","bureaucracy","dominion","supremacy","tyranny","[commsPackA_rebelstate_adj] [commsPackA_rebelstate]","[commsPackA_rebelstate_adj] [commsPackA_rebelstate]","[commsPackA_rebelstate_adj] [commsPackA_rebelstate]");
+	"commsPackA_rebelstate_adj" = ("corrupt","oppressive","totalitarian","repressive","murderous","autocratic","tyrannical","despotic");
+
 	"commsPackA_a_misc_equipment" = ("an advanced compass","a multi-targeting system","another hardhead","the next maintenance overhaul","docking computers");
 
 	"commsPackA_pronoun1" = ("her","his","their");	
@@ -71,7 +80,11 @@
 
 	"commsPackA_generic_quiriumCascade" = ("%N! Hard about!","Q-mine! Clear the area!","Cascade imminent. Run!","Run!","%N!","No! Get clear!");
 
+	"commsPackA_generic_startFleeing" = ("Shields are low! Cover me!","Heavy systems damage here. I'm pulling out","I can't take much more of this","%N! Systems are critical","Shields critical! Give me some cover","Shields are down. I'm breaking off the attack","I'm badly hit. You'll have to finish this fight without me");
+
 	"commsPackA_generic_surrender" = ("Please, don't shoot!","I surrender!","Help! Someone please help me!","%N! I can't shake them!","Let me go, please!");
+
+	"commsPackA_generic_thargoidAttack" = ("%N! Where did that warship come from?","Target the warship and watch its drones!","Take out the warship before the drones swarm us!");
 
 	/**
 	 * And now the various specific messages. There don't *need* to be
@@ -119,11 +132,11 @@
 	 * sent. */
 	"commsPackA_vigilante_surrender" = "";
 
-	"commsPackA_vigilante_startFleeing" = ("Shields are low! Cover me!","Heavy systems damage here. I'm pulling out","I can't take much more of this","%N! Systems are critical","Shields critical! Give me some cover","Shields are down. I'm breaking off the attack","I'm badly hit. You'll have to finish this fight without me","%N, these pirates are tough");	
+	"commsPackA_vigilante_startFleeing" = ("[commsPackA_generic_startFleeing]","[commsPackA_generic_startFleeing]","[commsPackA_generic_startFleeing]","[commsPackA_generic_startFleeing]","%N, these pirates are tough","Who's selling criminals this sort of firepower?");	
 
 	"commsPackA_vigilante_thanksForHelp" = ("Good shooting, [oolite_entityCrew]","You got their attention there. Let's finish them off","Nice work, [oolite_entityName]. Lets see how these pirates like being outnumbered","Thanks for the cover, [oolite_entityCrew]","I'm out of their sights now. Thanks for the help");
 
-	"commsPackA_vigilante_thargoidAttack" = ("We've got Thargoids! All ships, respond","Thargoid warship in the system!","%N! Where did that warship come from?","Target the warship and watch its drones!","Take out the warship before the drones swarm us!","Thargoids? Don't let them reach %H!");
+	"commsPackA_vigilante_thargoidAttack" = ("We've got Thargoids! All ships, respond","Thargoid warship in the system!","[commsPackA_generic_thargoidAttack]","[commsPackA_generic_thargoidAttack]","[commsPackA_generic_thargoidAttack]","Thargoids? Don't let them reach %H!");
 
 	"commsPackA_vigilante_waypointReached" = ("All quiet here. Setting course for waypoint [commsPackA_codename]","No pirates about here. Form up for the next lane","No sign of them yet. Spread out and watch your scanners","Looks like we missed them.","Another few waypoints and then back");
 
@@ -281,48 +294,46 @@
 
 	/* Rebel: pirate fighting against an oppressive state */
 
-	"commsPackA_rebel_attackLowEnergy" = ("");
+	"commsPackA_rebel_attackLowEnergy" = ("[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]","Kill me if you must, but the [commsPackA_rebelgroup] will continue!","Will you stay as a [commsPackA_rebelinsult], [oolite_entityCrew], or will you rethink your life?","I will die before I betray the [commsPackA_rebelgroup]!");
 
-	"commsPackA_rebel_beginningAttack" = ("");
+	"commsPackA_rebel_beginningAttack" = ("For %H!","For the [commsPackA_rebelgroup]!","Die, [commsPackA_rebelinsult] of the [commsPackA_rebelstate]!","Remember the [commsPackA_rebelatrocity]!","Down with the [commsPackA_rebelstate]!","Free %H!","Surrender, [commsPackA_rebelinsult], or be destroyed!");
 
-	"commsPackA_rebel_beginningAttackThargoid" = ("");
+	"commsPackA_rebel_beginningAttackThargoid" = ("[commsPackA_generic_beginningAttackThargoid]!","[commsPackA_generic_beginningAttackThargoid]!","[commsPackA_generic_beginningAttackThargoid]!","[commsPackA_generic_beginningAttackThargoid]!","For %H!","For the [commsPackA_rebelgroup]!","Thargoids! In league with the [commsPackA_rebelstate]!");
 
-	"commsPackA_rebel_continuingAttack" = ("");
+	"commsPackA_rebel_continuingAttack" = ("[commsPackA_rebel_beginningAttack]");
 
-	"commsPackA_rebel_continuingAttackThargoid" = ("");
+	"commsPackA_rebel_eject" = ("[commsPackA_generic_eject]","[commsPackA_generic_eject]","[commsPackA_generic_eject]","The [commsPackA_rebelgroup] will not be defeated!");
 
-	"commsPackA_rebel_eject" = ("");
+	"commsPackA_rebel_engageWitchspaceDriveFlee" = ("Break off! Regroup at rendezvous [commsPackA_codename]!","There's too many to handle! Out of the system, now!","The [commsPackA_rebelstate] is winning the day! Our duty is to live to fight another","We can't fight this many. Get out of here!","Powering drive! Just a little longer");
 
-	"commsPackA_rebel_engageWitchspaceDriveFlee" = ("");
+	"commsPackA_rebel_engageWitchspaceDriveGroup" = ("Check and arm all weapons. Be ready to fight as soon as we exit witchspace","Form up and prepare to make the jump!","We shall strike a blow against the [commsPackA_rebelstate] today!","Commerce is the lifeblood of the [commsPackA_rebelstate], and we shall spill it today!","Our cause is just and the [commsPackA_rebelinsult]s will scatter before us!");
 
-	"commsPackA_rebel_engageWitchspaceDriveGroup" = ("");
+	"commsPackA_rebel_friendlyFire" = ("[commsPackA_generic_friendlyFire]","[commsPackA_generic_friendlyFire]","[commsPackA_generic_friendlyFire]","Whose side are you on, [oolite_entityCrew]?");
 
-	"commsPackA_rebel_friendlyFire" = ("");
+	"commsPackA_rebel_groupIsOutnumbered" = ("It's a set-up! Scatter and regroup later!","This is too heavily defended for a normal convoy!","There's too many of them! Destroy what you can and disengage!","They're too heavily armed! Break off the attack and escape. The [commsPackA_rebelgroup] must hear of this!","The [commsPackA_rebelstate]'s forces are too powerful. Retreat!","We've been tricked! Scatter, now! One of us must live to report back");
 
-	"commsPackA_rebel_groupIsOutnumbered" = ("");
+	"commsPackA_rebel_hitTarget" = ("Surrender, [commsPackA_rebelinsult], and drop your cargo, and you will not be harmed!","For %H!","Surrender your cargo to the [commsPackA_rebelgroup] and you may leave!","Your cargo must not reach the [commsPackA_rebelstate], [oolite_entityClass]!");
 
-	"commsPackA_rebel_hitTarget" = ("");
+	"commsPackA_rebel_incomingMissile" = ("[commsPackA_generic_incomingMissile]");
 
-	"commsPackA_rebel_incomingMissile" = ("");
+	"commsPackA_rebel_killedTarget" = ("The [oolite_entityName] is dead","Die, [commsPackA_rebelinsult]!","Scan the wreckage! The [commsPackA_rebelgroup] needs everything it can find","So will die all [commsPackA_rebelinsult]s of the [commsPackA_rebelstate]!");
 
-	"commsPackA_rebel_killedTarget" = ("");
+	// blanks: only sometimes say anything
+	"commsPackA_rebel_killedUncrewedTarget" = ("Don't leave anything for the [commsPackA_rebelstate] to recover!","Scanning for recoverable salvage now!","","","");
 
-	"commsPackA_rebel_killedUncrewedTarget" = ("");
+	"commsPackA_rebel_makePirateDemand" = ("[oolite_entityName], you are carrying cargo vital to the [commsPackA_rebelstate]. Hand it over, or die!","[oolite_entityClass], your cargo will be used to commit atrocities! Release it to us","[oolite_entityName], this is the [commsPackA_rebelgroup]. We need [oolite_demandSize] TC of your cargo","Your trading props up the [commsPackA_rebelstate], [oolite_entityName]. Give us [oolite_demandSize] TC of your cargo and we'll let you live!","Drop your cargo or die, [oolite_entityName]!","Will you side with the [commsPackA_rebelgroup], or the [commsPackA_rebelstate], trader? Support us with [oolite_demandSize] TC of your cargo as a gesture of goodwill.");
 
-	"commsPackA_rebel_landingOnPlanet" = ("");
+	"commsPackA_rebel_quiriumCascade" = ("[commsPackA_generic_quiriumCascade]","[commsPackA_generic_quiriumCascade]","[commsPackA_generic_quiriumCascade]","[commsPackA_generic_quiriumCascade]","Those bombs should be banned!","Q-bomb! The [commsPackA_rebelstate] is trying to destroy the evidence!");
 
-	"commsPackA_rebel_makePirateDemand" = ("");
+	"commsPackA_rebel_scoopedCargo" = ("What have we got here?","These [oolite_goodsDescription] will be vital to the [commsPackA_rebelgroup]","Keep watch! This cargo must make it back to the [commsPackA_rebelgroup]","[oolite_goodsDescription]! We're in luck today!","This one is [oolite_goodsDescription]. Good work everyone, we've got what we came for!");
 
-	"commsPackA_rebel_quiriumCascade" = ("");
+	"commsPackA_rebel_startFleeing" = ("[commsPackA_generic_startFleeing]","[commsPackA_generic_startFleeing]","[commsPackA_generic_startFleeing]","[commsPackA_generic_startFleeing]","The [commsPackA_rebelstate] must really want this convoy intact!","This isn't over, [commsPackA_rebelinsult]!");
 
-	"commsPackA_rebel_scoopedCargo" = ("");
+	"commsPackA_rebel_startHelping" = ("I hear you. Targeting the [oolite_entityClass] now!","Surrender, [oolite_entityName]. You're outgunned!","I'm on [commsPackA_pronoun]!","Target acquired!","[commsPackA_rebel_beginningAttack]","Flee, [commsPackA_rebelinsult]!");
 
-	"commsPackA_rebel_startFleeing" = ("");
+	// a couple copied from generic, but mostly not
+	"commsPackA_rebel_surrender" = ("Help! Someone please help me!","%N! I can't shake them!","I'll die rather than betray the [commsPackA_rebelgroup]!","If you kill me, the [commsPackA_rebelstate] will continue its terror!","The [commsPackA_rebelgroup] will avenge me!","I'm not your enemy! Read about the [commsPackA_rebelatrocity]! Read about the [commsPackA_rebelatrocity]!","History is not on your side, war criminal!","Think who you support, [commsPackA_rebelinsult]!");
 
-	"commsPackA_rebel_startHelping" = ("");
-
-	"commsPackA_rebel_surrender" = ("");
-
-	"commsPackA_rebel_thargoidAttack" = ("");
+	"commsPackA_rebel_thargoidAttack" = ("The constant threat of the Thargoids serves the interests of the [commsPackA_rebelstate]! Let's deal with them quickly and quietly","The Thargoids, the [commsPackA_rebelstate], all are enemies of the people!","Get the Thargoids, fast! We can't risk them attracting attention","For %H!","Take out the warship! We need the drones intact","[commsPackA_generic_thargoidAttack]","[commsPackA_generic_thargoidAttack]");
 
 }
