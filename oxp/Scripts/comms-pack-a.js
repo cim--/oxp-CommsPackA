@@ -11,7 +11,10 @@ this.$commsPrefix = "commsPackA";
 this.startUp = function()
 {
 	/* ensure the priority AI library is started */
-	worldScripts["oolite-libPriorityAI"].startUp();
+	if (worldScripts["oolite-libPriorityAI"].startUp)
+	{
+		worldScripts["oolite-libPriorityAI"].startUp();
+	}
 
 	/* This object defines the communications to be set up. It has
 	 * several layers: the first layer is the communications role for

@@ -56,6 +56,10 @@
 
 	"commsPackA_pronoun1" = ("her","his","their");	
 	"commsPackA_pronoun2" = ("her","him","them");
+	"commsPackA_pronoun3" = ("he's","she's","they're");
+	"commsPackA_Pronoun3" = ("He's","She's","They're");
+	"commsPackA_Pronoun4" = ("He's","She's","They've");
+	"commsPackA_Pronoun5" = ("He'll","She'll","They'll");
 
 	/* Generic messages. As these may be called by a wide range of
 	 * ships, it's best if there's a big range of options in each of
@@ -335,5 +339,39 @@
 	"commsPackA_rebel_surrender" = ("Help! Someone please help me!","%N! I can't shake them!","I'll die rather than betray the [commsPackA_rebelgroup]!","If you kill me, the [commsPackA_rebelstate] will continue its terror!","The [commsPackA_rebelgroup] will avenge me!","I'm not your enemy! Read about the [commsPackA_rebelatrocity]! Read about the [commsPackA_rebelatrocity]!","History is not on your side, war criminal!","Think who you support, [commsPackA_rebelinsult]!");
 
 	"commsPackA_rebel_thargoidAttack" = ("The constant threat of the Thargoids serves the interests of the [commsPackA_rebelstate]! Let's deal with them quickly and quietly","The Thargoids, the [commsPackA_rebelstate], all are enemies of the people!","Get the Thargoids, fast! We can't risk them attracting attention","For %H!","Take out the warship! We need the drones intact","[commsPackA_generic_thargoidAttack]","[commsPackA_generic_thargoidAttack]");
+
+	/* Enforcer assassins: working for a criminal organisation */
+
+	"commsPackA_enforcer_attackLowEnergy" = ("[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]","You're making powerful enemies here, [oolite_entityName]!","[oolite_entityCrew], you would be well advised to let me go");
+	"commsPackA_enforcer_beginningAssassination" = ("Time for you to sleep with the asteroids, [oolite_entityCrew]!","Hello, [oolite_entityCrew]. We've been expecting you","You should never have dealt with [oolite_entityContracts], Commander!","Remember the rules. Hit hard, hit fast, no survivors!","It's the [oolite_entityName]! Don't let them escape!","Dealing with [oolite_entityContracts] was the wrong choice, [oolite_entityCrew]!","There's the [oolite_entityName]. Time to teach [oolite_entityContracts] to show respect!","Time to die, [oolite_entityCrew]","Right where they were expected. Get them!");
+	"commsPackA_enforcer_beginningAttack" = ("I've got the [oolite_entityName]","Targeting the [oolite_entityClass] now","The Vipers can't help you out here","[commsPackA_generic_beginningAttack]","[commsPackA_generic_beginningAttack]","[commsPackA_generic_beginningAttack]","[commsPackA_generic_beginningAttack]");
+	"commsPackA_enforcer_beginningAttackInanimate" = ("Time to clean up","That won't help you survive!","Make sure no-one escapes","No survivors, no evidence");
+	"commsPackA_enforcer_continuingAttack" = ("[commsPackA_generic_continuingAttack]");
+	"commsPackA_enforcer_hitTarget" = ("Are you regretting your choices yet, [oolite_entityCrew]?","You've crossed us for the last time","Direct hit!","I've got the [oolite_entityClass] now!","Nice ship, [oolite_entityCrew]. Shame we have to destroy it");
+	"commsPackA_enforcer_killedTarget" = ("Kill confirmed!","[oolite_entityCrew] is dust!","There's a bonus for payday!","Got them! Check for escape pods. We can't risk anyone getting out","Another one down! Clean up before anyone shows up");
+	"commsPackA_enforcer_killedUncrewedTarget" = ("They're not getting away now!","That should guarantee our pay","Scan carefully. There might be more");
+	"commsPackA_enforcer_quiriumCascade" = ("[commsPackA_generic_quiriumCascade]","[commsPackA_generic_quiriumCascade]","[commsPackA_generic_quiriumCascade]","That'll clean things up nicely","Get clear! Don't end up like the evidence","Pretty! Let's watch from a distance");
+	"commsPackA_enforcer_startFleeing" = ("%N! They've got a good ship","This is more opposition than we were led to expect!","The boss won't like this","Don't think this is over, [oolite_entityCrew]!","You're making powerful enemies here, [oolite_entityCrew]!","That's not an average [oolite_entityClass]!");
+	"commsPackA_enforcer_thargoidAttack" = ("[commsPackA_generic_thargoidAttack]","[commsPackA_generic_thargoidAttack]","[commsPackA_generic_thargoidAttack]","Blast the warships, fast! We can't let them distract us");
+	// lots of blanks: they'll reach a lot of waypoints as they circle
+	// the witchpoint
+	"commsPackA_enforcer_waypointReached" = ("","","","","","","","","","","","","","","","","","","Check [commsPackA_pronoun1] arrival time again","[commsPackA_Pronoun3] late","Maintain formation and keep scanning. [commsPackA_Pronoun5] show up soon","Maybe someone else got [commsPackA_pronoun2]","[commsPackA_Pronoun4] got to come through here sooner or later");
+
+	/* Freelancer assassins: working for various parties for money */
+
+	"commsPackA_freelancer_attackLowEnergy" = ("");
+	"commsPackA_freelancer_beginningAssassination" = ("");
+	"commsPackA_freelancer_beginningAttack" = ("");
+	"commsPackA_freelancer_beginningAttackInanimate" = ("");
+	"commsPackA_freelancer_continuingAttack" = ("");
+	"commsPackA_freelancer_firedMissile" = ("");
+	"commsPackA_freelancer_hitTarget" = ("");
+	"commsPackA_freelancer_killedTarget" = ("");
+	"commsPackA_freelancer_killedUncrewedTarget" = ("");
+	"commsPackA_freelancer_quiriumCascade" = ("");
+	"commsPackA_freelancer_startFleeing" = ("");
+	"commsPackA_freelancer_thargoidAttack" = ("");
+	"commsPackA_freelancer_waypointReached" = ("");
+
 
 }
