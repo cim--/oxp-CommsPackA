@@ -41,6 +41,10 @@ this.startUp = function()
 	 * The communications keys again have standard names from Oolite
 	 * core - again, custom OXP AIs might define some more, but we
 	 * aren't adding new comms to those here.
+	 *
+	 * Oolite defines "oolite_surrender" and "oolite_thanksForHelp" as
+	 * generic communications, so these need redefining for every
+	 * role, even those which don't have messages.
 	 */
 	var comms = {
 		/* role: bounty hunters */
@@ -180,7 +184,8 @@ this.startUp = function()
 				   "quiriumCascade",
 				   "scoopedCargo",
 				   "selectedWitchspaceDestination",
-				   "surrender"
+				   "surrender",
+				   "thanksForHelp"
 			   ]),
 			/* Rebel: fighting against an oppressive state */
 			commsPackA_rebel: this._makeComms("rebel",
@@ -205,7 +210,8 @@ this.startUp = function()
 				   "startFleeing",
 				   "startHelping",
 				   "surrender",
-				   "thargoidAttack"
+				   "thargoidAttack",
+				   "thanksForHelp"
 			   ])
 		},
 		// assassins
@@ -224,7 +230,9 @@ this.startUp = function()
 				 "killedUncrewedTarget",
 				 "quiriumCascade",
 				 "startFleeing",
+				 "surrender",
 				 "thargoidAttack",
+				 "thanksForHelp",
 				 "waypointReached"
 			 ]),
 			/* Freelancer: takes on contracts for the money, from
@@ -242,7 +250,9 @@ this.startUp = function()
 				 "killedUncrewedTarget",
 				 "quiriumCascade",
 				 "startFleeing",
+				 "surrender",
 				 "thargoidAttack",
+				 "thanksForHelp",
 				 "waypointReached"
 			 ])
 		},
