@@ -256,9 +256,50 @@ this.startUp = function()
 				 "waypointReached"
 			 ])
 		},
-/*		// police ships
+		// police ships
 		police: {
-
+			/* Formal by-the-book police */
+			commsPackA_academy: this._makeComms("academy",
+				[
+					"beginningAttack",
+					"beginningAttackThargoid",
+					"distressResponseAggressor",
+					"distressResponseSender",
+					"eject",
+					"firedMissile",
+					"friendlyFire",
+					"killedTarget",
+					"markForFines",
+					"offenceDetected",
+					"patrolReportIn",
+					"startHelping",
+					"surrender",
+					"thanksForHelp",
+					"thargoidAttack"
+				]),
+			/* Aggressive police looking for a fight */
+			commsPackA_backwater: this._makeComms("vicious",
+				[
+					"attackLowEnergy",
+					"beginningAttack",
+					"beginningAttackThargoid",
+					"continuingAttack",
+					"continuingAttackThargoid",
+					"distressResponseAggressor",
+					"distressResponseSender",
+					"dockingWait",
+					"eject",
+					"firedMissile",
+					"friendlyFire",
+					"hitTarget",
+					"killedTarget",
+					"markForFines",
+					"offenceDetected",
+					"quiriumCascade",
+					"surrender",
+					"thanksForHelp",
+					"thargoidAttack"
+				]),
 
 
 		},
@@ -268,7 +309,7 @@ this.startUp = function()
 
 
 		},
-		// station<->surface shuttles
+/*		// station<->surface shuttles
 		shuttle: {
 
 

@@ -416,5 +416,41 @@
 	// the witchpoint
 	"commsPackA_freelancer_waypointReached" = ("","","","","","","","","","","","","","","","","","","","","Stay alert. We've got two coming through in the next few hours","Stay close and keep your weapons warm. The target could show up any moment.","Scan is clear. Maintain your watch","Don't get distracted. We've only got one chance at this.");
 
+	/* Academy: a by-the-book cop. Relatively few messages are needed
+	 * for this one - it's not like the regulations approve of
+	 * more. */
+
+	"commsPackA_academy_beginningAttack" = ("Locked on to the [oolite_entityClass] and commencing attack run","[oolite_entityName], you are in breach of Cooperative law. Leave the system or be destroyed","Commander [oolite_entityCrew], you are in breach of Cooperative law. Leave the system or be destroyed","Targeting the [oolite_entityName] now","Criminal status confirmed on the [oolite_entityName]. Weapons are armed");
+
+	"commsPackA_academy_beginningAttackThargoid" = ("Thargoid targeted. Opening fire now","Locked on to the Thargoid now","Attacking the [oolite_entityClass] now");
+
+	"commsPackA_academy_distressResponseAggressor" = ("[oolite_entityName], your hostile actions are in breach of Cooperative law. Stand down or be destroyed","[oolite_entityName], attacks on peaceful ships will not be tolerated","I have the aggressor on scanners now. Weapons are armed","[oolite_entityName], cease fire immediately. Your actions are illegal under Cooperative law");
+
+	"commsPackA_academy_distressResponseSender" = ("[oolite_entityName], this is %H police. We have received your distress call and are moving to assist","Acknowledged, Commander [oolite_entityCrew]. Please wait while we reach your position","Distress signal acknowledged. Moving to assist now");
+
+	"commsPackA_academy_eject" = ("[commsPackA_generic_eject]");
+
+	"commsPackA_academy_firedMissile" = ("Missile launched","Missile fired at the criminal [oolite_entityClass]. Refrain from ECM use if possible.");
+
+	"commsPackA_academy_friendlyFire" = ("[oolite_entityName], firing on police vessels is against the law. Exercise more caution in your aim","Hit logged from the [oolite_entityName]. Commander, if you repeat that action you will be marked as a criminal.","Commander [oolite_entityCrew], we will excuse that hit as accidental. You will not get a second such chance.");
+
+	"commsPackA_academy_killedTarget" = ("[oolite_entityClass] destroyed","Target is down","The criminal [oolite_entityClass] is destroyed","Kill confirmed. The [oolite_entityName] is dead");
+
+	"commsPackA_academy_markForFines" = ("Commander [oolite_entityCrew], your Offender status has been noted. You may clear your record by paying a fine at the station","[oolite_entityName], your record has undischarged minor offences. Please dock at the station to pay fines","[oolite_entityCrew], your breaches of Cooperative law have been noted. Dock with the main station to pay your fines at the earliest opportunity","[oolite_entityName], please dock with the station to arrange payment of your fines and clear your criminal record");
+
+	"commsPackA_academy_offenceDetected" = ("[oolite_entityName], your actions are illegal under Cooperative law.","Offence detected. Transmitting confirmation to HQ now.","[oolite_entityName], you are breaking the law. Leave the area immediately or be destroyed.","Commander [oolite_entityCrew], your actions have been logged, and your criminal record has been updated.","Cooperative law does not permit your course of action, [oolite_entityName]. Stand down or be destroyed.");
+
+	// lots of blanks or this will get used a lot
+	"commsPackA_academy_patrolReportIn" = ("Station, scanners are clean","Control, this region is clear. Moving to next waypoint now","All clear at this point, Control","All clear, Station","Nothing to report. Scanning next incoming route now","","","","","","","","","","","","","");
+
+	"commsPackA_academy_startHelping" = ("Acknowledged. Assisting you with the [oolite_entityName] now","[oolite_entityName], cease your hostile actions and leave the area immediately","Attacking police ships is a serious offence, [oolite_entityName]");
+
+	// blank default message
+	"commsPackA_academy_surrender" = ("");
+
+	"commsPackA_academy_thanksForHelp" = ("Commander [oolite_entityCrew], your assistance has been noted","Thank you for the assistance, [oolite_entityName]","Your contribution to keeping %H clear of fugitives is appreciated, Commander [oolite_entityCrew]","Thank you, [oolite_entityName]","Thank you, Commander [oolite_entityCrew]");
+
+	"commsPackA_academy_thargoidAttack" = ("All ships, please respond. We have Thargoid forces in the system","Thargoid presence confirmed. All ships, respond","All ships, we have a confirmed Thargoid presence","All ships, the Thargoids are your highest priority. The warships must be destroyed","Sightings confirmed. There are Thargoids in %H space. All ships, open fire on the warships");
+
 
 }
