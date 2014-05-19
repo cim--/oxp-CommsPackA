@@ -278,9 +278,8 @@ this.startUp = function()
 					"thargoidAttack"
 				]),
 			/* Aggressive police looking for a fight */
-			commsPackA_backwater: this._makeComms("vicious",
+			commsPackA_vicious: this._makeComms("vicious",
 				[
-					"attackLowEnergy",
 					"beginningAttack",
 					"beginningAttackThargoid",
 					"continuingAttack",
@@ -299,14 +298,52 @@ this.startUp = function()
 					"surrender",
 					"thanksForHelp",
 					"thargoidAttack"
-				]),
-
-
+				])
 		},
 		// escorts
 		escort: {
-
-
+			/* Paramilitary-style escorts: hired from
+			 * professional(ish) organisations. */
+			commsPackA_paramilitary: this._makeComms("paramilitary",
+				[
+					"attackLowEnergy",
+					"beginningAttack",
+					"beginningAttackThargoid",
+					"continuingAttack",
+					"continuingAttackThargoid",
+					"eject",
+					"escortFormation",
+					"escortMotherAccepted",
+					"friendlyFire",
+					"groupIsOutnumbered",
+					"incomingMissile",
+					"killedTarget",
+					"quiriumCascade",
+					"startHelping",
+					"surrender",
+					"thanksForHelp"
+				]),
+			/* Friendly escorts: probably know the crew of the ship
+			 * they're escorting personally. */
+			commsPackA_friendly: this._makeComms("friendly",
+				[
+					"attackLowEnergy",
+					"beginningAttack",
+					"beginningAttackThargoid",
+					"continuingAttack",
+					"continuingAttackThargoid",
+					"eject",
+					"escortFormation",
+					"escortMotherAccepted",
+					"friendlyFire",
+					"groupIsOutnumbered",
+					"incomingMissile",
+					"killedTarget",
+					"quiriumCascade",
+					"startHelping",
+					"surrender",
+					"thanksForHelp"
+				])
 
 		},
 /*		// station<->surface shuttles

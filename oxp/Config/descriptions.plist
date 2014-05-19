@@ -54,6 +54,8 @@
 
 	"commsPackA_a_misc_equipment" = ("an advanced compass","a multi-targeting system","another hardhead","the next maintenance overhaul","docking computers");
 
+	"commsPackA_escorted_slang" = ("the heavy","mother","the convoy","the centre","our pay","the boss","the lead","the hauler","the freighter","boxy","snailer","big B'%N","Clara");
+
 	"commsPackA_pronoun1" = ("her","his","their");	
 	"commsPackA_pronoun2" = ("her","him","them");
 	"commsPackA_pronoun3" = ("he's","she's","they're");
@@ -451,6 +453,113 @@
 	"commsPackA_academy_thanksForHelp" = ("Commander [oolite_entityCrew], your assistance has been noted","Thank you for the assistance, [oolite_entityName]","Your contribution to keeping %H clear of fugitives is appreciated, Commander [oolite_entityCrew]","Thank you, [oolite_entityName]","Thank you, Commander [oolite_entityCrew]");
 
 	"commsPackA_academy_thargoidAttack" = ("All ships, please respond. We have Thargoid forces in the system","Thargoid presence confirmed. All ships, respond","All ships, we have a confirmed Thargoid presence","All ships, the Thargoids are your highest priority. The warships must be destroyed","Sightings confirmed. There are Thargoids in %H space. All ships, open fire on the warships");
+
+	/* Vicious police, looking for a fight */
+
+	"commsPackA_vicious_beginningAttack" = ("Eat laser, criminal!","Have some of this!","You won't live to regret your law-breaking!","You'll be space-dust!","Your [oolite_entityClass] won't keep you safe!","Die, pirate!","No-one commits a crime on my spacelane!");
+
+	"commsPackA_vicious_beginningAttackThargoid" = ("I'll show you [thargoid-curses]!","Out of my system, you octagonal %Ns!","I'll teach you fear, Thargoid!","I'll smash you to dust and turn your drones to scrap!","You've lost the war, Thargoids! Now die!","You aren't facing rusty Kraits any more!","Your warships are outdated!","You should have stayed in witchspace!","No [oolite_entityClass] invades my system!");
+
+"commsPackA_vicious_continuingAttack" = ("[commsPackA_vicious_beginningAttack]","[commsPackA_vicious_beginningAttack]","Don't think you can dodge my lasers forever!","Die, [oolite_entityName]!","You might have earned your rating, [oolite_entityCrew], but I earned mine too!","If you're hanging on for help, it's not coming.","Eject and you get to live. Fight on and you die with your [oolite_entityClass]!");
+
+	"commsPackA_vicious_continuingAttackThargoid" = ("[commsPackA_vicious_beginningAttackThargoid]");
+
+	"commsPackA_vicious_distressResponseAggressor" = ("You've made a big mistake, [oolite_entityName]!","Even if you run now you'll be a target for every cop and bounty hunter for ten lights!","Right in front of a cop? The law will not be mocked!","You'll not get away with that in my system, [oolite_entityCrew]!");
+
+	"commsPackA_vicious_distressResponseSender" = ("I'm coming for them now!","Get behind me, [oolite_entityName], cause I'm going to give that pirate a beating!","You're in luck today, [oolite_entityName]! %H police are here to help","Those pirates won't know what hit them!");
+
+	// blanks to reduce chance of saying anything even further
+	"commsPackA_vicious_dockingWait" = ("Hey, control, what's all this letting civvies dock first?","Control, if you don't move me up the queue I'll have you arrested for wasting police time","You're wasting my time here! I need to rearm before the pirates escape!","I've seen Anacondas dock faster than you!","Hurry up and clear the corridor or I'll cite you for obstructing the spacelanes!","I've got a patrol schedule to keep here!","","","","","","","","","","","","");
+
+	"commsPackA_vicious_eject" = ("[commsPackA_generic_eject]","[commsPackA_generic_eject]","[commsPackA_generic_eject]","There's top rewards for getting police safely back to the station!","%N! I'll get you next time!","That'll earn you a Fugitive status!","Don't think you're stealing that ship!");
+
+	"commsPackA_vicious_firedMissile" = ("Now, you might be asking yourself, have I fired one missile or two. Do you feel lucky, punk? Well, do you?","If you're going to keep dodging my lasers, dodge this!","See how your shields stand up to this!","There's more where that came from!","Run if you can!","No-one ECM, I've got them now!","Your hull won't protect you from this!","I've got you now!");
+
+	"commsPackA_vicious_friendlyFire" = ("That had better have been an accident!","Go on, make my day, hit me again!","You're this close to a fugitive rating, [oolite_entityCrew]!","Hey, Harmless! The crosshairs show where you're shooting!","Only I'm allowed to shoot first and ask questions later round here!","Sort out your aim or I'll sort you out!");
+
+	"commsPackA_vicious_hitTarget" = ("There's more where that came from!","I've got them now!","You can't escape me!","Eat laser, [oolite_entityClass]!","Right in my sights!");
+
+	"commsPackA_vicious_killedTarget" = ("You don't mess with the law!","[oolite_entityName] terminated!","Got the [oolite_entityClass]!","Hah! Right on target","This is a good day!","Excellent!","One fewer criminal!","That's the end of [oolite_entityCrew]!");
+
+	"commsPackA_vicious_markForFines" = ("Hey, criminal! Don't think you can sneak past us like that, [oolite_entityCrew]","You've got a choice, [oolite_entityName]. Get to the station fast, and pay off your fines, or get dead","If it was up to me you'd already be dead. Quit your crimes and pay the fines and we'll let you off this once.","%H doesn't need scum like you, [oolite_entityName]. Pay your fines and get out!","Coming here with a record like yours, [oolite_entityCrew]? Don't push your luck!");
+
+	"commsPackA_vicious_quiriumCascade" = ("[commsPackA_generic_quiriumCascade]");
+
+	"commsPackA_vicious_surrender" = ("%N! Are you still there!","Killing police is a serious offence!","Anyone not a criminal round here? Help me out!","[commsPackA_generic_attackLowEnergy]");
+
+	"commsPackA_vicious_thanksForHelp" = ("Great shooting, [oolite_entityName]!","You fight like a %I!","You picked the right side in this fight, Commander [oolite_entityCrew]!","See how you like these odds!","Keep on them, [oolite_entityName]!","We'll smash these criminals to dust, Commander [oolite_entityCrew]!");
+
+	"commsPackA_vicious_thargoidAttack" = ("Thargoids! Everyone get the warships!","You've got weapons, you attack the Thargoids! No time to argue!","Get the warships, fast! Don't let them launch their drones!","Thargoids? In %H? Not on my patrol!","Destroy the Thargoid ships now!","Whatever they're up to, we've got to stop it. Destroy the warships!");
+
+
+	/** Paramilitary escorts */
+	"commsPackA_paramilitary_attackLowEnergy" = ("I'm taking too much damage","%N! There's too many!","I need some support!","Cover me!","[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]");
+
+	"commsPackA_paramilitary_beginningAttack" = ("Enemy contacts confirmed. Let's take this by the numbers","Cover formations! Don't let them get past us","Pick your targets and take them down","Locked on to the [oolite_entityClass] now","Hostiles confirmed. Focus your fire!","[oolite_entityName] acquired. Weapons armed!","Take them down fast but watch for a run on [commsPackA_escorted_slang]");
+
+	"commsPackA_paramilitary_beginningAttackThargoid" = ("[commsPackA_paramilitary_beginningAttack]","[commsPackA_paramilitary_beginningAttack]","[commsPackA_paramilitary_beginningAttack]","[commsPackA_paramilitary_beginningAttack]","Thargoids! Draw their fire away from [commsPackA_escorted_slang]","Spread out and watch the drones!");
+
+	"commsPackA_paramilitary_continuingAttack" = ("Keep up the attack! We need them to break off soon!","This is taking too long","I'm keeping the [oolite_entityName] occupied, but that's all","I've got the [oolite_entityClass] covered","Break off your attack, [oolite_entityName]!");
+
+	"commsPackA_paramilitary_continuingAttackThargoid" = ("[commsPackA_paramilitary_continuingAttack]");
+
+	"commsPackA_paramilitary_eject" = ("[commsPackA_generic_eject]");
+
+	// some blanks to make this even rarer
+	"commsPackA_paramilitary_escortFormation" = ("","","","","","","","[commsPackA_paramilitary_escortFormationChatter]");
+	// things actually said
+	"commsPackA_paramilitary_escortFormationChatter" = ("Scan is clean","Keep the formation tight","Nothing to worry about yet","Still on schedule");
+
+	"commsPackA_paramilitary_escortMotherAccepted" = ("Acknowledged, [oolite_entityName]. Moving to escort formations now","Contract confirmed.","Matching vector now","","","","","");
+
+	"commsPackA_paramilitary_friendlyFire" = ("[commsPackA_generic_friendlyFire]","Check your targets better than that!","Watch your aim!","I've got this one! Pick a different target, [oolite_entityName]");
+
+	"commsPackA_paramilitary_groupIsOutnumbered" = ("We can't take them on. Cover [commsPackA_escorted_slang] as we withdraw!","Retreat and regroup!","Scatter! Try to draw some of them off!","Break off! We'll rendezvous with reinforcements at waypoint [commsPackA_codename]","We've done all we can here. Let's hope it's bought enough time");
+
+	"commsPackA_paramilitary_incomingMissile" = ("I've got incoming!","Requesting ECM cover!","Activate countermeasures!","Missile inbound","Taking evasive action!");
+
+	"commsPackA_paramilitary_killedTarget" = ("Got them!","[oolite_entityClass] down!","There goes the [oolite_entityName]","Direct hit!","The [oolite_entityName] is dust","One target down","Keep pressing them!");
+
+	"commsPackA_paramilitary_quiriumCascade" = ("[commsPackA_generic_quiriumCascade]");
+
+	"commsPackA_paramilitary_startHelping" = ("");
+
+	"commsPackA_paramilitary_surrender" = ("");
+
+	"commsPackA_paramilitary_thanksForHelp" = ("");
+
+	/** Friendly escorts */
+	"commsPackA_friendly_attackLowEnergy" = ("");
+
+	"commsPackA_friendly_beginningAttack" = ("");
+
+	"commsPackA_friendly_beginningAttackThargoid" = ("");
+
+	"commsPackA_friendly_continuingAttack" = ("");
+
+	"commsPackA_friendly_continuingAttackThargoid" = ("");
+
+	"commsPackA_friendly_eject" = ("");
+
+	"commsPackA_friendly_escortFormation" = ("");
+
+	"commsPackA_friendly_escortMotherAccepted" = ("");
+
+	"commsPackA_friendly_friendlyFire" = ("");
+
+	"commsPackA_friendly_groupIsOutnumbered" = ("");
+
+	"commsPackA_friendly_incomingMissile" = ("");
+
+	"commsPackA_friendly_killedTarget" = ("");
+
+	"commsPackA_friendly_quiriumCascade" = ("");
+
+	"commsPackA_friendly_startHelping" = ("");
+
+	"commsPackA_friendly_surrender" = ("");
+
+	"commsPackA_friendly_thanksForHelp" = ("");
 
 
 }
