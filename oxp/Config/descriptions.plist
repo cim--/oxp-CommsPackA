@@ -66,19 +66,19 @@
 	/* Generic messages. As these may be called by a wide range of
 	 * ships, it's best if there's a big range of options in each of
 	 * these. */
-	"commsPackA_generic_attackLowEnergy" = ("Shields are gone! Someone please help...","I can't take much more of this...","I need some support here!","The [oolite_entityName] is too strong","I'm taking heavy fire from the [oolite_entityClass]. Help!","%N! I can't shake them!","%N! %N!");
+	"commsPackA_generic_attackLowEnergy" = ("Shields are gone! Someone please help…","I can't take much more of this…","I need some support here!","The [oolite_entityName] is too strong…","I'm taking heavy fire from the [oolite_entityClass]. Help!","%N! I can't shake them!","%N! %N!");
 
-	"commsPackA_generic_beginningAttack" = ("Die, [oolite_entityClass]!","I've got the [oolite_entityName]","Die, [oolite_entityName]!","Run while you can, [oolite_entityClass]","Target locked!");
+	"commsPackA_generic_beginningAttack" = ("Die, [oolite_entityClass]!","I've got the [oolite_entityName].","Die, [oolite_entityName]!","Run while you can, [oolite_entityClass]…","Target locked!");
 
-	"commsPackA_generic_beginningAttackThargoid" = ("Thargoids? Why here?","%N! Thargoids!","No, no, not more of them","%N!");
+	"commsPackA_generic_beginningAttackThargoid" = ("Thargoids? Why here?","%N! Thargoids!","No, no, not more of them…","%N!");
 
-	"commsPackA_generic_continueFleeing" = ("I can't get clear. Someone help!","Leave me alone!","Is anyone out there? Help me, please.");
+	"commsPackA_generic_continueFleeing" = ("I can't get clear. Someone help!","Leave me alone!","Is anyone out there? Help me, please…");
 
-	"commsPackA_generic_continuingAttack" = ("Your fancy flying won't save you forever, [oolite_entityClass]","Give up, [oolite_entityName]. We have you outclassed.","I've got the [oolite_entityClass]","Die, [oolite_entityName]!");
+	"commsPackA_generic_continuingAttack" = ("Your fancy flying won't save you forever, [oolite_entityClass]…","Give up, [oolite_entityName]. We have you outclassed.","I've got the [oolite_entityClass].","Die, [oolite_entityName]!");
 
 	"commsPackA_generic_makeDistressCall" = ("We're being attacked by [describe-pirate]s! Please help!","Is anyone out there? We're under heavy attack!","Anyone hearing this? Please respond!","[describe-Pirate]s closing fast! Please help!","We can't fight them off! Someone please respond!","This is a peaceful ship! Don't shoot!","[distress-call]");
 
-	"commsPackA_generic_eject" = ("I'm taking too much damage!","I can't take any more of this!","Eject! Eject!","Systems critical! I'm bailing out","I'm out of here");
+	"commsPackA_generic_eject" = ("I'm taking too much damage!","I can't take any more of this!","Eject! Eject!","Systems critical! I'm bailing out…","I'm out of here…");
 
 	"commsPackA_generic_friendlyFire" = ("I'm on your side here! Watch your aim!","That was me you just hit!","Watch it!","The enemy is over there!","Hold your fire!","Ow! Watch where you're shooting!","Stop firing and let me get clear!","[oolite_entityName], watch your aim!");
 
@@ -86,7 +86,7 @@
 
 	"commsPackA_generic_quiriumCascade" = ("%N! Hard about!","Q-mine! Clear the area!","Cascade imminent. Run!","Run!","%N!","No! Get clear!");
 
-	"commsPackA_generic_startFleeing" = ("Shields are low! Cover me!","Heavy systems damage here. I'm pulling out","I can't take much more of this","%N! Systems are critical","Shields critical! Give me some cover","Shields are down. I'm breaking off the attack","I'm badly hit. You'll have to finish this fight without me");
+	"commsPackA_generic_startFleeing" = ("Shields are low! Cover me!","Heavy systems damage here. I'm pulling out…","I can't take much more of this…","%N! Systems are critical!","Shields critical! Give me some cover!","Shields are down. I'm breaking off the attack…","I'm badly hit. You'll have to finish this fight without me.");
 
 	"commsPackA_generic_surrender" = ("Please, don't shoot!","I surrender!","Help! Someone please help me!","%N! I can't shake them!","Let me go, please!");
 
@@ -100,37 +100,37 @@
 
 	/* Vigilante - a bounty hunter motivated by removing criminals for
 	 * a perceived social good. */
-	"commsPackA_vigilante_attackLowEnergy" = ("You may kill me, but you won't escape justice forever!","This criminal in a [oolite_entityClass] is getting the better of me","[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]");
+	"commsPackA_vigilante_attackLowEnergy" = ("You may kill me, but you won't escape justice forever!","This criminal in a [oolite_entityClass] is getting the better of me…","[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]");
 
-	"commsPackA_vigilante_beginningAttack" = ("Die, criminal!","Your [oolite_entityClass] won't save you now","This is for the [nom1]","For %H!","[commsPackA_generic_beginningAttack]","[commsPackA_generic_beginningAttack]");
+	"commsPackA_vigilante_beginningAttack" = ("Die, criminal!","Your [oolite_entityClass] won't save you now…","This is for the [nom1].","For %H!","[commsPackA_generic_beginningAttack]","[commsPackA_generic_beginningAttack]");
 
 	"commsPackA_vigilante_beginningAttackThargoid" = ("For the Cooperative!","Die, Thargoid!","You'll never take %H, Thargoid!","We'll blast you back into witchspace!","[commsPackA_generic_beginningAttackThargoid]");
 
-	"commsPackA_vigilante_beginningFight" = ("Your crimes end here!","Death to pirates!","It's the [oolite_entityName]. Open fire!","You'll pay for your crimes, [oolite_entityCrew]!","It's time to clean up %H","Confirmed on the [oolite_entityClass]; wanted dead or alive in [commsPackA_number] systems","Pick your targets and break to attack!","Offender targets acquired.");
+	"commsPackA_vigilante_beginningFight" = ("Your crimes end here!","Death to pirates!","It's the [oolite_entityName]. Open fire!","You'll pay for your crimes, [oolite_entityCrew]!","It's time to clean up %H…","Confirmed on the [oolite_entityClass]; wanted dead or alive in [commsPackA_number] systems…","Pick your targets and break to attack!","Offender targets acquired…");
 
 	"commsPackA_vigilante_continuingAttack" = ("No quarter for pirates!","%H will be safer when you're dead!","[commsPackA_generic_continuingAttack]","[commsPackA_generic_continuingAttack]","[commsPackA_generic_continuingAttack]");
 
 	"commsPackA_vigilante_continuingAttackThargoid" = ("Get back into witchspace!","You'll never take %H!","Die, Thargoid!","We'll make you feel fear again!");
 
-	"commsPackA_vigilante_distressResponseAggressor" = ("Pick on someone your own size, [oolite_entityName]!","Cease your attacks or be destroyed!","We've got a live one! Locking on the [oolite_entityClass] now!","Hit those raiders before they do any more damage!","Back off, [oolite_entityClass]. You've just become outnumbered.");
+	"commsPackA_vigilante_distressResponseAggressor" = ("Pick on someone your own size, [oolite_entityName]!","Cease your attacks or be destroyed!","We've got a live one! Locking on the [oolite_entityClass] now!","Hit those raiders before they do any more damage!","Back off, [oolite_entityClass]. You've just become outnumbered…");
 
-	"commsPackA_vigilante_distressResponseSender" = ("Hang on, [oolite_entityName]. Help is on the way.","We'll have your attackers on scanners in just a few seconds, [oolite_entityName]","Distress call acknowledged, [oolite_entityClass]. We're moving to assist.","Protect the [oolite_entityName] while it gets clear","I can't see the pirates yet, but they'll be close. Arm all weapons");
+	"commsPackA_vigilante_distressResponseSender" = ("Hang on, [oolite_entityName]. Help is on the way…","We'll have your attackers on scanners in just a few seconds, [oolite_entityName]…","Distress call acknowledged, [oolite_entityClass]. We're moving to assist…","Protect the [oolite_entityName] while it gets clear.","I can't see the pirates yet, but they'll be close. Arm all weapons.");
 
-	"commsPackA_vigilante_engageWitchspaceDriveFlee" = ("There's too many of them! Retreat and regroup!","We'll be back for you, pirate!","I'm taking too much fire to carry on. See you back at the station.","We can't fight this many. Follow me out of here!","Charging drive now! Keep dodging just a little longer");
+	"commsPackA_vigilante_engageWitchspaceDriveFlee" = ("There's too many of them! Retreat and regroup!","We'll be back for you, pirate!","I'm taking too much fire to carry on. See you back at the station…","We can't fight this many. Follow me out of here!","Charging drive now! Keep dodging just a little longer…");
 
-	"commsPackA_vigilante_engageWitchspaceDriveGroup" = ("All fighters, form up for witchspace jump","Preparing for witchspace entry. Be ready for a hostile reception","Drive powering up now. Follow in pattern [commsPackA_codename]","Let's get those criminals for %H!","Spotters say the pirates have just made their jump. Prepare to follow now");
+	"commsPackA_vigilante_engageWitchspaceDriveGroup" = ("All fighters, form up for witchspace jump.","Preparing for witchspace entry. Be ready for a hostile reception.","Drive powering up now. Follow in pattern [commsPackA_codename].","Let's get those criminals for %H!","Spotters say the pirates have just made their jump. Prepare to follow now.");
 	
 	"commsPackA_vigilante_friendlyFire" = ("[commsPackA_generic_friendlyFire]","[commsPackA_generic_friendlyFire]","[commsPackA_generic_friendlyFire]","[commsPackA_generic_friendlyFire]","Check your IFF, [oolite_entityCrew]!","Do I look like an Offender to you?");
 
-	"commsPackA_vigilante_groupIsOutnumbered" = ("They've got us outnumbered. Retreat and regroup!","Fall back to the station! We can't take on this many","Break off the attack!","It's a trap! They're too well armed for simple pirates","Regroup at rendezvous [commsPackA_codename]","Fall back!");
+	"commsPackA_vigilante_groupIsOutnumbered" = ("They've got us outnumbered. Retreat and regroup!","Fall back to the station! We can't take on this many!","Break off the attack!","It's a trap! They're too well armed for simple pirates…","Regroup at rendezvous [commsPackA_codename].","Fall back!");
 	
 	"commsPackA_vigilante_incomingMissile" = ("[commsPackA_generic_incomingMissile]");
 
-	"commsPackA_vigilante_killedTarget" = ("One fewer pirate in %H!","That was for the [nom1]","Target [commsPackA_codename] [commsPackA_number] is down","I got the [oolite_entityClass]","Pirate down! Who's next?","[oolite_entityName] destroyed","Another one down!");
+	"commsPackA_vigilante_killedTarget" = ("One fewer pirate in %H!","That was for the [nom1]…","Target [commsPackA_codename] [commsPackA_number] is down…","I got the [oolite_entityClass]…","Pirate down! Who's next?","[oolite_entityName] destroyed…","Another one down!");
 
 	"commsPackA_vigilante_quiriumCascade" = ("[commsPackA_generic_quiriumCascade]","[commsPackA_generic_quiriumCascade]","[commsPackA_generic_quiriumCascade]","A Q-mine? What are you thinking?!");
 
-	"commsPackA_vigilante_selectedStation" = ("Setting course for the [oolite_entityName].","Time to head home.","That's enough for one patrol. Return to base.","We've done what we can for now. Head for the [oolite_entityName] to re-arm.","Time to head home. All ships, form up.","Last leg now. We'll clear up anything between here and the [oolite_entityName] and then call it a day.");
+	"commsPackA_vigilante_selectedStation" = ("Setting course for the [oolite_entityName].","Time to head home…","That's enough for one patrol. Return to base.","We've done what we can for now. Head for the [oolite_entityName] to re-arm.","Time to head home. All ships, form up.","Last leg now. We'll clear up anything between here and the [oolite_entityName] and then call it a day.");
 
 	/* Oolite sets a generic surrender message, so this needs to be
 	 * overridden. Vigilantes don't expect it to be accepted. An empty
@@ -138,78 +138,78 @@
 	 * sent. */
 	"commsPackA_vigilante_surrender" = "";
 
-	"commsPackA_vigilante_startFleeing" = ("[commsPackA_generic_startFleeing]","[commsPackA_generic_startFleeing]","[commsPackA_generic_startFleeing]","[commsPackA_generic_startFleeing]","%N, these pirates are tough","Who's selling criminals this sort of firepower?");	
+	"commsPackA_vigilante_startFleeing" = ("[commsPackA_generic_startFleeing]","[commsPackA_generic_startFleeing]","[commsPackA_generic_startFleeing]","[commsPackA_generic_startFleeing]","%N, these pirates are tough…","Who's selling criminals this sort of firepower?");	
 
-	"commsPackA_vigilante_thanksForHelp" = ("Good shooting, [oolite_entityCrew]","You got their attention there. Let's finish them off","Nice work, [oolite_entityName]. Lets see how these pirates like being outnumbered","Thanks for the cover, [oolite_entityCrew]","I'm out of their sights now. Thanks for the help");
+	"commsPackA_vigilante_thanksForHelp" = ("Good shooting, [oolite_entityCrew].","You got their attention there. Let's finish them off…","Nice work, [oolite_entityName]. Lets see how these pirates like being outnumbered…","Thanks for the cover, [oolite_entityCrew].","I'm out of their sights now. Thanks for the help.");
 
-	"commsPackA_vigilante_thargoidAttack" = ("We've got Thargoids! All ships, respond","Thargoid warship in the system!","[commsPackA_generic_thargoidAttack]","[commsPackA_generic_thargoidAttack]","[commsPackA_generic_thargoidAttack]","Thargoids? Don't let them reach %H!");
+	"commsPackA_vigilante_thargoidAttack" = ("We've got Thargoids! All ships, respond!","Thargoid warship in the system!","[commsPackA_generic_thargoidAttack]","[commsPackA_generic_thargoidAttack]","[commsPackA_generic_thargoidAttack]","Thargoids? Don't let them reach %H!");
 
-	"commsPackA_vigilante_waypointReached" = ("All quiet here. Setting course for waypoint [commsPackA_codename]","No pirates about here. Form up for the next lane","No sign of them yet. Spread out and watch your scanners","Looks like we missed them.","Another few waypoints and then back");
+	"commsPackA_vigilante_waypointReached" = ("All quiet here. Setting course for waypoint [commsPackA_codename].","No pirates about here. Form up for the next lane.","No sign of them yet. Spread out and watch your scanners…","Looks like we missed them…","Another few waypoints and then back.");
 
 	/* Mercenary - a bounty hunter motivated by the bounty payments */
 
-	"commsPackA_mercenary_attackLowEnergy" = ("[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]","I'm not getting paid enough for this","%N, that's going to be an expensive repair","I'll make you pay for these dents!");
+	"commsPackA_mercenary_attackLowEnergy" = ("[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]","I'm not getting paid enough for this…","%N, that's going to be an expensive repair…","I'll make you pay for these dents!");
 
-	"commsPackA_mercenary_beginningAttack" = ("There's a good bounty on this [oolite_entityClass]","Nothing personal, [oolite_entityName]. Eject now and make it easy on yourself","Another few of these and I can afford [commsPackA_a_misc_equipment]","[commsPackA_generic_beginningAttack]","[commsPackA_generic_beginningAttack]");
+	"commsPackA_mercenary_beginningAttack" = ("There's a good bounty on this [oolite_entityClass]…","Nothing personal, [oolite_entityName]. Eject now and make it easy on yourself…","Another few of these and I can afford [commsPackA_a_misc_equipment]…","[commsPackA_generic_beginningAttack]","[commsPackA_generic_beginningAttack]");
 
-	"commsPackA_mercenary_beginningAttackThargoid" = ("Thargoids? Now there's a real bounty!","Better money than two-bit pirates","Jackpot!","[commsPackA_generic_beginningAttackThargoid]");
+	"commsPackA_mercenary_beginningAttackThargoid" = ("Thargoids? Now there's a real bounty!","Better money than two-bit pirates…","Jackpot!","[commsPackA_generic_beginningAttackThargoid]");
 
-	"commsPackA_mercenary_beginningFight" = ("Here they are. Time to make some money","Abandon ships and you won't be harmed!","Confirmed bounty on the [oolite_entityName]. We'll get paid well for this lot","Targeting Offenders now.","Let' start with the [oolite_entityClass] then clean up the rest","No kills, no pay. Let's get them!","Pick your targets and save your missiles. We're not getting paid to waste ammo","That's [oolite_entityCrew]'s ship. There's a good price on [commsPackA_pronoun1] head!");
+	"commsPackA_mercenary_beginningFight" = ("Here they are. Time to make some money…","Abandon ships and you won't be harmed!","Confirmed bounty on the [oolite_entityName]. We'll get paid well for this lot…","Targeting Offenders now…","Let' start with the [oolite_entityClass] then clean up the rest.","No kills, no pay. Let's get them!","Pick your targets and save your missiles. We're not getting paid to waste ammo.","That's [oolite_entityCrew]'s ship. There's a good price on [commsPackA_pronoun1] head!");
 
-	"commsPackA_mercenary_continuingAttack" = ("Eject now and we'll spare your life!","Don't make me waste a missile on you","[commsPackA_generic_continuingAttack]","[commsPackA_generic_continuingAttack]","[commsPackA_generic_continuingAttack]");
-	"commsPackA_mercenary_continuingAttackThargoid" = ("Focus on the warship!","Don't let it recover its shields","Try not to get distracted by the drones. We can pick them up later","Top bounty on Thargoids!");
+	"commsPackA_mercenary_continuingAttack" = ("Eject now and we'll spare your life!","Don't make me waste a missile on you…","[commsPackA_generic_continuingAttack]","[commsPackA_generic_continuingAttack]","[commsPackA_generic_continuingAttack]");
+	"commsPackA_mercenary_continuingAttackThargoid" = ("Focus on the warship!","Don't let it recover its shields!","Try not to get distracted by the drones. We can pick them up later.","Top bounty on Thargoids!");
 
-	"commsPackA_mercenary_distressResponseAggressor" = ("Are you trying to make your bounty larger? Much appreciated, pirate!","It's so much easier when the bounties come to us","[oolite_entityName], your target has paid us for protection. Prepare to die!","We've got live ones. Hit them while they're distracted and it'll be easy money");
+	"commsPackA_mercenary_distressResponseAggressor" = ("Are you trying to make your bounty larger? Much appreciated, pirate!","It's so much easier when the bounties come to us…","[oolite_entityName], your target has paid us for protection. Prepare to die!","We've got live ones. Hit them while they're distracted and it'll be easy money.");
 
-	"commsPackA_mercenary_distressResponseSender" = ("We're on our way, [oolite_entityName]. Only [commsPackA_round_number] credits for protection.","There'd better be a good bounty on your attackers");
+	"commsPackA_mercenary_distressResponseSender" = ("We're on our way, [oolite_entityName]. Only [commsPackA_round_number] credits for protection…","There'd better be a good bounty on your attackers…");
 
-	"commsPackA_mercenary_engageWitchspaceDriveFlee" = ("Time to cut our losses!","This isn't going to be profitable. Retreat!","We can't win this one. Return to base!","Let's not waste supplies. Fall back and we'll find an easier target","Rule 1: survive to get paid!");
+	"commsPackA_mercenary_engageWitchspaceDriveFlee" = ("Time to cut our losses!","This isn't going to be profitable. Retreat!","We can't win this one. Return to base!","Let's not waste supplies. Fall back and we'll find an easier target…","Rule 1: survive to get paid!");
 
-	"commsPackA_mercenary_engageWitchspaceDriveGroup" = ("%H seems quiet. Time for a better system","It's time to earn our pay","The bounties are confirmed. Time to jump!","Powering witchdrive now. Form up!","All ships, prepare for jump");
+	"commsPackA_mercenary_engageWitchspaceDriveGroup" = ("%H seems quiet. Time for a better system…","It's time to earn our pay…","The bounties are confirmed. Time to jump!","Powering witchdrive now. Form up!","All ships, prepare for jump.");
 
-	"commsPackA_mercenary_firedMissile" = ("So much for making a profit on you","That's going to take ages to pay for","You'd better have a good bounty now, [oolite_entityClass]");
+	"commsPackA_mercenary_firedMissile" = ("So much for making a profit on you…","That's going to take ages to pay for…","You'd better have a good bounty now, [oolite_entityClass]…");
 
 	"commsPackA_mercenary_friendlyFire" = ("Do I look like an Offender to you?","Those scratches are coming out of your pay!","[commsPackA_generic_friendlyFire]","[commsPackA_generic_friendlyFire]","[commsPackA_generic_friendlyFire]");
 
-	"commsPackA_mercenary_groupIsOutnumbered" = ("Break off the attack!","We're not getting paid enough for this. Retreat!","They don't have enough bounty for this!","Okay, you win! Please let us go","Please, have mercy!","We surrender! Don't shoot!");
+	"commsPackA_mercenary_groupIsOutnumbered" = ("Break off the attack!","We're not getting paid enough for this. Retreat!","They don't have enough bounty for this!","Okay, you win! Please let us go!","Please, have mercy!","We surrender! Don't shoot!");
 
-	"commsPackA_mercenary_incomingMissile" = ("[commsPackA_generic_incomingMissile]","[commsPackA_generic_incomingMissile]","[commsPackA_generic_incomingMissile]","[commsPackA_generic_incomingMissile]","I should invest in my own ECM");
+	"commsPackA_mercenary_incomingMissile" = ("[commsPackA_generic_incomingMissile]","[commsPackA_generic_incomingMissile]","[commsPackA_generic_incomingMissile]","[commsPackA_generic_incomingMissile]","I should invest in my own ECM…");
 
-	"commsPackA_mercenary_killedTarget" = ("That's enough for [commsPackA_a_misc_equipment] at last","Not a bad bounty on that one","That pirate was hardly worth the costs","The [oolite_entityClass] is dead","Got one!","There goes another one.","That's more than I earned in a year groundside!");
+	"commsPackA_mercenary_killedTarget" = ("That's enough for [commsPackA_a_misc_equipment] at last…","Not a bad bounty on that one…","That pirate was hardly worth the costs…","The [oolite_entityClass] is dead…","Got one!","There goes another one…","That's more than I earned in a year groundside!");
 
 	"commsPackA_mercenary_quiriumCascade" = ("[commsPackA_generic_quiriumCascade]","[commsPackA_generic_quiriumCascade]","[commsPackA_generic_quiriumCascade]","What sort of pilot has that much money?!");
 	
-	"commsPackA_mercenary_selectedStation" = ("Time to go home and spend our pay","Well, we made it. Let's head back to the [oolite_entityName]","We survived. Now to get paid","I'm going to have words with our employer when we get back to [oolite_entityName].");
+	"commsPackA_mercenary_selectedStation" = ("Time to go home and spend our pay.","Well, we made it. Let's head back to the [oolite_entityName].","We survived. Now to get paid…","I'm going to have words with our employer when we get back to [oolite_entityName]…");
 
-	"commsPackA_mercenary_surrender" = ("[commsPackA_generic_surrender]","[commsPackA_generic_surrender]","[commsPackA_generic_surrender]","[commsPackA_generic_surrender]","Let us go! There's no money in shooting us further");
+	"commsPackA_mercenary_surrender" = ("[commsPackA_generic_surrender]","[commsPackA_generic_surrender]","[commsPackA_generic_surrender]","[commsPackA_generic_surrender]","Let us go! There's no money in shooting us further.");
 
-	"commsPackA_mercenary_thanksForHelp" = ("Good work. We can split the bounty","Now they're after you, [oolite_entityCrew].","Give me a moment to recharge shields and I'll help you out","Hey! Stop trying to steal my kills, [oolite_entityClass]!","Thanks for the help!","Great shot, [oolite_entityName]!");
+	"commsPackA_mercenary_thanksForHelp" = ("Good work. We can split the bounty.","Now they're after you, [oolite_entityCrew]…","Give me a moment to recharge shields and I'll help you out…","Hey! Stop trying to steal my kills, [oolite_entityClass]!","Thanks for the help!","Great shot, [oolite_entityName]!");
 
 	"commsPackA_mercenary_thargoidAttack" = ("Thargoids! Take out the warships and scoop up the drones!","Don't let the drones distract you. The warship's the key target!","One hundred credits plus for the warship!","Don't hit it too hard too fast. We get better pay if we can get the drones too.","Our contract didn't say anything about Thargoids!","Thargoids? Take them out fast, and don't waste your missiles!");
 
-	"commsPackA_mercenary_waypointReached" = ("Nothing yet. We need more pirates if we're going to make a profit here","If we don't see anything worthwhile on this next leg, we might call it a day","Okay, let's clear this lane of pirates. Should be worth a few hundred at least.","Quiet's good, but we don't get paid for quiet. Keep looking.","Nothing on the scanner here. Set course for the next waypoint");
+	"commsPackA_mercenary_waypointReached" = ("Nothing yet. We need more pirates if we're going to make a profit here…","If we don't see anything worthwhile on this next leg, we might call it a day.","Okay, let's clear this lane of pirates. Should be worth a few hundred at least…","Quiet's good, but we don't get paid for quiet. Keep looking.","Nothing on the scanner here. Set course for the next waypoint.");
 
 
 	/* Capitalist: a trader out for the highest profit */
-	"commsPackA_capitalist_agreeingToDumpCargo" = ("Fine! It'll be cheaper than the repair bill","Here, [oolite_demandSize] TC. Now leave me alone.","%N! Enough! You can have it","Useless escorts. This loss is coming out of your pay!","Here! You're not worth wasting money on.");
+	"commsPackA_capitalist_agreeingToDumpCargo" = ("Fine! It'll be cheaper than the repair bill…","Here, [oolite_demandSize] TC. Now leave me alone…","%N! Enough! You can have it…","Useless escorts. This loss is coming out of your pay!","Here! You're not worth wasting money on…");
 	
-	"commsPackA_capitalist_attackLowEnergy" = ("[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]","Help! Anyone? What am I paying you for?","%N! Another canister gone","This is going to be a nasty repair bill");
+	"commsPackA_capitalist_attackLowEnergy" = ("[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]","Help! Anyone? What am I paying you for?","%N! Another canister gone…","This is going to be a nasty repair bill…");
 
-	"commsPackA_capitalist_beginningAttack" = ("Out of my way, [oolite_entityClass]. I'm on a schedule here!","This attack can't be profitable for you. Go find someone less well armed.","Don't make me waste time destroying you","[oolite_entityName], I do not have time for this");
+	"commsPackA_capitalist_beginningAttack" = ("Out of my way, [oolite_entityClass]. I'm on a schedule here!","This attack can't be profitable for you. Go find someone less well armed…","Don't make me waste time destroying you…","[oolite_entityName], I do not have time for this…");
 
-	"commsPackA_capitalist_beginningAttackThargoid" = ("[commsPackA_generic_beginningAttackThargoid]","[commsPackA_generic_beginningAttackThargoid]","This is not my job. Where are the Vipers?","100 credits doesn't even begin to make this profitable");
+	"commsPackA_capitalist_beginningAttackThargoid" = ("[commsPackA_generic_beginningAttackThargoid]","[commsPackA_generic_beginningAttackThargoid]","This is not my job. Where are the Vipers?","100 credits doesn't even begin to make this profitable…");
 
 	"commsPackA_capitalist_continueFleeing" = ("[commsPackA_generic_continueFleeing]");
 
-	"commsPackA_capitalist_continuingAttack" = ("Give up!","This is going on too long","You're wasting my time here","I'll let you go if you just stop shooting");
+	"commsPackA_capitalist_continuingAttack" = ("Give up!","This is going on too long…","You're wasting my time here…","I'll let you go if you just stop shooting…");
 
-	"commsPackA_capitalist_dockingWait" = ("Hurry up and dock!","I'm on a schedule here","If my cargo spoils I shall file an official complaint","These delays are not acceptable, Control");
+	"commsPackA_capitalist_dockingWait" = ("Hurry up and dock!","I'm on a schedule here…","If my cargo spoils I shall file an official complaint…","These delays are not acceptable, Control…");
 
-	"commsPackA_capitalist_eject" = ("You've cost me thousands!","%N! You will bankrupt me!","For a few credits of debris? Study some economics","[commsPackA_generic_eject]");
+	"commsPackA_capitalist_eject" = ("You've cost me thousands!","%N! You will bankrupt me!","For a few credits of debris? Study some economics…","[commsPackA_generic_eject]");
 
-	"commsPackA_capitalist_engageWitchspaceDriveGroup" = ("Form up for witchspace.","We're running late already. Get in formation!","Witchdrive engaged","Next system! This cargo won't deliver itself","We're jumping out now. If [nom1] doesn't turn up we're leaving [commsPackA_pronoun2] behind","Remember, you're paid on delivery. Stick close and cover me.");
+	"commsPackA_capitalist_engageWitchspaceDriveGroup" = ("Form up for witchspace…","We're running late already. Get in formation!","Witchdrive engaged…","Next system! This cargo won't deliver itself…","We're jumping out now. If [nom1] doesn't turn up we're leaving [commsPackA_pronoun2] behind…","Remember, you're paid on delivery. Stick close and cover me…");
 
-	"commsPackA_capitalist_escortAccepted" = ("Terms accepted, [oolite_entityName]","You'll get [commsPackA_round_number] credits when we reach the station, [oolite_entityName]","Good. Join the formation and match speed","Full pay only if we reach the station undamaged, remember.");
+	"commsPackA_capitalist_escortAccepted" = ("Terms accepted, [oolite_entityName].","You'll get [commsPackA_round_number] credits when we reach the station, [oolite_entityName].","Good. Join the formation and match speed.","Full pay only if we reach the station undamaged, remember…");
 
 	"commsPackA_capitalist_friendlyFire" = ("[commsPackA_generic_friendlyFire]","[commsPackA_generic_friendlyFire]","[commsPackA_generic_friendlyFire]","[commsPackA_generic_friendlyFire]","[commsPackA_generic_friendlyFire]","I should charge you for those scratches, [oolite_entityCrew]!","You'll have to aim better than that if you want paying for it!");
 	
@@ -221,23 +221,23 @@
 
 	"commsPackA_capitalist_surrender" = ("What more do you want?","[commsPackA_generic_surrender]","[commsPackA_generic_surrender]","[commsPackA_generic_surrender]","Where are the Vipers? This is murder!");
 
-	"commsPackA_capitalist_thanksForHelp" = ("Thanks for the help, [oolite_entityName]","At last! Saved!","%N! That was close!","Your help is appreciated, [oolite_entityCrew]");
+	"commsPackA_capitalist_thanksForHelp" = ("Thanks for the help, [oolite_entityName].","At last! Saved!","%N! That was close!","Your help is appreciated, [oolite_entityCrew].");
 	
-	"commsPackA_capitalist_thargoidAttack" = ("Thargoids! No!","This is going to get expensive","%N! That's all we need!","%N!","Not now! I don't have time to fight Thargoids");
+	"commsPackA_capitalist_thargoidAttack" = ("Thargoids! No!","This is going to get expensive…","%N! That's all we need!","%N!","Not now! I don't have time to fight Thargoids…");
 
 	/* Optimist: a trader sure that this trip will be the big one */
 
-	"commsPackA_optimist_agreeingToDumpCargo" = ("Okay, okay, [oolite_demandSize] is better than the alternatives","Here's your cargo. Please let me go now","Dropping cargo now!","I give in! You can have the cargo","Have it! Please stop shooting!");
+	"commsPackA_optimist_agreeingToDumpCargo" = ("Okay, okay, [oolite_demandSize] is better than the alternatives…","Here's your cargo. Please let me go now…","Dropping cargo now!","I give in! You can have the cargo…","Have it! Please stop shooting!");
 
 	"commsPackA_optimist_attackLowEnergy" = ("[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]","%N! I was going to sell that!");
 
-	"commsPackA_optimist_dockingWait" = ("Time for a look at %H while I wait, then.","Sure you don't want to give me an earlier slot? You'll like what I'm bringing.","Ah, made it at last","A bit of time to relax is good","Thanks, Control. No rush.");
+	"commsPackA_optimist_dockingWait" = ("Time for a look at %H while I wait, then…","Sure you don't want to give me an earlier slot? You'll like what I'm bringing…","Ah, made it at last…","A bit of time to relax is good…","Thanks, Control. No rush…");
 
-	"commsPackA_optimist_eject" = ("Maybe next time","I was so close","Not again!","Better my cargo than me, but still","[commsPackA_generic_eject]","[commsPackA_generic_eject]");
+	"commsPackA_optimist_eject" = ("Maybe next time…","I was so close…","Not again!","Better my cargo than me, but still…","[commsPackA_generic_eject]","[commsPackA_generic_eject]");
 
-	"commsPackA_optimist_engageWitchspaceDriveGroup" = ("Everyone ready? Let's make the jump","This should be an easy run","We should make a good profit this time","I've got a good feeling about this one","Witchspace jump in 15 seconds");
+	"commsPackA_optimist_engageWitchspaceDriveGroup" = ("Everyone ready? Let's make the jump…","This should be an easy run…","We should make a good profit this time…","I've got a good feeling about this one…","Witchspace jump in 15 seconds.");
 
-	"commsPackA_optimist_escortAccepted" = ("Good to have you with us, [oolite_entityCrew]","Welcome in, [oolite_entityName]","[oolite_entityClass], eh? Good to see","Great! Form up and follow me in");
+	"commsPackA_optimist_escortAccepted" = ("Good to have you with us, [oolite_entityCrew].","Welcome in, [oolite_entityName].","[oolite_entityClass], eh? Good to see…","Great! Form up and follow me in.");
 
 	"commsPackA_optimist_friendlyFire" = ("[commsPackA_generic_friendlyFire]");
 
@@ -247,54 +247,54 @@
 
 	"commsPackA_optimist_quiriumCascade" = ("[commsPackA_generic_quiriumCascade]");
 
-	"commsPackA_optimist_selectedStation" = ("I think the [oolite_entityName] will give the best prices. Let's try there first","Anyone heading for the [oolite_entityName]? I'd appreciate the company","[oolite_entityName] set on the compass. Let's go","Everyone ready? Time to sell this cargo","Drinks on me when the cargo's sold");
+	"commsPackA_optimist_selectedStation" = ("I think the [oolite_entityName] will give the best prices. Let's try there first.","Anyone heading for the [oolite_entityName]? I'd appreciate the company.","[oolite_entityName] set on the compass. Let's go.","Everyone ready? Time to sell this cargo…","Drinks on me when the cargo's sold…");
 
 	/* Some blank entries - don't always say this one */
-	"commsPackA_optimist_selectedWitchspaceDestination" = ("Anyone heading for [oolite_witchspaceDestination]? I'll give you a lift if you want some company","They say there's good prices at [oolite_witchspaceDestination]","","","");
+	"commsPackA_optimist_selectedWitchspaceDestination" = ("Anyone heading for [oolite_witchspaceDestination]? I'll give you a lift if you want some company…","They say there's good prices at [oolite_witchspaceDestination].","","","");
 
-	"commsPackA_optimist_startFleeing" = ("There's too many. Maybe we can reach the station","I'm taking too much fire here","We need the Vipers to show up, and soon","Time to run");
+	"commsPackA_optimist_startFleeing" = ("There's too many. Maybe we can reach the station…","I'm taking too much fire here…","We need the Vipers to show up, and soon…","Time to run…");
 
 	"commsPackA_optimist_surrender" = ("[commsPackA_generic_surrender]");
 
-	"commsPackA_optimist_thanksForHelp" = ("Thanks!","Good shot, [oolite_entityName]! I owe you a drink when we reach the station","Thanks for the help, [oolite_entityCrew]","You've got them!","Thank you, [oolite_entityName]","Nice shot. I think they're after you now, though");
+	"commsPackA_optimist_thanksForHelp" = ("Thanks!","Good shot, [oolite_entityName]! I owe you a drink when we reach the station.","Thanks for the help, [oolite_entityCrew].","You've got them!","Thank you, [oolite_entityName].","Nice shot. I think they're after you now, though…");
 
-	"commsPackA_optimist_thargoidAttack" = ("Thargoids? Why us?","Keep moving! We've got to hold them off until the police get here","Everybody attack the Thargoids!","Where did they come from?","I wasn't expecting this!");
+	"commsPackA_optimist_thargoidAttack" = ("Thargoids? Why us?","Keep moving! We've got to hold them off until the police get here.","Everybody attack the Thargoids!","Where did they come from?","I wasn't expecting this!");
 
 	/* Looter: a pirate out for a profit */
 
-	"commsPackA_looter_attackLowEnergy" = ("[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]","This was not the plan!","%N! I'm losing all the cargo I scooped");
+	"commsPackA_looter_attackLowEnergy" = ("[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]","This was not the plan!","%N! I'm losing all the cargo I scooped…");
 
-	"commsPackA_looter_beginningAttack" = ("Drop your cargo and get out of here!","Surrender or die!","Nothing personal, [oolite_entityName]. I just want your cargo","[commsPackA_generic_beginningAttack]","[commsPackA_generic_beginningAttack]","[commsPackA_generic_beginningAttack]");
+	"commsPackA_looter_beginningAttack" = ("Drop your cargo and get out of here!","Surrender or die!","Nothing personal, [oolite_entityName]. I just want your cargo…","[commsPackA_generic_beginningAttack]","[commsPackA_generic_beginningAttack]","[commsPackA_generic_beginningAttack]");
 
-	"commsPackA_looter_beginningAttackThargoid" = ("[commsPackA_generic_beginningAttackThargoid]","[commsPackA_generic_beginningAttackThargoid]","[commsPackA_generic_beginningAttackThargoid]","Get out of here, Thargoid!","It's worse than the Vipers");
+	"commsPackA_looter_beginningAttackThargoid" = ("[commsPackA_generic_beginningAttackThargoid]","[commsPackA_generic_beginningAttackThargoid]","[commsPackA_generic_beginningAttackThargoid]","Get out of here, Thargoid!","It's worse than the Vipers…");
 
-	"commsPackA_looter_continuingAttack" = ("[commsPackA_generic_continuingAttack]","Drop your cargo and we'll let you go","You don't have to fight to your death, [oolite_entityClass]","Hoping someone will come to your rescue, [oolite_entityName]? You can't dodge forever!","If you're going to waste our time here, we'll make you regret it!");
+	"commsPackA_looter_continuingAttack" = ("[commsPackA_generic_continuingAttack]","Drop your cargo and we'll let you go.","You don't have to fight to your death, [oolite_entityClass]…","Hoping someone will come to your rescue, [oolite_entityName]? You can't dodge forever!","If you're going to waste our time here, we'll make you regret it!");
 
 	"commsPackA_looter_eject" = ("[commsPackA_generic_eject]");
 
 	"commsPackA_looter_engageWitchspaceDriveFlee" = ("This system's getting too hot!","We're attracting too much attention. Break off!","They're on to us!","We're going to be up to our necks in Vipers soon!","We've got enough! Head home!");
 	
-	"commsPackA_looter_firedMissile" = ("Die, [oolite_entityName]!","Dodge this!","I see we're not going to settle this peacefully, [oolite_entityCrew]","You had your chance, [oolite_entityClass]");
+	"commsPackA_looter_firedMissile" = ("Die, [oolite_entityName]!","Dodge this!","I see we're not going to settle this peacefully, [oolite_entityCrew]…","You had your chance, [oolite_entityClass]…");
 
-	"commsPackA_looter_friendlyFire" = ("[commsPackA_generic_friendlyFire]","[commsPackA_generic_friendlyFire]","[commsPackA_generic_friendlyFire]","What in %N's name are you doing?","If you're picking now to betray us, [oolite_entityCrew], you won't live to regret it");
+	"commsPackA_looter_friendlyFire" = ("[commsPackA_generic_friendlyFire]","[commsPackA_generic_friendlyFire]","[commsPackA_generic_friendlyFire]","What in %N's name are you doing?","If you're picking now to betray us, [oolite_entityCrew], you won't live to regret it…");
 
 	"commsPackA_looter_groupIsOutnumbered" = ("This is taking too long! Break it off, before the cops show up!","They're tougher than they looked!","Retreat! Scatter and they can't chase us all!","%N! We're losing!","Get out of here!");
 
 	"commsPackA_looter_hitTarget" = ("Surrender, [oolite_entityName]!","You can start dropping that cargo any time!","Give us the cargo or we'll turn your [oolite_entityClass] into dust!","Dump your cargo or die!");
 
-	"commsPackA_looter_killedTarget" = ("What a waste of good cargo","You should have surrended!","Well, maybe there's some scrap value?","Got them! Check the debris for pods","There's more where that came from!","Got them!","Another kill for me!");
+	"commsPackA_looter_killedTarget" = ("What a waste of good cargo…","You should have surrended!","Well, maybe there's some scrap value?","Got them! Check the debris for pods.","There's more where that came from!","Got them!","Another kill for me!");
 
-	"commsPackA_looter_killedUncrewedTarget" = ("Let's see what's in this wreck","[oolite_entityClass]. Now in small easy to carry bits","Better than nothing for target practice");
+	"commsPackA_looter_killedUncrewedTarget" = ("Let's see what's in this wreck…","[oolite_entityClass]. Now in small easy to carry bits…","Better than nothing for target practice…");
 
-	"commsPackA_looter_landingOnPlanet" = ("And we're back","Made it!","Staying one step ahead of the cops!");
+	"commsPackA_looter_landingOnPlanet" = ("And we're back…","Made it!","Staying one step ahead of the cops!");
 
-	"commsPackA_looter_makePirateDemand" = ("[oolite_entityName]! We have you outnumbered. Drop your cargo and surrender!","[oolite_entityClass], hand over your cargo!","Today's toll is [oolite_demandSize] TC, [oolite_entityName].","Dump [oolite_demandSize] TC and we'll let you go!","We can get [oolite_demandSize] TC the easy way or the hard way, [oolite_entityName]. Your choice","Do you want to give us [oolite_demandSize] TC or whatever we can scoop from your wreck, [oolite_entityName]?","Look, it's the famous trader [oolite_entityCrew], flying without enough escorts.");
+	"commsPackA_looter_makePirateDemand" = ("[oolite_entityName]! We have you outnumbered. Drop your cargo and surrender!","[oolite_entityClass], hand over your cargo!","Today's toll is [oolite_demandSize] TC, [oolite_entityName].","Dump [oolite_demandSize] TC and we'll let you go!","We can get [oolite_demandSize] TC the easy way or the hard way, [oolite_entityName]. Your choice…","Do you want to give us [oolite_demandSize] TC or whatever we can scoop from your wreck, [oolite_entityName]?","Look, it's the famous trader [oolite_entityCrew], flying without enough escorts…");
 
 	"commsPackA_looter_quiriumCascade" = ("[commsPackA_generic_quiriumCascade]","[commsPackA_generic_quiriumCascade]","[commsPackA_generic_quiriumCascade]","[commsPackA_generic_quiriumCascade]","Watch it! You'll destroy all the loot!");
 
-	"commsPackA_looter_scoopedCargo" = ("This might turn out quite profitable","[oolite_goodsDescription]. We can probably fence that","This one's [oolite_goodsDescription]. Not bad","More for the hold. Keep a watch out for Vipers!","Got it!","What's in this one?");
+	"commsPackA_looter_scoopedCargo" = ("This might turn out quite profitable…","[oolite_goodsDescription]. We can probably fence that…","This one's [oolite_goodsDescription]. Not bad…","More for the hold. Keep a watch out for Vipers!","Got it!","What's in this one?");
 
-	"commsPackA_looter_selectedWitchspaceDestination" = ("Everyone ready? They won't know what hit them!","[oolite_witchspaceDestination], here we come!","Time to give the traders of [oolite_witchspaceDestination] a surprise","Time to get our cargo","Think of [oolite_witchspaceDestination]. Lots of juicy freighters, ripe for the taking!");
+	"commsPackA_looter_selectedWitchspaceDestination" = ("Everyone ready? They won't know what hit them!","[oolite_witchspaceDestination], here we come!","Time to give the traders of [oolite_witchspaceDestination] a surprise…","Time to get our cargo.","Think of [oolite_witchspaceDestination]. Lots of juicy freighters, ripe for the taking!");
 
 	"commsPackA_looter_surrender" = ("[commsPackA_generic_surrender]","[commsPackA_generic_surrender]","[commsPackA_generic_surrender]","[commsPackA_generic_surrender]","You wouldn't kill me just for a few credits, would you?","You win this time! Keep your cargo.");
 
@@ -313,92 +313,92 @@
 
 	"commsPackA_rebel_eject" = ("[commsPackA_generic_eject]","[commsPackA_generic_eject]","[commsPackA_generic_eject]","The [commsPackA_rebelgroup] will not be defeated!");
 
-	"commsPackA_rebel_engageWitchspaceDriveFlee" = ("Break off! Regroup at rendezvous [commsPackA_codename]!","There's too many to handle! Out of the system, now!","The [commsPackA_rebelstate] is winning the day! Our duty is to live to fight another","We can't fight this many. Get out of here!","Powering drive! Just a little longer");
+	"commsPackA_rebel_engageWitchspaceDriveFlee" = ("Break off! Regroup at rendezvous [commsPackA_codename]!","There's too many to handle! Out of the system, now!","The [commsPackA_rebelstate] is winning the day! Our duty is to live to fight another.","We can't fight this many. Get out of here!","Powering drive! Just a little longer…");
 
-	"commsPackA_rebel_engageWitchspaceDriveGroup" = ("Check and arm all weapons. Be ready to fight as soon as we exit witchspace","Form up and prepare to make the jump!","We shall strike a blow against the [commsPackA_rebelstate] today!","Commerce is the lifeblood of the [commsPackA_rebelstate], and we shall spill it today!","Our cause is just and the [commsPackA_rebelinsult]s will scatter before us!");
+	"commsPackA_rebel_engageWitchspaceDriveGroup" = ("Check and arm all weapons. Be ready to fight as soon as we exit witchspace.","Form up and prepare to make the jump!","We shall strike a blow against the [commsPackA_rebelstate] today!","Commerce is the lifeblood of the [commsPackA_rebelstate], and we shall spill it today!","Our cause is just and the [commsPackA_rebelinsult]s will scatter before us!");
 
 	"commsPackA_rebel_friendlyFire" = ("[commsPackA_generic_friendlyFire]","[commsPackA_generic_friendlyFire]","[commsPackA_generic_friendlyFire]","Whose side are you on, [oolite_entityCrew]?");
 
-	"commsPackA_rebel_groupIsOutnumbered" = ("It's a set-up! Scatter and regroup later!","This is too heavily defended for a normal convoy!","There's too many of them! Destroy what you can and disengage!","They're too heavily armed! Break off the attack and escape. The [commsPackA_rebelgroup] must hear of this!","The [commsPackA_rebelstate]'s forces are too powerful. Retreat!","We've been tricked! Scatter, now! One of us must live to report back");
+	"commsPackA_rebel_groupIsOutnumbered" = ("It's a set-up! Scatter and regroup later!","This is too heavily defended for a normal convoy!","There's too many of them! Destroy what you can and disengage!","They're too heavily armed! Break off the attack and escape. The [commsPackA_rebelgroup] must hear of this!","The [commsPackA_rebelstate]'s forces are too powerful. Retreat!","We've been tricked! Scatter, now! One of us must live to report back…");
 
 	"commsPackA_rebel_hitTarget" = ("Surrender, [commsPackA_rebelinsult], and drop your cargo, and you will not be harmed!","For %H!","Surrender your cargo to the [commsPackA_rebelgroup] and you may leave!","Your cargo must not reach the [commsPackA_rebelstate], [oolite_entityClass]!");
 
 	"commsPackA_rebel_incomingMissile" = ("[commsPackA_generic_incomingMissile]");
 
-	"commsPackA_rebel_killedTarget" = ("The [oolite_entityName] is dead","Die, [commsPackA_rebelinsult]!","Scan the wreckage! The [commsPackA_rebelgroup] needs everything it can find","So will die all [commsPackA_rebelinsult]s of the [commsPackA_rebelstate]!");
+	"commsPackA_rebel_killedTarget" = ("The [oolite_entityName] is dead.","Die, [commsPackA_rebelinsult]!","Scan the wreckage! The [commsPackA_rebelgroup] needs everything it can find…","So will die all [commsPackA_rebelinsult]s of the [commsPackA_rebelstate]!");
 
 	// blanks: only sometimes say anything
 	"commsPackA_rebel_killedUncrewedTarget" = ("Don't leave anything for the [commsPackA_rebelstate] to recover!","Scanning for recoverable salvage now!","","","");
 
-	"commsPackA_rebel_makePirateDemand" = ("[oolite_entityName], you are carrying cargo vital to the [commsPackA_rebelstate]. Hand it over, or die!","[oolite_entityClass], your cargo will be used to commit atrocities! Release it to us","[oolite_entityName], this is the [commsPackA_rebelgroup]. We need [oolite_demandSize] TC of your cargo","Your trading props up the [commsPackA_rebelstate], [oolite_entityName]. Give us [oolite_demandSize] TC of your cargo and we'll let you live!","Drop your cargo or die, [oolite_entityName]!","Will you side with the [commsPackA_rebelgroup], or the [commsPackA_rebelstate], trader? Support us with [oolite_demandSize] TC of your cargo as a gesture of goodwill.");
+	"commsPackA_rebel_makePirateDemand" = ("[oolite_entityName], you are carrying cargo vital to the [commsPackA_rebelstate]. Hand it over, or die!","[oolite_entityClass], deliver your cargo and it will be used to commit atrocities! Release it to us.","[oolite_entityName], this is the [commsPackA_rebelgroup]. We need [oolite_demandSize] TC of your cargo…","Your trading props up the [commsPackA_rebelstate], [oolite_entityName]. Give us [oolite_demandSize] TC of your cargo and we'll let you live!","Drop your cargo or die, [oolite_entityName]!","Will you side with the [commsPackA_rebelgroup], or the [commsPackA_rebelstate], trader? Support us with [oolite_demandSize] TC of your cargo as a gesture of goodwill…");
 
 	"commsPackA_rebel_quiriumCascade" = ("[commsPackA_generic_quiriumCascade]","[commsPackA_generic_quiriumCascade]","[commsPackA_generic_quiriumCascade]","[commsPackA_generic_quiriumCascade]","Those bombs should be banned!","Q-bomb! The [commsPackA_rebelstate] is trying to destroy the evidence!");
 
-	"commsPackA_rebel_scoopedCargo" = ("What have we got here?","These [oolite_goodsDescription] will be vital to the [commsPackA_rebelgroup]","Keep watch! This cargo must make it back to the [commsPackA_rebelgroup]","[oolite_goodsDescription]! We're in luck today!","This one is [oolite_goodsDescription]. Good work everyone, we've got what we came for!");
+	"commsPackA_rebel_scoopedCargo" = ("What have we got here?","These [oolite_goodsDescription] will be vital to the [commsPackA_rebelgroup].","Keep watch! This cargo must make it back to the [commsPackA_rebelgroup]…","[oolite_goodsDescription]! We're in luck today!","This one is [oolite_goodsDescription]. Good work everyone, we've got what we came for!");
 
 	"commsPackA_rebel_startFleeing" = ("[commsPackA_generic_startFleeing]","[commsPackA_generic_startFleeing]","[commsPackA_generic_startFleeing]","[commsPackA_generic_startFleeing]","The [commsPackA_rebelstate] must really want this convoy intact!","This isn't over, [commsPackA_rebelinsult]!");
 
 	"commsPackA_rebel_startHelping" = ("I hear you. Targeting the [oolite_entityClass] now!","Surrender, [oolite_entityName]. You're outgunned!","I'm on [commsPackA_pronoun]!","Target acquired!","[commsPackA_rebel_beginningAttack]","Flee, [commsPackA_rebelinsult]!");
 
 	// a couple copied from generic, but mostly not
-	"commsPackA_rebel_surrender" = ("Help! Someone please help me!","%N! I can't shake them!","I'll die rather than betray the [commsPackA_rebelgroup]!","If you kill me, the [commsPackA_rebelstate] will continue its terror!","The [commsPackA_rebelgroup] will avenge me!","I'm not your enemy! Read about the [commsPackA_rebelatrocity]! Read about the [commsPackA_rebelatrocity]!","History is not on your side, war criminal!","Think who you support, [commsPackA_rebelinsult]!");
+	"commsPackA_rebel_surrender" = ("Help! Someone please help me!","%N! I can't shake them!","I'll die rather than betray the [commsPackA_rebelgroup]!","If you kill me, the [commsPackA_rebelstate] will continue its terror!","The [commsPackA_rebelgroup] will avenge me!","I'm not your enemy! Read about the [commsPackA_rebelatrocity]! Read about the [commsPackA_rebelatrocity]…","History is not on your side, war criminal!","Think who you support, [commsPackA_rebelinsult]!");
 
-	"commsPackA_rebel_thargoidAttack" = ("The constant threat of the Thargoids serves the interests of the [commsPackA_rebelstate]! Let's deal with them quickly and quietly","The Thargoids, the [commsPackA_rebelstate], all are enemies of the people!","Get the Thargoids, fast! We can't risk them attracting attention","For %H!","Take out the warship! We need the drones intact","[commsPackA_generic_thargoidAttack]","[commsPackA_generic_thargoidAttack]");
+	"commsPackA_rebel_thargoidAttack" = ("The constant threat of the Thargoids serves the interests of the [commsPackA_rebelstate]! Let's deal with them quickly and quietly.","The Thargoids, the [commsPackA_rebelstate], all are enemies of the people!","Get the Thargoids, fast! We can't risk them attracting attention…","For %H!","Take out the warship! We need the drones intact.","[commsPackA_generic_thargoidAttack]","[commsPackA_generic_thargoidAttack]");
 
-	"commsPackA_rebel_thanksForHelp" = ("For the revolution, [oolite_entityName]!","Great shooting, friend!","Let us destroy the [commsPackA_rebelinsult] together, [oolite_entityName]!","Down with the [commsPackA_rebelstate]!","We shall repay the [commsPackA_rebelatrocity] one ship at a time!","Strike true for %H!","Watch your six! The [commsPackA_rebelinsult] is coming for you");
+	"commsPackA_rebel_thanksForHelp" = ("For the revolution, [oolite_entityName]!","Great shooting, friend!","Let us destroy the [commsPackA_rebelinsult] together, [oolite_entityName]!","Down with the [commsPackA_rebelstate]!","We shall repay the [commsPackA_rebelatrocity] one ship at a time!","Strike true for %H!","Watch your six! The [commsPackA_rebelinsult] is coming for you…");
 
 	/* A couple of generic assassin messages */
 
-	"commsPackA_assassin_killedTarget" = ("Kill confirmed!","[oolite_entityCrew] is dust!","There's a bonus for payday!","Got them! Check for escape pods. We can't risk anyone getting out","Another one down! Clean up before anyone shows up");
-	"commsPackA_assassin_killedUncrewedTarget" = ("They're not getting away now!","That should guarantee our pay","Scan carefully. There might be more");
+	"commsPackA_assassin_killedTarget" = ("Kill confirmed!","[oolite_entityCrew] is dust!","There's a bonus for payday!","Got them! Check for escape pods. We can't risk anyone getting out…","Another one down! Clean up before anyone shows up…");
+	"commsPackA_assassin_killedUncrewedTarget" = ("They're not getting away now!","That should guarantee our pay…","Scan carefully. There might be more…");
 
 	/* Enforcer assassins: working for a criminal organisation */
 
-	"commsPackA_enforcer_attackLowEnergy" = ("[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]","You're making powerful enemies here, [oolite_entityName]!","[oolite_entityCrew], you would be well advised to let me go");
+	"commsPackA_enforcer_attackLowEnergy" = ("[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]","You're making powerful enemies here, [oolite_entityName]!","[oolite_entityCrew], you would be well advised to let me go.");
 
-	"commsPackA_enforcer_beginningAssassination" = ("Time for you to sleep with the asteroids, [oolite_entityCrew]!","Hello, [oolite_entityCrew]. We've been expecting you","You should never have dealt with [oolite_entityContracts], Commander!","Remember the rules. Hit hard, hit fast, no survivors!","It's the [oolite_entityName]! Don't let them escape!","Dealing with [oolite_entityContracts] was the wrong choice, [oolite_entityCrew]!","There's the [oolite_entityName]. Time to teach [oolite_entityContracts] to show respect!","Time to die, [oolite_entityCrew]","Right where they were expected. Get them!");
+	"commsPackA_enforcer_beginningAssassination" = ("Time for you to sleep with the asteroids, [oolite_entityCrew]!","Hello, [oolite_entityCrew]. We've been expecting you…","You should never have dealt with [oolite_entityContracts], Commander!","Remember the rules. Hit hard, hit fast, no survivors!","It's the [oolite_entityName]! Don't let them escape!","Dealing with [oolite_entityContracts] was the wrong choice, [oolite_entityCrew]!","There's the [oolite_entityName]. Time to teach [oolite_entityContracts] to show respect!","Time to die, [oolite_entityCrew]…","Right where they were expected. Get them!");
 
-	"commsPackA_enforcer_beginningAttack" = ("I've got the [oolite_entityName]","Targeting the [oolite_entityClass] now","The Vipers can't help you out here","[commsPackA_generic_beginningAttack]","[commsPackA_generic_beginningAttack]","[commsPackA_generic_beginningAttack]","[commsPackA_generic_beginningAttack]");
+	"commsPackA_enforcer_beginningAttack" = ("I've got the [oolite_entityName]…","Targeting the [oolite_entityClass] now.","The Vipers can't help you out here…","[commsPackA_generic_beginningAttack]","[commsPackA_generic_beginningAttack]","[commsPackA_generic_beginningAttack]","[commsPackA_generic_beginningAttack]");
 
-	"commsPackA_enforcer_beginningAttackInanimate" = ("Time to clean up","That won't help you survive!","Make sure no-one escapes","No survivors, no evidence");
+	"commsPackA_enforcer_beginningAttackInanimate" = ("Time to clean up.","That won't help you survive!","Make sure no-one escapes.","No survivors, no evidence…");
 
 	"commsPackA_enforcer_continuingAttack" = ("[commsPackA_generic_continuingAttack]");
 
-	"commsPackA_enforcer_hitTarget" = ("Are you regretting your choices yet, [oolite_entityCrew]?","You've crossed us for the last time","Direct hit!","I've got the [oolite_entityClass] now!","Nice ship, [oolite_entityCrew]. Shame we have to destroy it");
+	"commsPackA_enforcer_hitTarget" = ("Are you regretting your choices yet, [oolite_entityCrew]?","You've crossed us for the last time.","Direct hit!","I've got the [oolite_entityClass] now!","Nice ship, [oolite_entityCrew]. Shame we have to destroy it…");
 
 	"commsPackA_enforcer_killedTarget" = ("[commsPackA_assassin_killedTarget]");
 
 	"commsPackA_enforcer_killedUncrewedTarget" = ("[commsPackA_assassin_killedUncrewedTarget]");
 
-	"commsPackA_enforcer_quiriumCascade" = ("[commsPackA_generic_quiriumCascade]","[commsPackA_generic_quiriumCascade]","[commsPackA_generic_quiriumCascade]","That'll clean things up nicely","Get clear! Don't end up like the evidence","Pretty! Let's watch from a distance");
+	"commsPackA_enforcer_quiriumCascade" = ("[commsPackA_generic_quiriumCascade]","[commsPackA_generic_quiriumCascade]","[commsPackA_generic_quiriumCascade]","That'll clean things up nicely…","Get clear! Don't end up like the evidence…","Pretty! Let's watch from a distance…");
 
-	"commsPackA_enforcer_startFleeing" = ("%N! They've got a good ship","This is more opposition than we were led to expect!","The boss won't like this","Don't think this is over, [oolite_entityCrew]!","You're making powerful enemies here, [oolite_entityCrew]!","That's not an average [oolite_entityClass]!");
+	"commsPackA_enforcer_startFleeing" = ("%N! They've got a good ship…","This is more opposition than we were led to expect!","The boss won't like this…","Don't think this is over, [oolite_entityCrew]!","You're making powerful enemies here, [oolite_entityCrew]!","That's not an average [oolite_entityClass]!");
 
 	"commsPackA_enforcer_surrender" = ""; // clear generic message
 
-	"commsPackA_enforcer_thargoidAttack" = ("[commsPackA_generic_thargoidAttack]","[commsPackA_generic_thargoidAttack]","[commsPackA_generic_thargoidAttack]","Blast the warships, fast! We can't let them distract us");
+	"commsPackA_enforcer_thargoidAttack" = ("[commsPackA_generic_thargoidAttack]","[commsPackA_generic_thargoidAttack]","[commsPackA_generic_thargoidAttack]","Blast the warships, fast! We can't let them distract us.");
 	
 	"commsPackA_enforcer_thanksForHelp" = ("Good shooting!","They'll be dust soon!","Let's finish this job!","See what powerful enemies you've made?");
 
 	// lots of blanks: they'll reach a lot of waypoints as they circle
 	// the witchpoint
-	"commsPackA_enforcer_waypointReached" = ("","","","","","","","","","","","","","","","","","","Check [commsPackA_pronoun1] arrival time again","[commsPackA_Pronoun3] late","Maintain formation and keep scanning. [commsPackA_Pronoun5] show up soon","Maybe someone else got [commsPackA_pronoun2]","[commsPackA_Pronoun4] got to come through here sooner or later");
+	"commsPackA_enforcer_waypointReached" = ("","","","","","","","","","","","","","","","","","","Check [commsPackA_pronoun1] arrival time again.","[commsPackA_Pronoun3] late…","Maintain formation and keep scanning. [commsPackA_Pronoun5] show up soon…","Maybe someone else got [commsPackA_pronoun2]…","[commsPackA_Pronoun4] got to come through here sooner or later…");
 
 	/* Freelancer assassins: working for various parties for money */
 
-	"commsPackA_freelancer_attackLowEnergy" = ("[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]","This is not worth the pay!","An easy job for an Adder with a Pulse Laser, they said","A structurally unsound [oolite_entityClass], they said");
+	"commsPackA_freelancer_attackLowEnergy" = ("[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]","This is not worth the pay!","An easy job for an Adder with a Pulse Laser, they said…","A structurally unsound [oolite_entityClass], they said…");
 
-	"commsPackA_freelancer_beginningAssassination" = ("Target acquired. It's the [oolite_entityName], right on schedule!","There they are! Go!","That's the ship [oolite_entityContracts] hired. After it!","Confirmed, that's the ship. Fire at will!","Tracking the [oolite_entityClass] now. And confirmed, that's our target","I have the [oolite_entityName] locked now!","[oolite_entityCrew], hired by [oolite_entityContracts]. We have a confirmed match!","Lock on and open fire. If they get away we don't get paid","Scan confirms. The [oolite_entityName] is our target","Open fire, now! Don't give them time to jump out again!","Told you they had to come this way eventually","Let's cross [oolite_entityContracts] off the list and get our pay");
+	"commsPackA_freelancer_beginningAssassination" = ("Target acquired. It's the [oolite_entityName], right on schedule!","There they are! Go!","That's the ship [oolite_entityContracts] hired. After it!","Confirmed, that's the ship. Fire at will!","Tracking the [oolite_entityClass] now. And confirmed, that's our target.","I have the [oolite_entityName] locked now!","[oolite_entityCrew], hired by [oolite_entityContracts]. We have a confirmed match!","Lock on and open fire. If they get away we don't get paid…","Scan confirms. The [oolite_entityName] is our target.","Open fire, now! Don't give them time to jump out again!","Told you they had to come this way eventually…","Let's cross [oolite_entityContracts] off the list and get our pay.");
 
-	"commsPackA_freelancer_beginningAttack" = ("[commsPackA_generic_beginningAttack]","[commsPackA_generic_beginningAttack]","[commsPackA_generic_beginningAttack]","[commsPackA_generic_beginningAttack]","Let's finish this quick, before anyone else shows up.","This shouldn't take long","The [oolite_entityClass] should be easy enough to destroy");
+	"commsPackA_freelancer_beginningAttack" = ("[commsPackA_generic_beginningAttack]","[commsPackA_generic_beginningAttack]","[commsPackA_generic_beginningAttack]","[commsPackA_generic_beginningAttack]","Let's finish this quick, before anyone else shows up.","This shouldn't take long…","The [oolite_entityClass] should be easy enough to destroy.");
 
-	"commsPackA_freelancer_beginningAttackInanimate" = ("Destroy any pods. We don't get paid if they escape.","Time to finish the job","Nothing larger than a grain of dust","We only get paid for proof of total destruction. No pods, no black boxes, nothing hiding in the debris.");
+	"commsPackA_freelancer_beginningAttackInanimate" = ("Destroy any pods. We don't get paid if they escape.","Time to finish the job…","Nothing larger than a grain of dust…","We only get paid for proof of total destruction. No pods, no black boxes, nothing hiding in the debris…");
 
-	"commsPackA_freelancer_continuingAttack" = ("This is taking too long","Help me out with the [oolite_entityName]","If this goes on much longer someone will show up","They're making us work for our pay today");
+	"commsPackA_freelancer_continuingAttack" = ("This is taking too long…","Help me out with the [oolite_entityName].","If this goes on much longer someone will show up…","They're making us work for our pay today…");
 
-	"commsPackA_freelancer_firedMissile" = ("That's going to cut our profits a bit","Let's finish this quickly","Let's see how good their ECM is. We might be able to get this over with now");
+	"commsPackA_freelancer_firedMissile" = ("That's going to cut our profits a bit…","Let's finish this quickly…","Let's see how good their ECM is. We might be able to get this over with now.");
 
-	"commsPackA_freelancer_hitTarget" = ("They're in my sights!","I'm doing some damage to them now!","Watch for escape pods. Their hull won't hold out much longer","I've got a lock on the [oolite_entityClass]","Direct hit!");
+	"commsPackA_freelancer_hitTarget" = ("They're in my sights!","I'm doing some damage to them now!","Watch for escape pods. Their hull won't hold out much longer…","I've got a lock on the [oolite_entityClass].","Direct hit!");
 
 	"commsPackA_freelancer_killedTarget" = ("[commsPackA_assassin_killedTarget]");
 
@@ -406,53 +406,53 @@
 
 	"commsPackA_freelancer_quiriumCascade" = ("[commsPackA_generic_quiriumCascade]");
 
-	"commsPackA_freelancer_startFleeing" = ("I'm taking too much fire!","This isn't worth it","Time to cut our losses!","That's a horribly well-armed ship!","They're turtle waxed! I'm getting out of here!","[commsPackA_generic_startFleeing]","[commsPackA_generic_startFleeing]","[commsPackA_generic_startFleeing]","[commsPackA_generic_startFleeing]","[commsPackA_generic_startFleeing]","[commsPackA_generic_startFleeing]","[commsPackA_generic_startFleeing]");
+	"commsPackA_freelancer_startFleeing" = ("I'm taking too much fire!","This isn't worth it!","Time to cut our losses!","That's a horribly well-armed ship!","They're turtle waxed! I'm getting out of here!","[commsPackA_generic_startFleeing]","[commsPackA_generic_startFleeing]","[commsPackA_generic_startFleeing]","[commsPackA_generic_startFleeing]","[commsPackA_generic_startFleeing]","[commsPackA_generic_startFleeing]","[commsPackA_generic_startFleeing]");
 
 	"commsPackA_freelancer_surrender" = ""; // clear generic message
 
-	"commsPackA_freelancer_thargoidAttack" = ("Well, it's not what we came for, but it'll pay something","You'd think there'd be more contracts on these. A hundred credits is insulting.","%N! Not now!","[commsPackA_generic_thargoidAttack]","[commsPackA_generic_thargoidAttack]");
+	"commsPackA_freelancer_thargoidAttack" = ("Well, it's not what we came for, but it'll pay something…","You'd think there'd be more contracts on these. A hundred credits is insulting.","%N! Not now!","[commsPackA_generic_thargoidAttack]","[commsPackA_generic_thargoidAttack]");
 
-	"commsPackA_freelancer_thanksForHelp" = ("Excellent! We'll destroy them in no time, [oolite_entityCrew]","Thanks for the cover!","Nice shot, [oolite_entityName]!","Now that's how you fly the [oolite_entityClass]!","They've stopped following me. Watch yourself, [oolite_entityCrew]!");
+	"commsPackA_freelancer_thanksForHelp" = ("Excellent! We'll destroy them in no time, [oolite_entityCrew].","Thanks for the cover!","Nice shot, [oolite_entityName]!","Now that's how you fly the [oolite_entityClass]!","They've stopped following me. Watch yourself, [oolite_entityCrew]!");
 
 	// lots of blanks: they'll reach a lot of waypoints as they circle
 	// the witchpoint
-	"commsPackA_freelancer_waypointReached" = ("","","","","","","","","","","","","","","","","","","","","Stay alert. We've got two coming through in the next few hours","Stay close and keep your weapons warm. The target could show up any moment.","Scan is clear. Maintain your watch","Don't get distracted. We've only got one chance at this.");
+	"commsPackA_freelancer_waypointReached" = ("","","","","","","","","","","","","","","","","","","","","Stay alert. We've got two coming through in the next few hours…","Stay close and keep your weapons warm. The target could show up any moment…","Scan is clear. Maintain your watch.","Don't get distracted. We've only got one chance at this…");
 
 	/* Academy: a by-the-book cop. Relatively few messages are needed
 	 * for this one - it's not like the regulations approve of
 	 * more. */
 
-	"commsPackA_academy_beginningAttack" = ("Locked on to the [oolite_entityClass] and commencing attack run","[oolite_entityName], you are in breach of Cooperative law. Leave the system or be destroyed","Commander [oolite_entityCrew], you are in breach of Cooperative law. Leave the system or be destroyed","Targeting the [oolite_entityName] now","Criminal status confirmed on the [oolite_entityName]. Weapons are armed");
+	"commsPackA_academy_beginningAttack" = ("Locked on to the [oolite_entityClass] and commencing attack run.","[oolite_entityName], you are in breach of Cooperative law. Leave the system or be destroyed.","Commander [oolite_entityCrew], you are in breach of Cooperative law. Leave the system or be destroyed.","Targeting the [oolite_entityName] now.","Criminal status confirmed on the [oolite_entityName]. Weapons are armed.");
 
-	"commsPackA_academy_beginningAttackThargoid" = ("Thargoid targeted. Opening fire now","Locked on to the Thargoid now","Attacking the [oolite_entityClass] now");
+	"commsPackA_academy_beginningAttackThargoid" = ("Thargoid targeted. Opening fire now.","Locked on to the Thargoid now.","Attacking the [oolite_entityClass] now.");
 
-	"commsPackA_academy_distressResponseAggressor" = ("[oolite_entityName], your hostile actions are in breach of Cooperative law. Stand down or be destroyed","[oolite_entityName], attacks on peaceful ships will not be tolerated","I have the aggressor on scanners now. Weapons are armed","[oolite_entityName], cease fire immediately. Your actions are illegal under Cooperative law");
+	"commsPackA_academy_distressResponseAggressor" = ("[oolite_entityName], your hostile actions are in breach of Cooperative law. Stand down or be destroyed.","[oolite_entityName], attacks on peaceful ships will not be tolerated.","I have the aggressor on scanners now. Weapons are armed.","[oolite_entityName], cease fire immediately. Your actions are illegal under Cooperative law.");
 
-	"commsPackA_academy_distressResponseSender" = ("[oolite_entityName], this is %H police. We have received your distress call and are moving to assist","Acknowledged, Commander [oolite_entityCrew]. Please wait while we reach your position","Distress signal acknowledged. Moving to assist now");
+	"commsPackA_academy_distressResponseSender" = ("[oolite_entityName], this is %H police. We have received your distress call and are moving to assist.","Acknowledged, Commander [oolite_entityCrew]. Please wait while we reach your position.","Distress signal acknowledged. Moving to assist now.");
 
 	"commsPackA_academy_eject" = ("[commsPackA_generic_eject]");
 
-	"commsPackA_academy_firedMissile" = ("Missile launched","Missile fired at the criminal [oolite_entityClass]. Refrain from ECM use if possible.");
+	"commsPackA_academy_firedMissile" = ("Missile launched.","Missile fired at the criminal [oolite_entityClass]. Refrain from ECM use if possible.");
 
-	"commsPackA_academy_friendlyFire" = ("[oolite_entityName], firing on police vessels is against the law. Exercise more caution in your aim","Hit logged from the [oolite_entityName]. Commander, if you repeat that action you will be marked as a criminal.","Commander [oolite_entityCrew], we will excuse that hit as accidental. You will not get a second such chance.");
+	"commsPackA_academy_friendlyFire" = ("[oolite_entityName], firing on police vessels is against the law. Exercise more caution in your aim.","Hit logged from the [oolite_entityName]. Commander, if you repeat that action you will be marked as a criminal.","Commander [oolite_entityCrew], we will excuse that hit as accidental. You will not get a second such chance.");
 
-	"commsPackA_academy_killedTarget" = ("[oolite_entityClass] destroyed","Target is down","The criminal [oolite_entityClass] is destroyed","Kill confirmed. The [oolite_entityName] is dead");
+	"commsPackA_academy_killedTarget" = ("[oolite_entityClass] destroyed.","Target is down.","The criminal [oolite_entityClass] is destroyed.","Kill confirmed. The [oolite_entityName] is dead.");
 
-	"commsPackA_academy_markForFines" = ("Commander [oolite_entityCrew], your Offender status has been noted. You may clear your record by paying a fine at the station","[oolite_entityName], your record has undischarged minor offences. Please dock at the station to pay fines","[oolite_entityCrew], your breaches of Cooperative law have been noted. Dock with the main station to pay your fines at the earliest opportunity","[oolite_entityName], please dock with the station to arrange payment of your fines and clear your criminal record");
+	"commsPackA_academy_markForFines" = ("Commander [oolite_entityCrew], your Offender status has been noted. You may clear your record by paying a fine at the station.","[oolite_entityName], your record has undischarged minor offences. Please dock at the station to pay fines.","[oolite_entityCrew], your breaches of Cooperative law have been noted. Dock with the main station to pay your fines at the earliest opportunity.","[oolite_entityName], please dock with the station to arrange payment of your fines and clear your criminal record.");
 
 	"commsPackA_academy_offenceDetected" = ("[oolite_entityName], your actions are illegal under Cooperative law.","Offence detected. Transmitting confirmation to HQ now.","[oolite_entityName], you are breaking the law. Leave the area immediately or be destroyed.","Commander [oolite_entityCrew], your actions have been logged, and your criminal record has been updated.","Cooperative law does not permit your course of action, [oolite_entityName]. Stand down or be destroyed.");
 
 	// lots of blanks or this will get used a lot
-	"commsPackA_academy_patrolReportIn" = ("Station, scanners are clean","Control, this region is clear. Moving to next waypoint now","All clear at this point, Control","All clear, Station","Nothing to report. Scanning next incoming route now","","","","","","","","","","","","","");
+	"commsPackA_academy_patrolReportIn" = ("Station, scanners are clean.","Control, this region is clear. Moving to next waypoint now.","All clear at this point, Control.","All clear, Station.","Nothing to report. Scanning next incoming route now.","","","","","","","","","","","","","");
 
-	"commsPackA_academy_startHelping" = ("Acknowledged. Assisting you with the [oolite_entityName] now","[oolite_entityName], cease your hostile actions and leave the area immediately","Attacking police ships is a serious offence, [oolite_entityName]");
+	"commsPackA_academy_startHelping" = ("Acknowledged. Assisting you with the [oolite_entityName] now.","[oolite_entityName], cease your hostile actions and leave the area immediately.","Attacking police ships is a serious offence, [oolite_entityName].");
 
 	// blank default message
 	"commsPackA_academy_surrender" = ("");
 
-	"commsPackA_academy_thanksForHelp" = ("Commander [oolite_entityCrew], your assistance has been noted","Thank you for the assistance, [oolite_entityName]","Your contribution to keeping %H clear of fugitives is appreciated, Commander [oolite_entityCrew]","Thank you, [oolite_entityName]","Thank you, Commander [oolite_entityCrew]");
+	"commsPackA_academy_thanksForHelp" = ("Commander [oolite_entityCrew], your assistance has been noted.","Thank you for the assistance, [oolite_entityName].","Your contribution to keeping %H clear of fugitives is appreciated, Commander [oolite_entityCrew].","Thank you, [oolite_entityName].","Thank you, Commander [oolite_entityCrew].");
 
-	"commsPackA_academy_thargoidAttack" = ("All ships, please respond. We have Thargoid forces in the system","Thargoid presence confirmed. All ships, respond","All ships, we have a confirmed Thargoid presence","All ships, the Thargoids are your highest priority. The warships must be destroyed","Sightings confirmed. There are Thargoids in %H space. All ships, open fire on the warships");
+	"commsPackA_academy_thargoidAttack" = ("All ships, please respond. We have Thargoid forces in the system.","Thargoid presence confirmed. All ships, respond.","All ships, we have a confirmed Thargoid presence.","All ships, the Thargoids are your highest priority. The warships must be destroyed.","Sightings confirmed. There are Thargoids in %H space. All ships, open fire on the warships.");
 
 	/* Vicious police, looking for a fight */
 
@@ -466,10 +466,10 @@
 
 	"commsPackA_vicious_distressResponseAggressor" = ("You've made a big mistake, [oolite_entityName]!","Even if you run now you'll be a target for every cop and bounty hunter for ten lights!","Right in front of a cop? The law will not be mocked!","You'll not get away with that in my system, [oolite_entityCrew]!");
 
-	"commsPackA_vicious_distressResponseSender" = ("I'm coming for them now!","Get behind me, [oolite_entityName], cause I'm going to give that pirate a beating!","You're in luck today, [oolite_entityName]! %H police are here to help","Those pirates won't know what hit them!");
+	"commsPackA_vicious_distressResponseSender" = ("I'm coming for them now!","Get behind me, [oolite_entityName], cause I'm going to give that pirate a beating!","You're in luck today, [oolite_entityName]! %H police are here to help…","Those pirates won't know what hit them!");
 
 	// blanks to reduce chance of saying anything even further
-	"commsPackA_vicious_dockingWait" = ("Hey, control, what's all this letting civvies dock first?","Control, if you don't move me up the queue I'll have you arrested for wasting police time","You're wasting my time here! I need to rearm before the pirates escape!","I've seen Anacondas dock faster than you!","Hurry up and clear the corridor or I'll cite you for obstructing the spacelanes!","I've got a patrol schedule to keep here!","","","","","","","","","","","","");
+	"commsPackA_vicious_dockingWait" = ("Hey, control, what's all this letting civvies dock first?","Control, if you don't move me up the queue I'll have you arrested for wasting police time!","You're wasting my time here! I need to rearm before the pirates escape!","I've seen Anacondas dock faster than you!","Hurry up and clear the corridor or I'll cite you for obstructing the spacelanes!","I've got a patrol schedule to keep here!","","","","","","","","","","","","");
 
 	"commsPackA_vicious_eject" = ("[commsPackA_generic_eject]","[commsPackA_generic_eject]","[commsPackA_generic_eject]","There's top rewards for getting police safely back to the station!","%N! I'll get you next time!","That'll earn you a Fugitive status!","Don't think you're stealing that ship!");
 
@@ -479,9 +479,9 @@
 
 	"commsPackA_vicious_hitTarget" = ("There's more where that came from!","I've got them now!","You can't escape me!","Eat laser, [oolite_entityClass]!","Right in my sights!");
 
-	"commsPackA_vicious_killedTarget" = ("You don't mess with the law!","[oolite_entityName] terminated!","Got the [oolite_entityClass]!","Hah! Right on target","This is a good day!","Excellent!","One fewer criminal!","That's the end of [oolite_entityCrew]!");
+	"commsPackA_vicious_killedTarget" = ("You don't mess with the law!","[oolite_entityName] terminated!","Got the [oolite_entityClass]!","Hah! Right on target!","This is a good day!","Excellent!","One fewer criminal!","That's the end of [oolite_entityCrew]!");
 
-	"commsPackA_vicious_markForFines" = ("Hey, criminal! Don't think you can sneak past us like that, [oolite_entityCrew]","You've got a choice, [oolite_entityName]. Get to the station fast, and pay off your fines, or get dead","If it was up to me you'd already be dead. Quit your crimes and pay the fines and we'll let you off this once.","%H doesn't need scum like you, [oolite_entityName]. Pay your fines and get out!","Coming here with a record like yours, [oolite_entityCrew]? Don't push your luck!");
+	"commsPackA_vicious_markForFines" = ("Hey, criminal! Don't think you can sneak past us like that, [oolite_entityCrew]…","You've got a choice, [oolite_entityName]. Get to the station fast, and pay off your fines, or get dead.","If it was up to me you'd already be dead. Quit your crimes and pay the fines and we'll let you off this once…","%H doesn't need scum like you, [oolite_entityName]. Pay your fines and get out!","Coming here with a record like yours, [oolite_entityCrew]? Don't push your luck!");
 
 	"commsPackA_vicious_quiriumCascade" = ("[commsPackA_generic_quiriumCascade]");
 
@@ -493,13 +493,13 @@
 
 
 	/** Paramilitary escorts */
-	"commsPackA_paramilitary_attackLowEnergy" = ("I'm taking too much damage","%N! There's too many!","I need some support!","Cover me!","[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]");
+	"commsPackA_paramilitary_attackLowEnergy" = ("I'm taking too much damage…","%N! There's too many!","I need some support!","Cover me!","[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]");
 
-	"commsPackA_paramilitary_beginningAttack" = ("Enemy contacts confirmed. Let's take this by the numbers","Cover formations! Don't let them get past us","Pick your targets and take them down","Locked on to the [oolite_entityClass] now","Hostiles confirmed. Focus your fire!","[oolite_entityName] acquired. Weapons armed!","Take them down fast but watch for a run on [commsPackA_escorted_slang]");
+	"commsPackA_paramilitary_beginningAttack" = ("Enemy contacts confirmed. Let's take this by the numbers.","Cover formations! Don't let them get past us.","Pick your targets and take them down…","Locked on to the [oolite_entityClass] now.","Hostiles confirmed. Focus your fire!","[oolite_entityName] acquired. Weapons armed!","Take them down fast but watch for a run on [commsPackA_escorted_slang]…");
 
-	"commsPackA_paramilitary_beginningAttackThargoid" = ("[commsPackA_paramilitary_beginningAttack]","[commsPackA_paramilitary_beginningAttack]","[commsPackA_paramilitary_beginningAttack]","[commsPackA_paramilitary_beginningAttack]","Thargoids! Draw their fire away from [commsPackA_escorted_slang]","Spread out and watch the drones!");
+	"commsPackA_paramilitary_beginningAttackThargoid" = ("[commsPackA_paramilitary_beginningAttack]","[commsPackA_paramilitary_beginningAttack]","[commsPackA_paramilitary_beginningAttack]","[commsPackA_paramilitary_beginningAttack]","Thargoids! Draw their fire away from [commsPackA_escorted_slang].","Spread out and watch the drones!");
 
-	"commsPackA_paramilitary_continuingAttack" = ("Keep up the attack! We need them to break off soon!","This is taking too long","I'm keeping the [oolite_entityName] occupied, but that's all","I've got the [oolite_entityClass] covered","Break off your attack, [oolite_entityName]!");
+	"commsPackA_paramilitary_continuingAttack" = ("Keep up the attack! We need them to break off soon!","This is taking too long…","I'm keeping the [oolite_entityName] occupied, but that's all…","I've got the [oolite_entityClass] covered…","Break off your attack, [oolite_entityName]!");
 
 	"commsPackA_paramilitary_continuingAttackThargoid" = ("[commsPackA_paramilitary_continuingAttack]");
 
@@ -508,25 +508,25 @@
 	// some blanks to make this even rarer
 	"commsPackA_paramilitary_escortFormation" = ("","","","","","","","[commsPackA_paramilitary_escortFormationChatter]");
 	// things actually said
-	"commsPackA_paramilitary_escortFormationChatter" = ("Scan is clean","Keep the formation tight","Nothing to worry about yet","Still on schedule");
+	"commsPackA_paramilitary_escortFormationChatter" = ("Scan is clean.","Keep the formation tight.","Nothing to worry about yet…","Still on schedule…");
 
-	"commsPackA_paramilitary_escortMotherAccepted" = ("Acknowledged, [oolite_entityName]. Moving to escort formations now","Contract confirmed.","Matching vector now","","","","","");
+	"commsPackA_paramilitary_escortMotherAccepted" = ("Acknowledged, [oolite_entityName]. Moving to escort formations now.","Contract confirmed…","Matching vector now…","","","","","");
 
-	"commsPackA_paramilitary_friendlyFire" = ("[commsPackA_generic_friendlyFire]","Check your targets better than that!","Watch your aim!","I've got this one! Pick a different target, [oolite_entityName]");
+	"commsPackA_paramilitary_friendlyFire" = ("[commsPackA_generic_friendlyFire]","Check your targets better than that!","Watch your aim!","I've got this one! Pick a different target, [oolite_entityName]!");
 
-	"commsPackA_paramilitary_groupIsOutnumbered" = ("We can't take them on. Cover [commsPackA_escorted_slang] as we withdraw!","Retreat and regroup!","Scatter! Try to draw some of them off!","Break off! We'll rendezvous with reinforcements at waypoint [commsPackA_codename]","We've done all we can here. Let's hope it's bought enough time");
+	"commsPackA_paramilitary_groupIsOutnumbered" = ("We can't take them on. Cover [commsPackA_escorted_slang] as we withdraw!","Retreat and regroup!","Scatter! Try to draw some of them off!","Break off! We'll rendezvous with reinforcements at waypoint [commsPackA_codename].","We've done all we can here. Let's hope it's bought enough time…");
 
-	"commsPackA_paramilitary_incomingMissile" = ("I've got incoming!","Requesting ECM cover!","Activate countermeasures!","Missile inbound","Taking evasive action!");
+	"commsPackA_paramilitary_incomingMissile" = ("I've got incoming!","Requesting ECM cover!","Activate countermeasures!","Missile inbound…","Taking evasive action!");
 
-	"commsPackA_paramilitary_killedTarget" = ("Got them!","[oolite_entityClass] down!","There goes the [oolite_entityName]","Direct hit!","The [oolite_entityName] is dust","One target down","Keep pressing them!");
+	"commsPackA_paramilitary_killedTarget" = ("Got them!","[oolite_entityClass] down!","There goes the [oolite_entityName].","Direct hit!","The [oolite_entityName] is dust…","One target down…","Keep pressing them!");
 
 	"commsPackA_paramilitary_quiriumCascade" = ("[commsPackA_generic_quiriumCascade]");
 
-	"commsPackA_paramilitary_startHelping" = ("");
+	"commsPackA_paramilitary_startHelping" = ("Acknowledged. Targeting the [oolite_entityClass] now.","Covering you now!","On my way!","Helping you with the [oolite_entityName] now!","Target priorities received…");
 
-	"commsPackA_paramilitary_surrender" = ("");
+	"commsPackA_paramilitary_surrender" = ("Requesting immediate support!","Cover me!","I'm taking too much damage!","I can't fight on…","Systems are critical. I'm pulling out…");
 
-	"commsPackA_paramilitary_thanksForHelp" = ("");
+	"commsPackA_paramilitary_thanksForHelp" = ("Good shot!","That got their attention!","Thanks for the assistance, [oolite_entityName].","Just in time, [oolite_entityName]!","Excellent shooting! Let's finish this…");
 
 	/** Friendly escorts */
 	"commsPackA_friendly_attackLowEnergy" = ("");
