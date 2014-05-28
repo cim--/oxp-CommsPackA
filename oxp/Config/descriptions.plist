@@ -483,6 +483,8 @@
 
 	"commsPackA_vicious_markForFines" = ("Hey, criminal! Don't think you can sneak past us like that, [oolite_entityCrew]…","You've got a choice, [oolite_entityName]. Get to the station fast, and pay off your fines, or get dead.","If it was up to me you'd already be dead. Quit your crimes and pay the fines and we'll let you off this once…","%H doesn't need scum like you, [oolite_entityName]. Pay your fines and get out!","Coming here with a record like yours, [oolite_entityCrew]? Don't push your luck!");
 
+	"commsPackA_vicious_offenceDetected" = ("[commsPackA_vicious_distressResponseAggressor]");
+
 	"commsPackA_vicious_quiriumCascade" = ("[commsPackA_generic_quiriumCascade]");
 
 	"commsPackA_vicious_surrender" = ("%N! Are you still there!","Killing police is a serious offence!","Anyone not a criminal round here? Help me out!","[commsPackA_generic_attackLowEnergy]");
@@ -529,37 +531,39 @@
 	"commsPackA_paramilitary_thanksForHelp" = ("Good shot!","That got their attention!","Thanks for the assistance, [oolite_entityName].","Just in time, [oolite_entityName]!","Excellent shooting! Let's finish this…");
 
 	/** Friendly escorts */
-	"commsPackA_friendly_attackLowEnergy" = ("");
+	"commsPackA_friendly_attackLowEnergy" = ("[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]","[commsPackA_generic_attackLowEnergy]","Why us?");
 
-	"commsPackA_friendly_beginningAttack" = ("");
+	"commsPackA_friendly_beginningAttack" = ("No you don't, [oolite_entityName]!","I'll get that [oolite_entityClass] off you!","Get out of here, [oolite_entityName]!","Back off and we'll let you go!","Surrender, [oolite_entityClass]. We're not in this for the kill count.");
 
-	"commsPackA_friendly_beginningAttackThargoid" = ("");
+	"commsPackA_friendly_beginningAttackThargoid" = ("I hate fighting Thargoids!","This is not good…","Get clear! We'll cover you as much as we can!","Hit the warships, but don't let the drones sneak past us!","Get their attention! Maybe we can lead them away.");
 
-	"commsPackA_friendly_continuingAttack" = ("");
+	"commsPackA_friendly_continuingAttack" = ("How much of this will it take?","They're too good…","This feels like a distraction…","I need some help with this [oolite_entityClass].");
 
-	"commsPackA_friendly_continuingAttackThargoid" = ("");
+	"commsPackA_friendly_continuingAttackThargoid" = ("I'm not armed for this…","Where is everyone? Someone should have detected these warships by now…","I don't think I'm doing enough damage here!");
 
-	"commsPackA_friendly_eject" = ("");
+	"commsPackA_friendly_eject" = ("[commsPackA_generic_eject]","[commsPackA_generic_eject]","[commsPackA_generic_eject]","[commsPackA_generic_eject]","I can't hold this ship together much longer! You're on your own now…","You'll have to finish this without me…");
 
-	"commsPackA_friendly_escortFormation" = ("");
+	"commsPackA_friendly_escortFormation" = ("","","","","","","","","","[commsPackA_friendly_escortFormationChatter]");
+	// things actually said
+	"commsPackA_friendly_escortFormationChatter" = ("Now this is my sort of trip.","Shouldn't be much further to safety.","Everything looks clean at the moment.","Hopefully the rest of this shouldn't be too bad…","You owe us a drink when we get in, you know.");
 
-	"commsPackA_friendly_escortMotherAccepted" = ("");
+	"commsPackA_friendly_escortMotherAccepted" = ("Happy to help out.","We'll get you back safely.","Let's hope it won't come to that.","","","","","");
 
-	"commsPackA_friendly_friendlyFire" = ("");
+	"commsPackA_friendly_friendlyFire" = ("[commsPackA_generic_friendlyFire]");
 
-	"commsPackA_friendly_groupIsOutnumbered" = ("");
+	"commsPackA_friendly_groupIsOutnumbered" = ("There's too many of them. Get clear! We'll cover you while we can…","This isn't going well…","Spread out! We've got to lead some of them off!","I don't like how this is going.","Fall back! Hopefully they'll let us go…");
 
-	"commsPackA_friendly_incomingMissile" = ("");
+	"commsPackA_friendly_incomingMissile" = ("Help! Missile!","Hit the ECM!","I wish I could afford my own countermeasures…","This isn't good!","I've got a missile on me!","[commsPackA_generic_incomingMissile]");
 
-	"commsPackA_friendly_killedTarget" = ("");
+	"commsPackA_friendly_killedTarget" = ("I've got the [oolite_entityClass]!","Get off our friends!","Run and the rest of you live! We're not here to kill you…","One down…","Got one! Keep up the cover and we'll get through this.");
 
-	"commsPackA_friendly_quiriumCascade" = ("");
+	"commsPackA_friendly_quiriumCascade" = ("[commsPackA_generic_quiriumCascade]","[commsPackA_generic_quiriumCascade]","[commsPackA_generic_quiriumCascade]","Pull up! We can't protect you from that!","That's going to be overkill…","%N. Good luck, everyone…");
 
-	"commsPackA_friendly_startHelping" = ("");
+	"commsPackA_friendly_startHelping" = ("I've got them!","Got it. On the [oolite_entityClass] now!","Get out of here, [oolite_entityName]!","Surrender, [oolite_entityName]!","Keep dodging! I'll have the [oolite_entityClass] in my sights in a moment.");
 
-	"commsPackA_friendly_surrender" = ("");
+	"commsPackA_friendly_surrender" = ("[commsPackA_generic_surrender]","[commsPackA_generic_surrender]","[commsPackA_generic_surrender]","[commsPackA_generic_surrender]","Please, let us go. We'd do the same for you…","I don't think I'm going to make it…");
 
-	"commsPackA_friendly_thanksForHelp" = ("");
+	"commsPackA_friendly_thanksForHelp" = ("Thank you, [oolite_entityName]!","Thanks! We needed the help!","Watch yourself! They're coming after you now…","Great shot! They should start running soon…","Just in time, [oolite_entityName]! They were causing some trouble…","Thank you, [oolite_entityName]. They almost got us…","That certainly got their attention!");
 
 
 }
