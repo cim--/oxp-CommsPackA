@@ -565,5 +565,35 @@
 
 	"commsPackA_friendly_thanksForHelp" = ("Thank you, [oolite_entityName]!","Thanks! We needed the help!","Watch yourself! They're coming after you now…","Great shot! They should start running soon…","Just in time, [oolite_entityName]! They were causing some trouble…","Thank you, [oolite_entityName]. They almost got us…","That certainly got their attention!");
 
+	/** Shuttles */
+
+	/* Some generic shuttle comms */
+	"commsPackA_shuttle_dockingWait" = ("Acknowledged, Control. Holding position.","Busy up here, isn't it.","No problem, Control. Intersystem has priority.");
+	"commsPackA_shuttle_incomingMissile" = ("You don't think that's overkill?","Missiles? Against a shuttle?","A missile? We aren't even armed!","Missiles? We don't stand a chance!","A missile? Someone, please, ECM it!");
+	"commsPackA_shuttle_landingOnPlanet" = ("%H control, we are beginning final approach now.","Acknowledged, %H control. Proceeding on approach lane [commsPackA_codename]","%H control, we are now inbound to %N starport");
+	"commsPackA_shuttle_selectedStation" = ("Cleared the launch corridor now. Course set.","Heading for the [oolite_entityName] now","Launch complete, and all systems green. Course set for [oolite_entityName].");
+	"commsPackA_shuttle_surrender" = ("[commsPackA_generic_surrender]","[commsPackA_generic_surrender]","[commsPackA_generic_surrender]","We're unarmed! Please stop shooting!","Is anyone out there? We can't take much more!","Help! Anyone, please…");
+	"commsPackA_shuttle_thanksForHelp" = ("Thank you, [oolite_entityName]!","Just in time, [oolite_entityName]…","Thank you! I thought we were dead for sure…","That was too close. Thank you, [oolite_entityName]!","Please keep them distracted while we escape!");
+
+	/* Cargo */
+	"commsPackA_cargoshuttle_dockingWait" = ("","","","","","","[commsPackA_shuttle_dockingWait]","[commsPackA_shuttle_dockingWait]","[commsPackA_shuttle_dockingWait]","It's all very well putting intersystem ahead of us, but what are they going to buy if we haven't delivered it?");
+	"commsPackA_cargoshuttle_eject" = ("[commsPackA_generic_eject]");
+	"commsPackA_cargoshuttle_incomingMissile" = ("[commsPackA_generic_incomingMissile]","[commsPackA_shuttle_incomingMissile]");
+	"commsPackA_cargoshuttle_landingOnPlanet" = ("[commsPackA_shuttle_landingOnPlanet]");
+	"commsPackA_cargoshuttle_makeDistressCall" = ("[commsPackA_generic_makeDistressCall]");
+	"commsPackA_cargoshuttle_selectedStation" = ("[commsPackA_shuttle_selectedStation]");
+	"commsPackA_cargoshuttle_surrender" = ("[commsPackA_shuttle_surrender]");
+	"commsPackA_cargoshuttle_thanksForHelp" = ("[commsPackA_shuttle_thanksForHelp]");
+
+	/* Tourist */
+	"commsPackA_touristshuttle_dockingWait" = ("","","","","","","[commsPackA_shuttle_dockingWait]","[commsPackA_shuttle_dockingWait]","[commsPackA_shuttle_dockingWait]","That's okay, Control. The passengers are enjoying the views.");
+	"commsPackA_touristshuttle_eject" = ("[commsPackA_generic_eject]","[commsPackA_generic_eject]","[commsPackA_generic_eject]","All passengers to the pods! Repeat, all passengers to the pods!");
+	"commsPackA_touristshuttle_incomingMissile" = ("[commsPackA_generic_incomingMissile]","[commsPackA_shuttle_incomingMissile]");
+	"commsPackA_touristshuttle_landingOnPlanet" = ("[commsPackA_shuttle_landingOnPlanet]");
+	"commsPackA_touristshuttle_makeDistressCall" = ("[commsPackA_generic_makeDistressCall]");
+	"commsPackA_touristshuttle_selectedStation" = ("[commsPackA_shuttle_selectedStation]");
+	"commsPackA_touristshuttle_surrender" = ("[commsPackA_shuttle_surrender]");
+	"commsPackA_touristshuttle_thanksForHelp" = ("[commsPackA_shuttle_thanksForHelp]");
+
 
 }

@@ -346,14 +346,38 @@ this.startUp = function()
 				])
 
 		},
-/*		// station<->surface shuttles
+		// station<->surface shuttles
 		shuttle: {
+			commsPackA_cargoshuttle: this._makeComms("cargoshuttle",
+				[
+					"dockingWait",
+					"eject",
+					"incomingMissile",
+					"landingOnPlanet",
+					"makeDistressCall",
+					"selectedStation",
+					"surrender",
+					"thanksForHelp"
+				]),
+			commsPackA_touristshuttle: this._makeComms("touristshuttle",
+				[
+					"dockingWait",
+					"eject",
+					"incomingMissile",
+					"landingOnPlanet",
+					"makeDistressCall",
+					"selectedStation",
+					"surrender",
+					"thanksForHelp"
+				])
+		},
+		// stations and rock hermits
+		station: {
 
 
 
 		},
-		// stations and rock hermits
-		station: {
+		hermit: {
 
 
 
