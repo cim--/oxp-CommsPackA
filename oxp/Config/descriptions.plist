@@ -581,6 +581,7 @@
 	"commsPackA_cargoshuttle_incomingMissile" = ("[commsPackA_generic_incomingMissile]","[commsPackA_shuttle_incomingMissile]");
 	"commsPackA_cargoshuttle_landingOnPlanet" = ("[commsPackA_shuttle_landingOnPlanet]");
 	"commsPackA_cargoshuttle_makeDistressCall" = ("[commsPackA_generic_makeDistressCall]");
+	"commsPackA_cargoshuttle_quiriumCascade" = ("[commsPackA_generic_quiriumCascade]");
 	"commsPackA_cargoshuttle_selectedStation" = ("[commsPackA_shuttle_selectedStation]");
 	"commsPackA_cargoshuttle_surrender" = ("[commsPackA_shuttle_surrender]");
 	"commsPackA_cargoshuttle_thanksForHelp" = ("[commsPackA_shuttle_thanksForHelp]");
@@ -591,9 +592,50 @@
 	"commsPackA_touristshuttle_incomingMissile" = ("[commsPackA_generic_incomingMissile]","[commsPackA_shuttle_incomingMissile]");
 	"commsPackA_touristshuttle_landingOnPlanet" = ("[commsPackA_shuttle_landingOnPlanet]");
 	"commsPackA_touristshuttle_makeDistressCall" = ("[commsPackA_generic_makeDistressCall]");
+	"commsPackA_touristshuttle_quiriumCascade" = ("[commsPackA_generic_quiriumCascade]");
 	"commsPackA_touristshuttle_selectedStation" = ("[commsPackA_shuttle_selectedStation]");
 	"commsPackA_touristshuttle_surrender" = ("[commsPackA_shuttle_surrender]");
 	"commsPackA_touristshuttle_thanksForHelp" = ("[commsPackA_shuttle_thanksForHelp]");
+
+
+	/** Stations */
+
+	/* Normal station */
+	"commsPackA_mainstation_friendlyFire" = ("Watch it!","Hold your fire!","If you can't hit them, don't shoot!","I know we're large, but that's no reason to aim that badly, [oolite_entityName]!","Disarm your weapons if you can't avoid firing them accidentally!","We're bringing you in for retraining, [oolite_entityName]…");
+	"commsPackA_mainstation_killedAlly" = ("No!","Get out of the way, [oolite_entityName]!","Pull up, [oolite_entityName]!","Change course!","%N…");
+	"commsPackA_mainstation_killedNonTarget" = ("[commsPackA_mainstation_killedAlly]");
+	"commsPackA_mainstation_killedTarget" = ("[oolite_entityName] down.","One down. All defenders, keep up the good work.","Hostile down. Shields are holding.");
+	"commsPackA_mainstation_launchDefenseShips" = ("All ships, clear the launch corridor immediately!","All ships, clearance is cancelled for emergency launch!","We're under attack! All friendly ships, please respond.","","","");
+	"commsPackA_mainstation_launchPatrol" = ("","","","","","","","Patrol [commsPackA_codename], you're cleared for launch.","Nearby ships, please stand by while we launch patrols.");
+	"commsPackA_mainstation_offenceDetected" = ("[oolite_entityName], your actions are illegal under Cooperative law.","This is Cooperative controlled space. Illegal activities will not be tolerated.","[oolite_entityName], you are breaking the law. Leave the area immediately or be destroyed.","Commander [oolite_entityCrew], your actions have been logged, and your criminal record has been updated.","Cooperative law does not permit your course of action, [oolite_entityName]. Stand down or be destroyed.");
+	"commsPackA_mainstation_quiriumCascade" = ("All ships, clear the area!","Quirium cascade imminent!","Use of cascade weapons near a station is a capital offence!","%N! What are you doing?");
+	
+	/* Rock hermit */
+	"commsPackA_rockhermit_attackLowEnergy" = ("We're taking heavy fire! Someone please help us…","Shields are down! Structural integrity failing…","Collapses in tunnel [commsPackA_codename]… Help us!","Direct hit on floor [commsPackA_number]!","Seismometer is off the scale! Much more of this and we'll break up…");
+	"commsPackA_rockhermit_friendlyFire" = ("[commsPackA_generic_friendlyFire]");
+	"commsPackA_rockhermit_killedAlly" = ("No!","Look out, [oolite_entityName]!","Pull up! Pull up! %N…","No! We've lost [oolite_entityCrew]…","%N…");
+	"commsPackA_rockhermit_launchMiner" = ("Stay clear of the dock while we send someone out.","Now's not a good time to try docking. Hold on a moment.","Beginning launch sequences. Everyone stand back.","Ship launching! Clear the tunnel!");
+	"commsPackA_rockhermit_quiriumCascade" = ("Our shields won't stop that…","%N! We're going to die!","Run! Save yourselves!","Nothing we can do…");
+
+	/** Scavengers / miners */
+
+
+	/** Defense ships */
+
+	/* Don't know what they'll be defending, so just a fairly generic
+	 * personality for now */
+	
+	"commsPackA_defenseship_attackLowEnergy" = ("[commsPackA_generic_attackLowEnergy]");
+	"commsPackA_defenseship_beginningAttack" = ("[commsPackA_generic_beginningAttack]");
+	"commsPackA_defenseship_beginningAttackThargoid" = ("[commsPackA_generic_beginningAttackThargoid]");
+	"commsPackA_defenseship_eject" = ("[commsPackA_generic_eject]");
+	"commsPackA_defenseship_friendlyFire" = ("[commsPackA_generic_friendlyFire]");
+	"commsPackA_defenseship_incomingMissile" = ("[commsPackA_generic_incomingMissile]");
+	"commsPackA_defenseship_killedTarget" = ("I got the [oolite_entityClass]!","The [oolite_entityName] is dead.","Got one! We can do this.","Get away from here or end up like the [oolite_entityName].","One down…");
+	"commsPackA_defenseship_quiriumCascade" = ("[commsPackA_generic_quiriumCascade]");
+	"commsPackA_defenseship_surrender" = ("[commsPackA_generic_surrender]");
+	"commsPackA_defenseship_thanksForHelp" = ("Great shot!","Thanks for the help, [oolite_entityName].","Good shooting, [oolite_entityCrew]!","We're driving them back now!","Nice shot! Let's finish them off…","Good shot, [oolite_entityName]!");
+
 
 
 }

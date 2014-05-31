@@ -355,6 +355,7 @@ this.startUp = function()
 					"incomingMissile",
 					"landingOnPlanet",
 					"makeDistressCall",
+					"quiriumCascade",
 					"selectedStation",
 					"surrender",
 					"thanksForHelp"
@@ -366,6 +367,7 @@ this.startUp = function()
 					"incomingMissile",
 					"landingOnPlanet",
 					"makeDistressCall",
+					"quiriumCascade",
 					"selectedStation",
 					"surrender",
 					"thanksForHelp"
@@ -373,14 +375,27 @@ this.startUp = function()
 		},
 		// stations and rock hermits
 		station: {
-
-
-
+			commsPackA_mainstation: this._makeComms("mainstation",
+				[												
+					"friendlyFire",
+					"killedAlly",
+					"killedNonTarget",
+					"killedTarget",
+					"launchDefenseShips",
+					"launchPatrol",
+					"offenceDetected",
+					"quiriumCascade"
+				])
 		},
 		hermit: {
-
-
-
+			commsPackA_rockhermit: this._makeComms("rockhermit",
+				[												
+					"attackLowEnergy",
+					"friendlyFire",
+					"killedAlly",
+					"launchMiner",
+					"quiriumCascade"
+				])
 		},
 		// scavengers and miners
 		scavenger: {
@@ -390,10 +405,20 @@ this.startUp = function()
 		},
 		// station defence ships
 		defenseShip: {
-
-
-
-		} */
+			commsPackA_defenseship: this._makeComms("defenseship",
+				[
+					"attackLowEnergy",
+					"beginningAttack",
+					"beginningAttackThargoid",
+					"eject",
+					"friendlyFire",
+					"incomingMissile",
+					"killedTarget",
+					"quiriumCascade",
+					"surrender",
+					"thanksForHelp"
+				])
+		} 
 	};
 
 	/* This loads the communications settings into the library */
