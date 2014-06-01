@@ -52,6 +52,8 @@
 	"commsPackA_rebelstate" = ("state","government","Ministry","Party","Cooperative","regime","military","bureaucracy","dominion","supremacy","tyranny","[commsPackA_rebelstate_adj] [commsPackA_rebelstate]","[commsPackA_rebelstate_adj] [commsPackA_rebelstate]","[commsPackA_rebelstate_adj] [commsPackA_rebelstate]");
 	"commsPackA_rebelstate_adj" = ("corrupt","oppressive","totalitarian","repressive","murderous","autocratic","tyrannical","despotic");
 
+	"commsPackA_randomSystem" = ("%J000","%J030","%J060","%J090","%J120","%J150","%J180","%J210","%J240");
+
 	"commsPackA_a_misc_equipment" = ("an advanced compass","a multi-targeting system","another hardhead","the next maintenance overhaul","docking computers");
 
 	"commsPackA_escorted_slang" = ("the heavy","mother","the convoy","the centre","our pay","the boss","the lead","the hauler","the freighter","boxy","snailer","big B'%N","Clara");
@@ -66,31 +68,34 @@
 	/* Generic messages. As these may be called by a wide range of
 	 * ships, it's best if there's a big range of options in each of
 	 * these. */
-	"commsPackA_generic_attackLowEnergy" = ("Shields are gone! Someone please help…","I can't take much more of this…","I need some support here!","The [oolite_entityName] is too strong…","I'm taking heavy fire from the [oolite_entityClass]. Help!","%N! I can't shake them!","%N! %N!");
+	"commsPackA_generic_attackLowEnergy" = ("Shields are gone! Someone please help…","I can't take much more of this…","I need some support here!","The [oolite_entityName] is too strong…","I'm taking heavy fire from the [oolite_entityClass]. Help!","%N! I can't shake them!","%N! %N!","Systems failing…","I can't shake the [oolite_entityClass]!","Energy banks critical!","I'm taking too many hits!","I'm hit! Losing power…");
 
-	"commsPackA_generic_beginningAttack" = ("Die, [oolite_entityClass]!","I've got the [oolite_entityName].","Die, [oolite_entityName]!","Run while you can, [oolite_entityClass]…","Target locked!");
+	"commsPackA_generic_beginningAttack" = ("Die, [oolite_entityClass]!","I've got the [oolite_entityName].","Die, [oolite_entityName]!","Run while you can, [oolite_entityClass]…","Target locked!","Going for the [oolite_entityClass] now!","You're outmatched, [oolite_entityName]!","Weapons online!","Fire at will!","Break and attack!","[oolite_entityClass] locked!","Locked on the [oolite_entityName]!");
 
-	"commsPackA_generic_beginningAttackThargoid" = ("Thargoids? Why here?","%N! Thargoids!","No, no, not more of them…","%N!");
+	"commsPackA_generic_beginningAttackThargoid" = ("Thargoids? Why here?","%N! Thargoids!","No, no, not more of them…","%N!","Target locked!","Going for the [oolite_entityClass] now!","Weapons online!","Fire at will!","Break and attack!","[oolite_entityClass] locked!","Locked on the [oolite_entityName]!","Thargoids! Open fire!");
 
-	"commsPackA_generic_continueFleeing" = ("I can't get clear. Someone help!","Leave me alone!","Is anyone out there? Help me, please…");
+	"commsPackA_generic_continueFleeing" = ("I can't get clear. Someone help!","Leave me alone!","Is anyone out there? Help me, please…","Someone get this [oolite_entityClass] off me!","What more do you want?","The [oolite_entityName] is still too close!","Let me go! Please!","Please let me go!","I need more time…");
 
-	"commsPackA_generic_continuingAttack" = ("Your fancy flying won't save you forever, [oolite_entityClass]…","Give up, [oolite_entityName]. We have you outclassed.","I've got the [oolite_entityClass].","Die, [oolite_entityName]!");
+	"commsPackA_generic_continuingAttack" = ("Your fancy flying won't save you forever, [oolite_entityClass]…","Give up, [oolite_entityName]. We have you outclassed.","I've got the [oolite_entityClass].","Die, [oolite_entityName]!","Still on the [oolite_entityName]…","I've got this under control…","You won't last much longer, [oolite_entityName]…","Good flying, [oolite_entityClass], but it won't keep you alive much longer!");
 
-	"commsPackA_generic_makeDistressCall" = ("We're being attacked by [describe-pirate]s! Please help!","Is anyone out there? We're under heavy attack!","Anyone hearing this? Please respond!","[describe-Pirate]s closing fast! Please help!","We can't fight them off! Someone please respond!","This is a peaceful ship! Don't shoot!","[distress-call]");
+	"commsPackA_generic_makeDistressCall" = ("We're being attacked by [describe-pirate]s! Please help!","Is anyone out there? We're under heavy attack!","Anyone hearing this? Please respond!","[describe-Pirate]s closing fast! Please help!","We can't fight them off! Someone please respond!","This is a peaceful ship! Don't shoot!","[distress-call]","[oolite-comms-makeDistressCall]","We're under attack and outgunned! Please help!","Can anyone hear us? We're being attacked and need immediate assistance!","Is anyone out there? We need immediate assistance!");
 
-	"commsPackA_generic_eject" = ("I'm taking too much damage!","I can't take any more of this!","Eject! Eject!","Systems critical! I'm bailing out…","I'm out of here…");
+	// some blanks: not everyone will call attention to their escape...
+	"commsPackA_generic_eject" = ("I'm taking too much damage!","I can't take any more of this!","Eject! Eject!","Systems critical! I'm bailing out…","I'm out of here…","All hands to the escape pod!","The ship's coming apart!","Hull breach! I'm out of here!","I'm getting out while I still can…","","","","","","");
 
-	"commsPackA_generic_friendlyFire" = ("I'm on your side here! Watch your aim!","That was me you just hit!","Watch it!","The enemy is over there!","Hold your fire!","Ow! Watch where you're shooting!","Stop firing and let me get clear!","[oolite_entityName], watch your aim!");
+	"commsPackA_generic_friendlyFire" = ("I'm on your side here! Watch your aim!","That was me you just hit!","Watch it!","The enemy is over there!","Hold your fire!","Ow! Watch where you're shooting!","Stop firing and let me get clear!","[oolite_entityName], watch your aim!","We're on the same side, [oolite_entityName]!","What are you doing, [oolite_entityName]?","Where did you learn to fly that [oolite_entityClass]? [commsPackA_randomSystem]?");
 
-	"commsPackA_generic_incomingMissile" = ("Missile inbound!","%N! Missiles!","%N! %N!","I need an ECM!");
+	"commsPackA_generic_incomingMissile" = ("Missile inbound!","%N! Missiles!","%N! %N!","I need an ECM!","I'm in trouble now!","Missile! I'm out of here!","Someone get this missile off me!","No, no, no!","This is bad!");
 
-	"commsPackA_generic_quiriumCascade" = ("%N! Hard about!","Q-mine! Clear the area!","Cascade imminent. Run!","Run!","%N!","No! Get clear!");
+	"commsPackA_generic_quiriumCascade" = ("%N! Hard about!","Q-mine! Clear the area!","Cascade imminent. Run!","Run!","%N!","No! Get clear!","Get clear! Now!","Q-mine! Run!","Don't get caught in the blast!");
 
-	"commsPackA_generic_startFleeing" = ("Shields are low! Cover me!","Heavy systems damage here. I'm pulling out…","I can't take much more of this…","%N! Systems are critical!","Shields critical! Give me some cover!","Shields are down. I'm breaking off the attack…","I'm badly hit. You'll have to finish this fight without me.");
+	"commsPackA_generic_startFleeing" = ("Shields are low! Cover me!","Heavy systems damage here. I'm pulling out…","I can't take much more of this…","%N! Systems are critical!","Shields critical! Give me some cover!","Shields are down. I'm breaking off the attack…","I'm badly hit. You'll have to finish this fight without me.","I'm out of here!","Energy reserves are low. I'm getting out of here!");
 
-	"commsPackA_generic_surrender" = ("Please, don't shoot!","I surrender!","Help! Someone please help me!","%N! I can't shake them!","Let me go, please!");
+	"commsPackA_generic_surrender" = ("Please, don't shoot!","I surrender!","Help! Someone please help me!","%N! I can't shake them!","Let me go, please!","They're still after me!","Hold your fire! I surrender!","I give up! Please let me go!","I surrender! Please let me go…");
 
-	"commsPackA_generic_thargoidAttack" = ("%N! Where did that warship come from?","Target the warship and watch its drones!","Take out the warship before the drones swarm us!");
+	"commsPackA_generic_thanksForHelp" = ("Thanks!","Good shot, [oolite_entityName]! I owe you a drink when we reach the station.","Thanks for the help, [oolite_entityCrew].","You've got them!","Thank you, [oolite_entityName].","Nice shot. I think they're after you now, though…");
+
+	"commsPackA_generic_thargoidAttack" = ("%N! Where did that warship come from?","Target the warship and watch its drones!","Take out the warship before the drones swarm us!","Thargoids! We've got to stop them!","Anyone hearing this, we have Thargoids in the system! Please assist.","Green/red? %N! It's the Thargoids!","Get the Thargoids! Concentrate your fire. Those warships are tough…","Help! We've got Thargoids incoming!","Don't give the warship chance to launch its drones!","Thargoids! If we don't take them out quick we don't stand a chance…");
 
 	/**
 	 * And now the various specific messages. There don't *need* to be
@@ -256,7 +261,7 @@
 
 	"commsPackA_optimist_surrender" = ("[commsPackA_generic_surrender]");
 
-	"commsPackA_optimist_thanksForHelp" = ("Thanks!","Good shot, [oolite_entityName]! I owe you a drink when we reach the station.","Thanks for the help, [oolite_entityCrew].","You've got them!","Thank you, [oolite_entityName].","Nice shot. I think they're after you now, though…");
+	"commsPackA_optimist_thanksForHelp" = ("[commsPackA_generic_thanksForHelp]");
 
 	"commsPackA_optimist_thargoidAttack" = ("Thargoids? Why us?","Keep moving! We've got to hold them off until the police get here.","Everybody attack the Thargoids!","Where did they come from?","I wasn't expecting this!");
 
@@ -569,32 +574,53 @@
 
 	/* Some generic shuttle comms */
 	"commsPackA_shuttle_dockingWait" = ("Acknowledged, Control. Holding position.","Busy up here, isn't it.","No problem, Control. Intersystem has priority.");
+
 	"commsPackA_shuttle_incomingMissile" = ("You don't think that's overkill?","Missiles? Against a shuttle?","A missile? We aren't even armed!","Missiles? We don't stand a chance!","A missile? Someone, please, ECM it!");
+
 	"commsPackA_shuttle_landingOnPlanet" = ("%H control, we are beginning final approach now.","Acknowledged, %H control. Proceeding on approach lane [commsPackA_codename]","%H control, we are now inbound to %N starport");
+
 	"commsPackA_shuttle_selectedStation" = ("Cleared the launch corridor now. Course set.","Heading for the [oolite_entityName] now","Launch complete, and all systems green. Course set for [oolite_entityName].");
+
 	"commsPackA_shuttle_surrender" = ("[commsPackA_generic_surrender]","[commsPackA_generic_surrender]","[commsPackA_generic_surrender]","We're unarmed! Please stop shooting!","Is anyone out there? We can't take much more!","Help! Anyone, please…");
+
 	"commsPackA_shuttle_thanksForHelp" = ("Thank you, [oolite_entityName]!","Just in time, [oolite_entityName]…","Thank you! I thought we were dead for sure…","That was too close. Thank you, [oolite_entityName]!","Please keep them distracted while we escape!");
 
 	/* Cargo */
 	"commsPackA_cargoshuttle_dockingWait" = ("","","","","","","[commsPackA_shuttle_dockingWait]","[commsPackA_shuttle_dockingWait]","[commsPackA_shuttle_dockingWait]","It's all very well putting intersystem ahead of us, but what are they going to buy if we haven't delivered it?");
+
 	"commsPackA_cargoshuttle_eject" = ("[commsPackA_generic_eject]");
+
 	"commsPackA_cargoshuttle_incomingMissile" = ("[commsPackA_generic_incomingMissile]","[commsPackA_shuttle_incomingMissile]");
+
 	"commsPackA_cargoshuttle_landingOnPlanet" = ("[commsPackA_shuttle_landingOnPlanet]");
+
 	"commsPackA_cargoshuttle_makeDistressCall" = ("[commsPackA_generic_makeDistressCall]");
+
 	"commsPackA_cargoshuttle_quiriumCascade" = ("[commsPackA_generic_quiriumCascade]");
+
 	"commsPackA_cargoshuttle_selectedStation" = ("[commsPackA_shuttle_selectedStation]");
+
 	"commsPackA_cargoshuttle_surrender" = ("[commsPackA_shuttle_surrender]");
+
 	"commsPackA_cargoshuttle_thanksForHelp" = ("[commsPackA_shuttle_thanksForHelp]");
 
 	/* Tourist */
-	"commsPackA_touristshuttle_dockingWait" = ("","","","","","","[commsPackA_shuttle_dockingWait]","[commsPackA_shuttle_dockingWait]","[commsPackA_shuttle_dockingWait]","That's okay, Control. The passengers are enjoying the views.");
+	"commsPackA_touristshuttle_dockingWait" = ("","","","","","","[commsPackA_shuttle_dockingWait]","[commsPackA_shuttle_dockingWait]","[commsPackA_shuttle_dockingWait]","That's okay, Control. The passengers are enjoying the views.","I hope this doesn't take too much longer, Control - they've almost drunk out the bar.");
+
 	"commsPackA_touristshuttle_eject" = ("[commsPackA_generic_eject]","[commsPackA_generic_eject]","[commsPackA_generic_eject]","All passengers to the pods! Repeat, all passengers to the pods!");
+
 	"commsPackA_touristshuttle_incomingMissile" = ("[commsPackA_generic_incomingMissile]","[commsPackA_shuttle_incomingMissile]");
+
 	"commsPackA_touristshuttle_landingOnPlanet" = ("[commsPackA_shuttle_landingOnPlanet]");
+
 	"commsPackA_touristshuttle_makeDistressCall" = ("[commsPackA_generic_makeDistressCall]");
+
 	"commsPackA_touristshuttle_quiriumCascade" = ("[commsPackA_generic_quiriumCascade]");
+
 	"commsPackA_touristshuttle_selectedStation" = ("[commsPackA_shuttle_selectedStation]");
+
 	"commsPackA_touristshuttle_surrender" = ("[commsPackA_shuttle_surrender]");
+
 	"commsPackA_touristshuttle_thanksForHelp" = ("[commsPackA_shuttle_thanksForHelp]");
 
 
@@ -602,22 +628,47 @@
 
 	/* Normal station */
 	"commsPackA_mainstation_friendlyFire" = ("Watch it!","Hold your fire!","If you can't hit them, don't shoot!","I know we're large, but that's no reason to aim that badly, [oolite_entityName]!","Disarm your weapons if you can't avoid firing them accidentally!","We're bringing you in for retraining, [oolite_entityName]…");
+
 	"commsPackA_mainstation_killedAlly" = ("No!","Get out of the way, [oolite_entityName]!","Pull up, [oolite_entityName]!","Change course!","%N…");
+
 	"commsPackA_mainstation_killedNonTarget" = ("[commsPackA_mainstation_killedAlly]");
+
 	"commsPackA_mainstation_killedTarget" = ("[oolite_entityName] down.","One down. All defenders, keep up the good work.","Hostile down. Shields are holding.");
+
 	"commsPackA_mainstation_launchDefenseShips" = ("All ships, clear the launch corridor immediately!","All ships, clearance is cancelled for emergency launch!","We're under attack! All friendly ships, please respond.","","","");
+
 	"commsPackA_mainstation_launchPatrol" = ("","","","","","","","Patrol [commsPackA_codename], you're cleared for launch.","Nearby ships, please stand by while we launch patrols.");
+
 	"commsPackA_mainstation_offenceDetected" = ("[oolite_entityName], your actions are illegal under Cooperative law.","This is Cooperative controlled space. Illegal activities will not be tolerated.","[oolite_entityName], you are breaking the law. Leave the area immediately or be destroyed.","Commander [oolite_entityCrew], your actions have been logged, and your criminal record has been updated.","Cooperative law does not permit your course of action, [oolite_entityName]. Stand down or be destroyed.");
+
 	"commsPackA_mainstation_quiriumCascade" = ("All ships, clear the area!","Quirium cascade imminent!","Use of cascade weapons near a station is a capital offence!","%N! What are you doing?");
 	
 	/* Rock hermit */
 	"commsPackA_rockhermit_attackLowEnergy" = ("We're taking heavy fire! Someone please help us…","Shields are down! Structural integrity failing…","Collapses in tunnel [commsPackA_codename]… Help us!","Direct hit on floor [commsPackA_number]!","Seismometer is off the scale! Much more of this and we'll break up…");
+
 	"commsPackA_rockhermit_friendlyFire" = ("[commsPackA_generic_friendlyFire]");
+
 	"commsPackA_rockhermit_killedAlly" = ("No!","Look out, [oolite_entityName]!","Pull up! Pull up! %N…","No! We've lost [oolite_entityCrew]…","%N…");
+
 	"commsPackA_rockhermit_launchMiner" = ("Stay clear of the dock while we send someone out.","Now's not a good time to try docking. Hold on a moment.","Beginning launch sequences. Everyone stand back.","Ship launching! Clear the tunnel!");
+
 	"commsPackA_rockhermit_quiriumCascade" = ("Our shields won't stop that…","%N! We're going to die!","Run! Save yourselves!","Nothing we can do…");
 
 	/** Scavengers / miners */
+
+	// Loner: didn't go out into deep space for rocks/salvage to talk to people
+	"commsPackA_loner_beginningAttack" = ("Leave me alone!","Go away!","Get out of here, [oolite_entityClass]!","I didn't come all this way to be bothered by you, [oolite_entityName]!");
+	"commsPackA_loner_surrender" = ("Leave me alone!","Enough!","I'm going!","You win! Stop shooting…","Go away!");
+	"commsPackA_loner_thanksForHelp" = (""); // override normal
+
+	// Cheerful: enjoys the mining and salvage
+	"commsPackA_cheerful_attackLowEnergy" = ("[commsPackA_generic_attackLowEnergy]");
+	"commsPackA_cheerful_eject" = ("[commsPackA_generic_eject]");
+	"commsPackA_cheerful_incomingMissile" = ("[commsPackA_generic_incomingMissile]");
+	"commsPackA_cheerful_mining" = ("Stand clear of the asteroid!","Readying mining laser.","All ships, maintain safe distance.","Mining laser online.","Asteroid scanned. Looks like a good one.","Don't get too close.","Check your courses and watch for debris.");
+	"commsPackA_cheerful_scoopedCargo" = ("","","","","","Got the [oolite_goodsDescription] now.","[oolite_goodsDescription] retrieved.");
+	"commsPackA_cheerful_surrender" = ("[commsPackA_generic_surrender]");
+	"commsPackA_cheerful_thanksForHelp" = ("[commsPackA_generic_thanksForHelp]");
 
 
 	/** Defense ships */

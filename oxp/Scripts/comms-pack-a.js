@@ -399,9 +399,22 @@ this.startUp = function()
 		},
 		// scavengers and miners
 		scavenger: {
-
-
-
+			commsPackA_loner: this._makeComms("loner",
+				[
+					"beginningAttack",
+					"surrender",
+					"thanksForHelp"
+				]),
+			commsPackA_cheerful: this._makeComms("cheerful",
+				[
+					"attackLowEnergy",
+					"eject",
+					"incomingMissile",
+					"mining",
+					"scoopedCargo",
+					"surrender",
+					"thanksForHelp"
+				])
 		},
 		// station defence ships
 		defenseShip: {
