@@ -37,11 +37,13 @@
 	"commsPackA_bigger_number" = ("ten","fifteen","twenty","many");
 	"commsPackA_round_number" = ("ten","twenty","fifty","one hundred","seventy-five","twenty-five","two hundred");
 
-	"commsPackA_codename" = ("[commsPackA_codename_greek]","[commsPackA_codename_nato]","[commsPackA_codename_constellation]","[commsPackA_codename_colour]");
+	"commsPackA_codename" = ("[commsPackA_codename_greek]","[commsPackA_codename_nato]","[commsPackA_codename_constellation]","[commsPackA_codename_colour]","[commsPackA_codename_phonecian]");
 	"commsPackA_codename_greek" = ("Alpha","Beta","Gamma","Delta","Epsilon","Zeta","Eta","Theta","Iota","Kappa","Lambda","Mu","Nu","Xi","Omicron","Pi","Rho","Sigma","Tau","Upsilon","Phi","Chi","Psi","Omega");
 	"commsPackA_codename_nato" = ("Alpha","Bravo","Charlie","Delta","Echo","Foxtrot","Golf","Hotel","India","Juliet","Kilo","Lima","Mike","November","Oscar","Papa","Quebec","Romeo","Sierra","Tango","Uniform","Victor","Whiskey","Xray","Yankee","Zulu");
 	"commsPackA_codename_constellation" = ("Andromeda","Antlia","Apus","Aquarius","Aquila","Ara","Aries","Auriga","Boötes","Caelum","Camelopardalis","Cancer","Canis","Capricornus","Carina","Cassiopeia","Centaurus","Cepheus","Cetus","Chamaeleon","Circinus","Columba","Corvus","Crater","Crux","Cygnus","Delphinus","Dorado","Draco","Equuleus","Eridanus","Fornax","Gemini","Grus","Hercules","Horologium","Hydra","Hydrus","Indus","Lacerta","Leo","Lepus","Libra","Lupus","Lynx","Lyra","Mensa","Microscopium","Monoceros","Musca","Norma","Octans","Ophiuchus","Orion","Pavo","Pegasus","Perseus","Phoenix","Pictor","Pisces","Puppis","Pyxis","Reticulum","Sagitta","Sagittarius","Scorpius","Sculptor","Scutum","Serpens","Sextans","Taurus","Telescopium","Triangulum","Tucana","Ursa","Vela","Virgo","Volans","Vulpecula");
 	"commsPackA_codename_colour" = ("White","Black","Red","Green","Blue","Yellow","Cyan","Magenta","Orange","Pink","Indigo","Violet","Grey","Silver","Gold","Bronze","Copper");
+	"commsPackA_codename_phonecian" = ("Aleph","Bayt","Gimel","Dalet","He","Waw","Zayin","Khet","Tet","Yod","Kaph","Lamed","Mem","Nun","Samek","Ayin","Pe","Tsade","Qoph","Resh","Shin","Taw");
+
 
 	"commsPackA_militaryrank_senior" = ("General","Colonel","Major","Admiral","Commodore","Marshal");
 
@@ -326,7 +328,7 @@
 	"commsPackA_rebel_beginningAttackThargoid" = ("[commsPackA_generic_beginningAttackThargoid]!","[commsPackA_generic_beginningAttackThargoid]!","[commsPackA_generic_beginningAttackThargoid]!","[commsPackA_generic_beginningAttackThargoid]!","For %H!","For the [commsPackA_rebelgroup]!","Thargoids! In league with the [commsPackA_rebelstate]!");
 
 	"commsPackA_rebel_continuingAttack" = ("[commsPackA_rebel_beginningAttack]");
-	"commsPackA_rebel_continuingAttackThargoid" = ("[commsPackA_generic_continuingAttackThargoid]","[commsPackA_generic_continuingAttackThargoid]","[commsPackA_generic_continuingAttackThargoid]","For %H!");
+	"commsPackA_rebel_continuingAttackThargoid" = ("[commsPackA_generic_beginningAttackThargoid]","[commsPackA_generic_beginningAttackThargoid]","[commsPackA_generic_beginningAttackThargoid]","For %H!");
 
 	"commsPackA_rebel_eject" = ("[commsPackA_generic_eject]","[commsPackA_generic_eject]","[commsPackA_generic_eject]","The [commsPackA_rebelgroup] will not be defeated!");
 
@@ -380,6 +382,8 @@
 	"commsPackA_enforcer_beginningAttackInanimate" = ("Time to clean up.","That won't help you survive!","Make sure no-one escapes.","No survivors, no evidence…");
 
 	"commsPackA_enforcer_continuingAttack" = ("[commsPackA_generic_continuingAttack]");
+
+	"commsPackA_enforcer_firedMissile" = ("This is taking too long.","Let's finish this quickly.","Let's see your shields stand up to this, [oolite_entityCrew]!","Don't waste my time here!");
 
 	"commsPackA_enforcer_hitTarget" = ("Are you regretting your choices yet, [oolite_entityCrew]?","You've crossed us for the last time.","Direct hit!","I've got the [oolite_entityClass] now!","Nice ship, [oolite_entityCrew]. Shame we have to destroy it…");
 

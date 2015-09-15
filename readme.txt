@@ -10,3 +10,4 @@ communications packs.
 0.3: 2*police, 2*escort (also improve punctuation)
 0.4: 2*shuttle, 2*station, 2*miner, 1*defense ship (and more shared messages)
 0.5: fix bugs, improve variety of cursing
+0.6: fix bugs, ...
